@@ -1,0 +1,517 @@
+[
+  {
+    "id": 21,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "들은 것을 고르십시오.",
+    "options": [
+      "과자",
+      "가짜",
+      "기차",
+      "까치"
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "기차",
+      "rate": 0.82,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 22,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "들은 것을 고르십시오.",
+    "options": [
+      "조금 먹는데요.",
+      "가끔 오는데요.",
+      "지금 없는데요.",
+      "자주 있는데요."
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "지금 없는데요.",
+      "rate": 0.84,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 23,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l23-1.svg"
+      },
+      {
+        "image": "assets/questions/l23-2.svg"
+      },
+      {
+        "image": "assets/questions/l23-3.svg"
+      },
+      {
+        "image": "assets/questions/l23-4.svg"
+      }
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "text": "여권",
+      "rate": 0.84,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 24,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l24-1.svg"
+      },
+      {
+        "image": "assets/questions/l24-2.svg"
+      },
+      {
+        "image": "assets/questions/l24-3.svg"
+      },
+      {
+        "image": "assets/questions/l24-4.svg"
+      }
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "tts",
+      "text": "작업할 때 머리를 보호하기 위해 안전모를 씁니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 25,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l25-1.svg"
+      },
+      {
+        "image": "assets/questions/l25-2.svg"
+      },
+      {
+        "image": "assets/questions/l25-3.svg"
+      },
+      {
+        "image": "assets/questions/l25-4.svg"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "오늘은 창고에서 물건의 수량을 확인합니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 26,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l26-1.svg"
+      },
+      {
+        "image": "assets/questions/l26-2.svg"
+      },
+      {
+        "image": "assets/questions/l26-3.svg"
+      },
+      {
+        "image": "assets/questions/l26-4.svg"
+      }
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "text": "안경이 책상 아래에 있습니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 27,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l27-1.svg"
+      },
+      {
+        "image": "assets/questions/l27-2.svg"
+      },
+      {
+        "image": "assets/questions/l27-3.svg"
+      },
+      {
+        "image": "assets/questions/l27-4.svg"
+      }
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "tts",
+      "text": "바닥을 청소하려고 진공청소기를 사용합니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 28,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "segments",
+      "maxPlays": 2,
+      "rate": 0.87,
+      "pauseMs": 520,
+      "segments": [
+        {
+          "text": "사장님, 오늘 일이 끝나면 조금 일찍 퇴근해도 될까요?"
+        },
+        {
+          "text": "일 번. 네, 일이 끝났으면 가도 돼요."
+        },
+        {
+          "text": "이 번. 아니요, 어제 출근했어요."
+        },
+        {
+          "text": "삼 번. 네, 점심을 먹고 있습니다."
+        },
+        {
+          "text": "사 번. 아니요, 버스를 타고 왔어요."
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "section": "listening",
+    "type": "listen_response",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "환기 청소도 중요해요.",
+      "전자 저울로 측정하세요.",
+      "창문을 열어서 환기하세요.",
+      "지금 퇴근하려고 해요."
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "작업장 공기가 답답한데 어떻게 하면 좋을까요?",
+      "rate": 0.87,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 30,
+    "section": "listening",
+    "type": "listen_response",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "기계 작동을 중지하세요.",
+      "압력이 높은가 봐요.",
+      "불량품이 나왔어요.",
+      "기계를 잘 살펴봅시다."
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "tts",
+      "text": "기계에서 연기가 나요. 어떻게 해야 해요?",
+      "rate": 0.87,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 31,
+    "section": "listening",
+    "type": "listen_response",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "괜찮아요. 이거 갖다 놓고 다시 가져오세요.",
+      "원목 준비해 뒀습니다.",
+      "잠깐만요. 이건 우리가 작업할 원목이 아닌 것 같아요.",
+      "내일 창고로 들어올 물건이 많아요."
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "이 원목으로 바로 작업을 시작하면 될까요?",
+      "rate": 0.87,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 32,
+    "section": "listening",
+    "type": "listen_response",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "철근을 강하게 결속해야 돼요.",
+      "철근의 교차점을 결속해야 돼요.",
+      "결속선과 결속핀이 있어야 해요.",
+      "철근 배근 작업이 끝나면 결속해요."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "text": "철근은 어느 부분을 묶어야 합니까?",
+      "rate": 0.87,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 33,
+    "section": "listening",
+    "type": "continuation",
+    "prompt": "다음을 듣고 이어지는 말을 고르십시오.",
+    "options": [
+      "어제 돈을 찾았어요?",
+      "신분증도 같이 주세요.",
+      "얼마나 바꿔 드릴까요?",
+      "외국인 등록증이 없어요."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "text": "통장을 새로 만들고 싶습니다.",
+      "rate": 0.87,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 34,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l34-1.svg"
+      },
+      {
+        "image": "assets/questions/l34-2.svg"
+      },
+      {
+        "image": "assets/questions/l34-3.svg"
+      },
+      {
+        "image": "assets/questions/l34-4.svg"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "오늘은 작업 조끼를 입고 일합니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 35,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l35-1.svg"
+      },
+      {
+        "image": "assets/questions/l35-2.svg"
+      },
+      {
+        "image": "assets/questions/l35-3.svg"
+      },
+      {
+        "image": "assets/questions/l35-4.svg"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "퇴근 시간은 여섯 시 삼십 분입니다.",
+      "rate": 0.85,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 36,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/l36-1.svg"
+      },
+      {
+        "image": "assets/questions/l36-2.svg"
+      },
+      {
+        "image": "assets/questions/l36-3.svg"
+      },
+      {
+        "image": "assets/questions/l36-4.svg"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "text": "이 상품은 오늘 오십 퍼센트 할인합니다.",
+      "rate": 0.86,
+      "maxPlays": 2
+    }
+  },
+  {
+    "id": 37,
+    "section": "listening",
+    "type": "picture_audio_options",
+    "prompt": "그림을 보고 음성을 들은 후 알맞은 답을 고르십시오.",
+    "stem": "사장님 기분이 어떤 것 같습니까?",
+    "media": "assets/questions/l37-boss.svg",
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "segments",
+      "maxPlays": 2,
+      "rate": 0.86,
+      "pauseMs": 500,
+      "segments": [
+        {
+          "text": "일 번. 기뻐 보입니다."
+        },
+        {
+          "text": "이 번. 화가 난 것 같습니다."
+        },
+        {
+          "text": "삼 번. 피곤한 것 같습니다."
+        },
+        {
+          "text": "사 번. 놀란 것 같습니다."
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "두 사람의 대화를 듣고 무엇에 대해 말하고 있는지 고르십시오.",
+    "options": [
+      "음식",
+      "계절",
+      "여행",
+      "휴가"
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "dialogue",
+      "maxPlays": 2,
+      "rate": 0.86,
+      "pauseMs": 380,
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "다음 달에 제주도에 가려고 해요."
+        },
+        {
+          "speaker": "male",
+          "text": "좋겠네요. 비행기 표는 예약했어요?"
+        },
+        {
+          "speaker": "female",
+          "text": "네, 어제 예약했어요."
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "대화를 듣고 남자가 내년에 일하고 싶은 나라를 고르십시오.",
+    "options": [
+      "일본",
+      "중국",
+      "한국",
+      "미국"
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "dialogue",
+      "maxPlays": 2,
+      "rate": 0.86,
+      "pauseMs": 380,
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "내년에도 여기에서 일할 거예요?"
+        },
+        {
+          "speaker": "male",
+          "text": "아니요. 내년에는 한국에 가서 일하고 싶어요."
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "options": [
+      "여자는 남자에게서 꽃을 받았습니다.",
+      "남자는 선생님께 꽃을 드리려고 합니다.",
+      "남자는 스승의 날에 대해 처음 들었습니다.",
+      "여자는 친구에게 마음을 전하고 싶어 합니다."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "dialogue",
+      "maxPlays": 2,
+      "rate": 0.86,
+      "pauseMs": 380,
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "꽃을 왜 샀어요?"
+        },
+        {
+          "speaker": "male",
+          "text": "내일이 스승의 날이라서 선생님께 드리려고 샀어요."
+        },
+        {
+          "speaker": "female",
+          "text": "아, 그렇군요. 선생님이 좋아하시겠어요."
+        }
+      ]
+    }
+  }
+]
