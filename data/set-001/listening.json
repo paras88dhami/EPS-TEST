@@ -44,16 +44,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l23-1.svg"
+        "image": "assets/questions/set-001/l23-1.svg"
       },
       {
-        "image": "assets/questions/l23-2.svg"
+        "image": "assets/questions/set-001/l23-2.svg"
       },
       {
-        "image": "assets/questions/l23-3.svg"
+        "image": "assets/questions/set-001/l23-3.svg"
       },
       {
-        "image": "assets/questions/l23-4.svg"
+        "image": "assets/questions/set-001/l23-4.svg"
       }
     ],
     "answer": 1,
@@ -71,16 +71,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l24-1.svg"
+        "image": "assets/questions/set-001/l24-1.svg"
       },
       {
-        "image": "assets/questions/l24-2.svg"
+        "image": "assets/questions/set-001/l24-2.svg"
       },
       {
-        "image": "assets/questions/l24-3.svg"
+        "image": "assets/questions/set-001/l24-3.svg"
       },
       {
-        "image": "assets/questions/l24-4.svg"
+        "image": "assets/questions/set-001/l24-4.svg"
       }
     ],
     "answer": 0,
@@ -98,16 +98,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l25-1.svg"
+        "image": "assets/questions/set-001/l25-1.svg"
       },
       {
-        "image": "assets/questions/l25-2.svg"
+        "image": "assets/questions/set-001/l25-2.svg"
       },
       {
-        "image": "assets/questions/l25-3.svg"
+        "image": "assets/questions/set-001/l25-3.svg"
       },
       {
-        "image": "assets/questions/l25-4.svg"
+        "image": "assets/questions/set-001/l25-4.svg"
       }
     ],
     "answer": 2,
@@ -125,16 +125,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l26-1.svg"
+        "image": "assets/questions/set-001/l26-1.svg"
       },
       {
-        "image": "assets/questions/l26-2.svg"
+        "image": "assets/questions/set-001/l26-2.svg"
       },
       {
-        "image": "assets/questions/l26-3.svg"
+        "image": "assets/questions/set-001/l26-3.svg"
       },
       {
-        "image": "assets/questions/l26-4.svg"
+        "image": "assets/questions/set-001/l26-4.svg"
       }
     ],
     "answer": 1,
@@ -152,16 +152,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l27-1.svg"
+        "image": "assets/questions/set-001/l27-1.svg"
       },
       {
-        "image": "assets/questions/l27-2.svg"
+        "image": "assets/questions/set-001/l27-2.svg"
       },
       {
-        "image": "assets/questions/l27-3.svg"
+        "image": "assets/questions/set-001/l27-3.svg"
       },
       {
-        "image": "assets/questions/l27-4.svg"
+        "image": "assets/questions/set-001/l27-4.svg"
       }
     ],
     "answer": 3,
@@ -310,16 +310,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l34-1.svg"
+        "image": "assets/questions/set-001/l34-1.svg"
       },
       {
-        "image": "assets/questions/l34-2.svg"
+        "image": "assets/questions/set-001/l34-2.svg"
       },
       {
-        "image": "assets/questions/l34-3.svg"
+        "image": "assets/questions/set-001/l34-3.svg"
       },
       {
-        "image": "assets/questions/l34-4.svg"
+        "image": "assets/questions/set-001/l34-4.svg"
       }
     ],
     "answer": 2,
@@ -337,16 +337,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l35-1.svg"
+        "image": "assets/questions/set-001/l35-1.svg"
       },
       {
-        "image": "assets/questions/l35-2.svg"
+        "image": "assets/questions/set-001/l35-2.svg"
       },
       {
-        "image": "assets/questions/l35-3.svg"
+        "image": "assets/questions/set-001/l35-3.svg"
       },
       {
-        "image": "assets/questions/l35-4.svg"
+        "image": "assets/questions/set-001/l35-4.svg"
       }
     ],
     "answer": 2,
@@ -364,16 +364,16 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/l36-1.svg"
+        "image": "assets/questions/set-001/l36-1.svg"
       },
       {
-        "image": "assets/questions/l36-2.svg"
+        "image": "assets/questions/set-001/l36-2.svg"
       },
       {
-        "image": "assets/questions/l36-3.svg"
+        "image": "assets/questions/set-001/l36-3.svg"
       },
       {
-        "image": "assets/questions/l36-4.svg"
+        "image": "assets/questions/set-001/l36-4.svg"
       }
     ],
     "answer": 2,
@@ -390,7 +390,7 @@
     "type": "picture_audio_options",
     "prompt": "그림을 보고 음성을 들은 후 알맞은 답을 고르십시오.",
     "stem": "사장님 기분이 어떤 것 같습니까?",
-    "media": "assets/questions/l37-boss.svg",
+    "media": "assets/questions/set-001/l37-boss.svg",
     "options": [
       "①",
       "②",
