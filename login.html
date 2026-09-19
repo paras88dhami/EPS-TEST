@@ -4,218 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0f4c81">
-  <title>Login · EPS-TOPIK Practice</title>
+  <title>Private Access · EPS-TOPIK Practice</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/app.css">
   <link rel="stylesheet" href="/css/auth.css">
-  <style>
-    html.auth-loading body { visibility: hidden; }
-  </style>
-  <script>
-    document.documentElement.classList.add('auth-loading');
-  </script>
 </head>
 <body class="auth-page">
   <main class="auth-shell">
-    <section class="auth-card">
-      <div class="auth-brand">
-        <div class="brand-mark">EPS</div>
-        <p class="auth-korean">고용허가제 한국어능력시험</p>
-        <h1>EPS-TOPIK Practice</h1>
-        <p class="auth-description" id="description">
-          Sign in with your invited account.
-        </p>
-      </div>
-
-      <form id="loginForm" class="auth-form">
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input id="email" type="email" autocomplete="email" required placeholder="your@email.com">
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input id="password" type="password" autocomplete="current-password" required placeholder="Your password">
-        </div>
-        <button id="loginButton" class="auth-button" type="submit">Sign In</button>
-      </form>
-
-      <form id="inviteForm" class="auth-form" hidden>
-        <div class="invite-success">
-          <strong>Invitation accepted</strong>
-          <p>Create your password to activate your EPS-TOPIK account.</p>
-        </div>
-        <div class="form-group">
-          <label for="invitePassword">Create password</label>
-          <input id="invitePassword" type="password" autocomplete="new-password" minlength="6" required placeholder="Create password">
-        </div>
-        <div class="form-group">
-          <label for="confirmPassword">Confirm password</label>
-          <input id="confirmPassword" type="password" autocomplete="new-password" minlength="6" required placeholder="Confirm password">
-        </div>
-        <button id="activateButton" class="auth-button" type="submit">Activate Account</button>
-      </form>
-
-      <div id="message" class="auth-message" role="alert"></div>
-      <p class="invite-message">
-        Access is available only to users invited by the administrator.
-      </p>
+    <section class="auth-card" aria-labelledby="accessTitle">
+      <div class="brand-mark">EPS</div>
+      <p class="auth-korean" lang="ko">고용허가제 한국어능력시험</p>
+      <h1 id="accessTitle">EPS-TOPIK Practice</h1>
+      <p class="auth-eyebrow">PRIVATE ACCESS</p>
+      <p class="auth-description">This website is available only to authorized users.</p>
+      <button id="googleButton" class="auth-button" type="button" disabled>Continue with Google</button>
+      <p id="message" class="auth-message" role="status" aria-live="polite">Checking your access…</p>
+      <p class="invite-message">Use the Google account matching the email invited by your administrator.</p>
+      <noscript>Enable JavaScript to continue.</noscript>
     </section>
   </main>
-
   <script src="/js/auth-bundle.js"></script>
-  <script>
-    const loginForm = document.getElementById('loginForm');
-    const inviteForm = document.getElementById('inviteForm');
-    const emailInput = document.getElementById('email');
-    const passwordInput = document.getElementById('password');
-    const invitePassword = document.getElementById('invitePassword');
-    const confirmPassword = document.getElementById('confirmPassword');
-    const loginButton = document.getElementById('loginButton');
-    const activateButton = document.getElementById('activateButton');
-    const message = document.getElementById('message');
-    const description = document.getElementById('description');
-
-    let invitationToken = null;
-
-    function showError(text) {
-      message.textContent = text;
-      message.className = 'auth-message auth-error';
-    }
-
-    function showSuccess(text) {
-      message.textContent = text;
-      message.className = 'auth-message auth-success';
-    }
-
-    function clearMessage() {
-      message.textContent = '';
-      message.className = 'auth-message';
-    }
-
-    function setLoginLoading(loading) {
-      loginButton.disabled = loading;
-      loginButton.textContent = loading ? 'Signing in...' : 'Sign In';
-    }
-
-    function setInviteLoading(loading) {
-      activateButton.disabled = loading;
-      activateButton.textContent = loading ? 'Activating...' : 'Activate Account';
-    }
-
-    async function initialize() {
-      try {
-        const callback = await window.epsAuth.processAuthCallback();
-
-        if (callback && callback.type === 'invite') {
-          invitationToken = callback.token;
-          loginForm.hidden = true;
-          inviteForm.hidden = false;
-          description.textContent =
-            'Create a password to activate your invited account.';
-          document.documentElement.classList.remove('auth-loading');
-          return;
-        }
-
-        if (callback && callback.type === 'confirmation') {
-          showSuccess('Your email has been confirmed.');
-        }
-
-        const user = await window.epsAuth.checkExistingSession();
-        if (user) {
-          window.location.replace(window.epsAuth.safeRedirectTarget());
-          return;
-        }
-      } catch (error) {
-        console.error('Authentication initialization error:', error);
-        showError(error?.message || 'Unable to process authentication.');
-      }
-
-      document.documentElement.classList.remove('auth-loading');
-    }
-
-    loginForm.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      clearMessage();
-
-      const email = emailInput.value.trim();
-      const password = passwordInput.value;
-      if (!email || !password) {
-        showError('Please enter your email and password.');
-        return;
-      }
-
-      setLoginLoading(true);
-      try {
-        await window.epsAuth.signIn(email, password);
-        showSuccess('Login successful.');
-        window.location.replace(window.epsAuth.safeRedirectTarget());
-      } catch (error) {
-        console.error('Login error:', error);
-        showError(
-          error?.message ||
-          'Unable to sign in. Check your email and password.'
-        );
-      } finally {
-        setLoginLoading(false);
-      }
-    });
-
-    inviteForm.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      clearMessage();
-
-      const password = invitePassword.value;
-      const confirmation = confirmPassword.value;
-      if (!password) {
-        showError('Please create a password.');
-        return;
-      }
-      if (password.length < 6) {
-        showError('Password must contain at least 6 characters.');
-        return;
-      }
-      if (password !== confirmation) {
-        showError('The passwords do not match.');
-        return;
-      }
-      if (!invitationToken) {
-        showError(
-          'The invitation is invalid or has expired. Please request a new invitation.'
-        );
-        return;
-      }
-
-      setInviteLoading(true);
-      try {
-        const user = await window.epsAuth.completeInvitation(
-          invitationToken,
-          password
-        );
-        showSuccess('Your account has been activated successfully.');
-
-        if (user) {
-          setTimeout(() => {
-            window.location.replace(window.epsAuth.safeRedirectTarget());
-          }, 700);
-          return;
-        }
-
-        invitationToken = null;
-        inviteForm.hidden = true;
-        loginForm.hidden = false;
-        description.textContent = 'Your account is ready. Sign in to continue.';
-      } catch (error) {
-        console.error('Invitation error:', error);
-        showError(
-          error?.message ||
-          'Unable to activate this invitation. The invitation may have expired.'
-        );
-      } finally {
-        setInviteLoading(false);
-      }
-    });
-
-    initialize();
-  </script>
+  <script src="/js/login.js"></script>
 </body>
 </html>

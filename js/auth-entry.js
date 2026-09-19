@@ -1,108 +1,88 @@
-import {
-  getUser,
-  login,
-  logout,
-  handleAuthCallback,
-  acceptInvite
-} from '@netlify/identity';
+import { getUser, getSettings, oauthLogin, logout, handleAuthCallback } from '@netlify/identity';
 
-const LOGIN_PAGE = '/login.html';
-const CALLBACK_HASH = /(?:^|&)(?:invite_token|confirmation_token|recovery_token)=/;
+const DESTINATION_KEY = 'eps.oauth.destination';
 
-function safeRedirectTarget() {
-  const target = new URLSearchParams(window.location.search).get('redirect');
-
-  if (!target) return '/index.html';
-
+function safeDestination(value) {
   try {
-    const url = new URL(target, window.location.origin);
-    const allowedPages = ['/index.html', '/test.html', '/result.html'];
-
-    if (url.origin !== window.location.origin || !allowedPages.includes(url.pathname)) {
-      return '/index.html';
+    const url = new URL(value || '/index.html', location.origin);
+    if (url.origin === location.origin && ['/', '/index', '/index.html', '/test', '/test.html', '/result', '/result.html'].includes(url.pathname)) {
+      return url.pathname + url.search;
     }
-
-    return `${url.pathname}${url.search}${url.hash}`;
-  } catch {
-    return '/index.html';
-  }
+  } catch {}
+  return '/index.html';
 }
 
-function redirectToLogin() {
-  const hashValue = window.location.hash.slice(1);
-  const callbackHash = CALLBACK_HASH.test(hashValue) ? window.location.hash : '';
-  const destination =
-    window.location.pathname +
-    window.location.search +
-    (callbackHash ? '' : window.location.hash);
+function destination() {
+  const requested = new URLSearchParams(location.search).get('redirect');
+  if (requested) return safeDestination(requested);
+  try {
+    const saved = sessionStorage.getItem(DESTINATION_KEY);
+    if (saved) return safeDestination(saved);
+  } catch {}
+  return safeDestination(location.pathname + location.search);
+}
 
-  window.location.replace(
-    `${LOGIN_PAGE}?redirect=${encodeURIComponent(destination)}${callbackHash}`
-  );
+async function getCurrentUser() {
+  // Let the SDK restore/refresh its session, then verify it at the server boundary.
+  await getUser();
+  const response = await fetch('/auth/session', { cache: 'no-store', credentials: 'same-origin' });
+  if (response.status === 401) return null;
+  if (!response.ok) throw new Error('Unable to check access. Please try again.');
+  return (await response.json()).user;
+}
+
+async function processAuthCallback() {
+  const params = new URLSearchParams(location.hash.slice(1));
+  if (!location.hash) return null;
+  if (params.has('error') || params.has('error_description')) {
+    history.replaceState(null, '', location.pathname + location.search);
+    throw new Error('Google access was not completed. Use your invited Google account and try again.');
+  }
+  if (params.has('access_token')) {
+    try { return await handleAuthCallback(); }
+    finally { history.replaceState(null, '', location.pathname + location.search); }
+  }
+  // Invitations authorize the email in Identity. Google proves ownership;
+  // never exchange a legacy invitation/recovery token for a password session.
+  if (['invite_token', 'confirmation_token', 'recovery_token', 'email_change_token'].some(key => params.has(key))) {
+    history.replaceState(null, '', location.pathname + location.search);
+    return { type: 'invitation-notice' };
+  }
+  return null;
 }
 
 async function protectPage() {
   try {
-    const user = await getUser();
-
-    if (!user) {
-      redirectToLogin();
-      return null;
+    await processAuthCallback();
+    const user = await getCurrentUser();
+    if (user) {
+      document.documentElement.classList.add('authenticated');
+      return user;
     }
-
-    document.documentElement.classList.add('authenticated');
-    return user;
-  } catch (error) {
-    console.error('Authentication check failed:', error);
-    window.location.replace(LOGIN_PAGE);
-    return null;
-  }
+  } catch {}
+  location.replace('/login.html?redirect=' + encodeURIComponent(safeDestination(location.pathname + location.search)));
+  return null;
 }
 
-async function signIn(email, password) {
-  const cleanEmail = email.trim().toLowerCase();
-
-  if (!cleanEmail || !password) {
-    throw new Error('Please enter your email and password.');
+async function continueWithGoogle() {
+  const settings = await getSettings();
+  if (!settings.providers.google) throw new Error('Google access is not available yet. Please contact the administrator.');
+  try { sessionStorage.setItem(DESTINATION_KEY, destination()); } catch {}
+  try { oauthLogin('google'); }
+  catch (error) {
+    // Version 2.0.0 throws this sentinel after assigning the provider URL.
+    if (error.message !== 'Redirecting to OAuth provider') throw error;
   }
-
-  return await login(cleanEmail, password);
 }
 
 async function signOut() {
   try {
     await logout();
-  } finally {
-    window.location.replace(LOGIN_PAGE);
+    try { sessionStorage.removeItem(DESTINATION_KEY); } catch {}
+    location.replace('/login.html');
+  } catch {
+    alert('Unable to log out. Please check your connection and try again.');
   }
 }
 
-async function checkExistingSession() {
-  return await getUser();
-}
-
-async function processAuthCallback() {
-  return await handleAuthCallback();
-}
-
-async function completeInvitation(token, password) {
-  if (!token) {
-    throw new Error('The invitation token is missing.');
-  }
-
-  if (!password || password.length < 6) {
-    throw new Error('Please create a password with at least 6 characters.');
-  }
-
-  return await acceptInvite(token, password);
-}
-
-window.epsAuth = {
-  protectPage,
-  signIn,
-  signOut,
-  checkExistingSession,
-  processAuthCallback,
-  completeInvitation,
-  safeRedirectTarget
-};
+window.epsAuth = { protectPage, getCurrentUser, processAuthCallback, continueWithGoogle, signOut, destination };
