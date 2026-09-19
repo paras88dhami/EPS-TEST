@@ -1,6 +1,4 @@
 (()=>{
-  if (!window.epsAuth || !window.epsAuth.getUser()) return;
-
   const RESULT_KEY='epsTopik100ResultV1';
   const state={set:null,questions:[],index:0,answers:{},plays:{},seconds:50*60,timer:null,submitted:false};
   const $=id=>document.getElementById(id);

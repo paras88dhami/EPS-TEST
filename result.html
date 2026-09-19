@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="ko" class="protected-page">
 <head>
+  <style>html:not(.authenticated) body{visibility:hidden}</style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0f4c81">
   <title>EPS-TOPIK Result</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/auth.css">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="js/auth.js"></script>
 </head>
 <body>
   <main class="result-shell">
@@ -41,8 +39,19 @@
       <div id="wrongQuestions" class="wrong-questions"></div>
     </section>
   </main>
-  <script>epsAuth.protectPage();</script>
-  <script src="js/tts.js"></script>
-  <script src="js/result.js"></script>
+  <script src="/js/auth-bundle.js"></script>
+  <script>
+    window.epsAuth.protectPage().then((user) => {
+      if (!user) return;
+      const tts = document.createElement('script');
+      tts.src = '/js/tts.js';
+      tts.onload = () => {
+        const result = document.createElement('script');
+        result.src = '/js/result.js';
+        document.body.appendChild(result);
+      };
+      document.body.appendChild(tts);
+    });
+  </script>
 </body>
 </html>

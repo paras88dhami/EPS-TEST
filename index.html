@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="ko" class="protected-page">
 <head>
+  <style>html:not(.authenticated) body{visibility:hidden}</style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0f4c81">
   <title>EPS-TOPIK Practice</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/auth.css">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="js/auth.js"></script>
 </head>
 <body>
   <main class="sets-shell">
@@ -26,7 +24,7 @@
         <div><strong>50</strong><span>분 · Minutes</span></div>
         <div><strong>20 + 20</strong><span>읽기 · Reading / 듣기 · Listening</span></div>
       </div>
-      <button type="button" class="secondary-button logout-button" onclick="epsAuth.logout()">Logout</button>
+      <button type="button" class="secondary-button logout-button" onclick="window.epsAuth.signOut()">Logout</button>
     </section>
 
     <section class="sets-section">
@@ -41,7 +39,14 @@
       <p id="setsError" class="sets-error hidden">시험 세트를 불러올 수 없습니다. · Unable to load test sets.</p>
     </section>
   </main>
-  <script>epsAuth.protectPage();</script>
-  <script src="js/sets.js"></script>
+  <script src="/js/auth-bundle.js"></script>
+  <script>
+    window.epsAuth.protectPage().then((user) => {
+      if (!user) return;
+      const script = document.createElement('script');
+      script.src = '/js/sets.js';
+      document.body.appendChild(script);
+    });
+  </script>
 </body>
 </html>

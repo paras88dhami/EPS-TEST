@@ -1,0 +1,15 @@
+{
+  "name": "eps-topik-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild js/auth-entry.js --bundle --format=iife --outfile=js/auth-bundle.js"
+  },
+  "dependencies": {
+    "@netlify/identity": "latest"
+  },
+  "devDependencies": {
+    "esbuild": "latest"
+  }
+}
