@@ -56,22 +56,38 @@
         return;
       }
 
-      window.netlifyIdentity.init();
+      window.netlifyIdentity.on('init', (user) => {
+        if (user) {
+          goToApp();
+        }
+      });
 
-      window.netlifyIdentity.on('login', () => {
+      window.netlifyIdentity.on('login', (user) => {
+        if (!user) return;
+
         window.netlifyIdentity.close();
         goToApp();
       });
 
       window.netlifyIdentity.on('signup', () => {
+        status.textContent =
+          'Account activated. Please sign in with your email and password.';
+
         window.netlifyIdentity.close();
-        goToApp();
+
+        setTimeout(() => {
+          window.netlifyIdentity.open('login');
+        }, 300);
       });
 
-      if (window.netlifyIdentity.currentUser()) {
-        goToApp();
-        return;
-      }
+      window.netlifyIdentity.on('error', (error) => {
+        console.error('Netlify Identity error:', error);
+
+        status.textContent =
+          error?.message || 'Authentication failed. Please try again.';
+      });
+
+      window.netlifyIdentity.init();
 
       status.textContent = 'Please sign in with your invited account.';
       loginButton.hidden = false;
