@@ -7,5 +7,41 @@
     "questionCount": 40,
     "reading": "data/set-001/reading.json",
     "listening": "data/set-001/listening.json"
+  },
+  {
+    "id": "set-002",
+    "number": 2,
+    "title": "EPS-TOPIK Set 2",
+    "durationMinutes": 50,
+    "questionCount": 40,
+    "reading": "data/set-002/reading.json",
+    "listening": "data/set-002/listening.json"
+  },
+  {
+    "id": "set-003",
+    "number": 3,
+    "title": "EPS-TOPIK Set 3",
+    "durationMinutes": 50,
+    "questionCount": 40,
+    "reading": "data/set-003/reading.json",
+    "listening": "data/set-003/listening.json"
+  },
+  {
+    "id": "set-004",
+    "number": 4,
+    "title": "EPS-TOPIK Set 4",
+    "durationMinutes": 50,
+    "questionCount": 40,
+    "reading": "data/set-004/reading.json",
+    "listening": "data/set-004/listening.json"
+  },
+  {
+    "id": "set-005",
+    "number": 5,
+    "title": "EPS-TOPIK Set 5",
+    "durationMinutes": 50,
+    "questionCount": 40,
+    "reading": "data/set-005/reading.json",
+    "listening": "data/set-005/listening.json"
   }
 ]
