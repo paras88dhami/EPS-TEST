@@ -1,5 +1,5 @@
 (()=>{
-  const RESULT_KEY='epsTopik100ResultV1';
+  const RESULT_KEY='epsTopik100ResultV2';
   const state={set:null,questions:[],index:0,answers:{},plays:{},seconds:50*60,timer:null,submitted:false};
   const $=id=>document.getElementById(id);
   const el={sectionTitle:$('sectionTitle'),answeredCount:$('answeredCount'),timer:$('timer'),readingNav:$('readingNav'),listeningNav:$('listeningNav'),questionNumber:$('questionNumber'),sectionBadge:$('sectionBadge'),progressLabel:$('progressLabel'),progressBar:$('progressBar'),prompt:$('prompt'),mediaWrap:$('mediaWrap'),audioWrap:$('audioWrap'),audioButton:$('audioButton'),audioCount:$('audioCount'),stem:$('stem'),options:$('options'),prev:$('prevButton'),next:$('nextButton'),modal:$('submitModal'),submitStatus:$('submitStatus'),cancelSubmit:$('cancelSubmit'),confirmSubmit:$('confirmSubmit')};
@@ -99,6 +99,7 @@
     el.options.innerHTML='';
     el.options.className='options-grid';
     const images=q.options.every(option=>typeof option==='object'&&option.image);
+    const audioOnly=q.type==='audio_only_options';
     const numeric=['audio_only_options','picture_audio_options'].includes(q.type);
     if(images)el.options.classList.add('image-options');
     if(numeric)el.options.classList.add('numeric-only');
@@ -123,14 +124,22 @@
         optionIndex.textContent=index+1;
         const optionLabel=document.createElement('span');
         optionLabel.className='option-label';
-        optionLabel.textContent=typeof option==='string'?option:'';
+        optionLabel.textContent=audioOnly?'':typeof option==='string'?option:'';
         button.append(optionIndex,optionLabel);
       }
 
       if(state.answers[q.id]===index)button.classList.add('selected');
       button.addEventListener('click',()=>{
         state.answers[q.id]=index;
-        render();
+        if(audioOnly && q.audio?.optionsAudio?.[index]){
+          renderAudio();
+          EPSTTS.speakOption(q.audio.optionsAudio[index],{rate:q.audio.rate??0.86});
+        }
+        Array.from(el.options.children).forEach((child,childIndex)=>{
+          child.classList.toggle('selected',childIndex===index);
+        });
+        renderNav();
+        el.answeredCount.textContent=`답변 · Answered ${Object.keys(state.answers).length} / ${state.questions.length}`;
       });
       el.options.appendChild(button);
     });

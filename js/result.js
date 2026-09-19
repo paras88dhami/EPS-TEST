@@ -1,5 +1,5 @@
 (()=>{
-  const RESULT_KEY='epsTopik100ResultV1';
+  const RESULT_KEY='epsTopik100ResultV2';
   const $=id=>document.getElementById(id);
 
   async function fetchJson(url){
