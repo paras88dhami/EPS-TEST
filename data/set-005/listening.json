@@ -5,12 +5,12 @@
     "type": "listen_text",
     "prompt": "들은 것을 고르십시오.",
     "options": [
+      "우체국",
       "우유",
       "오이",
-      "우체국",
       "우산"
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -25,12 +25,12 @@
     "type": "listen_text",
     "prompt": "들은 것을 고르십시오.",
     "options": [
-      "오이",
-      "오리",
+      "오후",
       "아이",
-      "오후"
+      "오이",
+      "오리"
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -46,19 +46,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
+        "image": "assets/questions/set-005/q23-3.webp"
+      },
+      {
         "image": "assets/questions/set-005/q23-1.webp"
       },
       {
         "image": "assets/questions/set-005/q23-2.webp"
       },
       {
-        "image": "assets/questions/set-005/q23-3.webp"
-      },
-      {
         "image": "assets/questions/set-005/q23-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -75,19 +75,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q24-1.webp"
+        "image": "assets/questions/set-005/q24-4.webp"
       },
       {
         "image": "assets/questions/set-005/q24-2.webp"
       },
       {
-        "image": "assets/questions/set-005/q24-3.webp"
+        "image": "assets/questions/set-005/q24-1.webp"
       },
       {
-        "image": "assets/questions/set-005/q24-4.webp"
+        "image": "assets/questions/set-005/q24-3.webp"
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -104,6 +104,9 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
+        "image": "assets/questions/set-005/q25-4.webp"
+      },
+      {
         "image": "assets/questions/set-005/q25-1.webp"
       },
       {
@@ -111,12 +114,9 @@
       },
       {
         "image": "assets/questions/set-005/q25-3.webp"
-      },
-      {
-        "image": "assets/questions/set-005/q25-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -133,6 +133,9 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
+        "image": "assets/questions/set-005/q26-4.webp"
+      },
+      {
         "image": "assets/questions/set-005/q26-1.webp"
       },
       {
@@ -140,12 +143,9 @@
       },
       {
         "image": "assets/questions/set-005/q26-3.webp"
-      },
-      {
-        "image": "assets/questions/set-005/q26-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -162,19 +162,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q27-1.webp"
-      },
-      {
-        "image": "assets/questions/set-005/q27-2.webp"
+        "image": "assets/questions/set-005/q27-4.webp"
       },
       {
         "image": "assets/questions/set-005/q27-3.webp"
       },
       {
-        "image": "assets/questions/set-005/q27-4.webp"
+        "image": "assets/questions/set-005/q27-2.webp"
+      },
+      {
+        "image": "assets/questions/set-005/q27-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -195,7 +195,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -203,10 +203,10 @@
       "maxPlays": 2,
       "text": "언제 휴가를 쓰려고 해요?",
       "optionsAudio": [
-        "다음 주 월요일부터요.",
+        "비행기로 가요.",
         "고향에 갈 거예요.",
-        "팀장에게 말했어요.",
-        "비행기로 가요."
+        "다음 주 월요일부터요.",
+        "팀장에게 말했어요."
       ]
     }
   },
@@ -221,7 +221,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -229,9 +229,9 @@
       "maxPlays": 2,
       "text": "휴가 신청서를 제출했어요?",
       "optionsAudio": [
+        "고향이 멀어요.",
         "네, 어제 제출했어요.",
         "일주일 쉴 거예요.",
-        "고향이 멀어요.",
         "회사에서 일해요."
       ]
     }
@@ -247,7 +247,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -255,10 +255,10 @@
       "maxPlays": 2,
       "text": "왜 휴가가 필요해요?",
       "optionsAudio": [
-        "가족 행사가 있어서요.",
         "사흘 동안이에요.",
-        "다음 달이에요.",
-        "팀장이 승인했어요."
+        "가족 행사가 있어서요.",
+        "팀장이 승인했어요.",
+        "다음 달이에요."
       ]
     }
   },
@@ -273,7 +273,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -281,8 +281,8 @@
       "maxPlays": 2,
       "text": "휴가 승인을 받았어요?",
       "optionsAudio": [
-        "네, 오늘 승인받았어요.",
         "비행기 표가 있어요.",
+        "네, 오늘 승인받았어요.",
         "회사에 갔어요.",
         "고향이 따뜻해요."
       ]
@@ -299,7 +299,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -307,42 +307,42 @@
       "maxPlays": 2,
       "text": "휴가 동안 누가 이 일을 해요?",
       "optionsAudio": [
-        "민수 씨가 대신할 거예요.",
-        "다음 주에 쉬어요.",
+        "신청서를 썼어요.",
         "일이 많아요.",
-        "신청서를 썼어요."
+        "다음 주에 쉬어요.",
+        "민수 씨가 대신할 거예요."
       ]
     }
   },
- {
-  "id": 33,
-  "section": "listening",
-  "type": "continuation",
-  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-  "options": [
-    "휴가 잘 보내고 오세요.",
-    "오늘 야근하세요.",
-    "기계를 고치세요.",
-    "점심을 드세요."
-  ],
-  "answer": 0,
-  "audio": {
-    "mode": "dialogue",
-    "lang": "ko-KR",
-    "rate": 0.86,
-    "maxPlays": 2,
-    "dialogue": [
-      {
-        "speaker": "male",
-        "text": "다음 주에 휴가를 쓴다고 했죠?"
-      },
-      {
-        "speaker": "female",
-        "text": "네, 고향에 다녀오려고요."
-      }
-    ]
-  }
-},
+  {
+    "id": 33,
+    "section": "listening",
+    "type": "continuation",
+    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "기계를 고치세요.",
+      "휴가 잘 보내고 오세요.",
+      "오늘 야근하세요.",
+      "점심을 드세요."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "다음 주에 휴가를 쓴다고 했죠?"
+        },
+        {
+          "speaker": "female",
+          "text": "네, 고향에 다녀오려고요."
+        }
+      ]
+    }
+  },
   {
     "id": 34,
     "section": "listening",
@@ -350,19 +350,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q34-1.webp"
-      },
-      {
-        "image": "assets/questions/set-005/q34-2.webp"
+        "image": "assets/questions/set-005/q34-4.webp"
       },
       {
         "image": "assets/questions/set-005/q34-3.webp"
       },
       {
-        "image": "assets/questions/set-005/q34-4.webp"
+        "image": "assets/questions/set-005/q34-2.webp"
+      },
+      {
+        "image": "assets/questions/set-005/q34-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -379,19 +379,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q35-1.webp"
-      },
-      {
-        "image": "assets/questions/set-005/q35-2.webp"
+        "image": "assets/questions/set-005/q35-4.webp"
       },
       {
         "image": "assets/questions/set-005/q35-3.webp"
       },
       {
-        "image": "assets/questions/set-005/q35-4.webp"
+        "image": "assets/questions/set-005/q35-1.webp"
+      },
+      {
+        "image": "assets/questions/set-005/q35-2.webp"
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -408,19 +408,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q36-1.webp"
+        "image": "assets/questions/set-005/q36-2.webp"
       },
       {
-        "image": "assets/questions/set-005/q36-2.webp"
+        "image": "assets/questions/set-005/q36-4.webp"
       },
       {
         "image": "assets/questions/set-005/q36-3.webp"
       },
       {
-        "image": "assets/questions/set-005/q36-4.webp"
+        "image": "assets/questions/set-005/q36-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -437,9 +437,6 @@
     "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-005/q37-1.webp"
-      },
-      {
         "image": "assets/questions/set-005/q37-2.webp"
       },
       {
@@ -447,9 +444,12 @@
       },
       {
         "image": "assets/questions/set-005/q37-4.webp"
+      },
+      {
+        "image": "assets/questions/set-005/q37-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -465,12 +465,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "휴가 신청",
-      "병원 예약",
       "은행 업무",
-      "택배 접수"
+      "병원 예약",
+      "택배 접수",
+      "휴가 신청"
     ],
-    "answer": 0,
+    "answer": 3,
     "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
@@ -495,12 +495,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "7월 15일",
+      "8월 15일",
       "7월 5일",
       "7월 25일",
-      "8월 15일"
+      "7월 15일"
     ],
-    "answer": 0,
+    "answer": 3,
     "stem": "휴가는 언제 시작합니까?",
     "audio": {
       "mode": "dialogue",
@@ -525,12 +525,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "민수 씨가 여자의 업무를 대신합니다.",
       "여자는 휴가를 취소했습니다.",
-      "남자가 여자의 업무를 대신합니다.",
-      "업무 내용을 전달할 필요가 없습니다."
+      "민수 씨가 여자의 업무를 대신합니다.",
+      "업무 내용을 전달할 필요가 없습니다.",
+      "남자가 여자의 업무를 대신합니다."
     ],
-    "answer": 0,
+    "answer": 1,
     "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",

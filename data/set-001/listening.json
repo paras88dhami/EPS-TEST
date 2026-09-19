@@ -5,12 +5,12 @@
     "type": "listen_text",
     "prompt": "들은 것을 고르십시오.",
     "options": [
-      "기차",
       "기차역",
-      "기계",
-      "기침"
+      "기침",
+      "기차",
+      "기계"
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -25,12 +25,12 @@
     "type": "listen_text",
     "prompt": "들은 것을 고르십시오.",
     "options": [
-      "사과",
       "사장",
       "시장",
+      "사과",
       "사진"
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -46,19 +46,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q23-1.webp"
+        "image": "assets/questions/set-001/q23-3.webp"
       },
       {
         "image": "assets/questions/set-001/q23-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q23-3.webp"
+        "image": "assets/questions/set-001/q23-4.webp"
       },
       {
-        "image": "assets/questions/set-001/q23-4.webp"
+        "image": "assets/questions/set-001/q23-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -75,19 +75,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q24-1.webp"
+        "image": "assets/questions/set-001/q24-3.webp"
+      },
+      {
+        "image": "assets/questions/set-001/q24-4.webp"
       },
       {
         "image": "assets/questions/set-001/q24-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q24-3.webp"
-      },
-      {
-        "image": "assets/questions/set-001/q24-4.webp"
+        "image": "assets/questions/set-001/q24-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -104,19 +104,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q25-1.webp"
-      },
-      {
-        "image": "assets/questions/set-001/q25-2.webp"
-      },
-      {
         "image": "assets/questions/set-001/q25-3.webp"
       },
       {
+        "image": "assets/questions/set-001/q25-1.webp"
+      },
+      {
         "image": "assets/questions/set-001/q25-4.webp"
+      },
+      {
+        "image": "assets/questions/set-001/q25-2.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -133,19 +133,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q26-1.webp"
-      },
-      {
         "image": "assets/questions/set-001/q26-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q26-3.webp"
+        "image": "assets/questions/set-001/q26-1.webp"
       },
       {
         "image": "assets/questions/set-001/q26-4.webp"
+      },
+      {
+        "image": "assets/questions/set-001/q26-3.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -162,19 +162,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q27-1.webp"
-      },
-      {
         "image": "assets/questions/set-001/q27-2.webp"
       },
       {
         "image": "assets/questions/set-001/q27-3.webp"
       },
       {
+        "image": "assets/questions/set-001/q27-1.webp"
+      },
+      {
         "image": "assets/questions/set-001/q27-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -195,7 +195,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -203,10 +203,10 @@
       "maxPlays": 2,
       "text": "오늘 몇 시에 출근했어요?",
       "optionsAudio": [
-        "여덟 시에 출근했어요.",
+        "월요일이에요",
         "회사에서 일해요.",
         "버스를 탔어요.",
-        "월요일이에요"
+        "여덟 시에 출근했어요."
       ]
     }
   },
@@ -221,7 +221,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -229,10 +229,10 @@
       "maxPlays": 2,
       "text": "이 기계를 사용해도 돼요?",
       "optionsAudio": [
-        "네, 점검이 끝났어요.",
         "두 개 샀어요.",
+        "어제 비가 왔어요.",
         "식당에 있어요.",
-        "어제 비가 왔어요."
+        "네, 점검이 끝났어요."
       ]
     }
   },
@@ -247,7 +247,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -255,10 +255,10 @@
       "maxPlays": 2,
       "text": "점심을 어디에서 먹을까요?",
       "optionsAudio": [
-        "회사 식당에서 먹어요.",
         "열두 시예요.",
-        "김치찌개예요.",
-        "친구와 만났어요."
+        "회사 식당에서 먹어요.",
+        "친구와 만났어요.",
+        "김치찌개예요."
       ]
     }
   },
@@ -273,7 +273,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -281,10 +281,10 @@
       "maxPlays": 2,
       "text": "왜 안전모를 써야 해요?",
       "optionsAudio": [
+        "기계가 빨라요.",
         "머리를 보호하기 위해서요.",
-        "오후에 출근해요.",
         "작업복이 커요.",
-        "기계가 빨라요."
+        "오후에 출근해요."
       ]
     }
   },
@@ -299,7 +299,7 @@
       "",
       ""
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "question_and_options",
       "lang": "ko-KR",
@@ -307,42 +307,42 @@
       "maxPlays": 2,
       "text": "퇴근 후에 뭐 할 거예요?",
       "optionsAudio": [
-        "마트에 갈 거예요.",
         "다섯 시예요.",
-        "회사 앞이에요.",
-        "택시로 왔어요."
+        "마트에 갈 거예요.",
+        "택시로 왔어요.",
+        "회사 앞이에요."
       ]
     }
   },
- {
-  "id": 33,
-  "section": "listening",
-  "type": "continuation",
-  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-  "options": [
-    "아침 아홉 시에 시작해요.",
-    "안전모를 썼어요.",
-    "공장이 넓어요.",
-    "점심을 먹었어요."
-  ],
-  "answer": 0,
-  "audio": {
-    "mode": "dialogue",
-    "lang": "ko-KR",
-    "rate": 0.86,
-    "maxPlays": 2,
-    "dialogue": [
-      {
-        "speaker": "male",
-        "text": "내일 아침에 안전 교육이 있어요."
-      },
-      {
-        "speaker": "female",
-        "text": "그래요? 몇 시에 시작해요?"
-      }
-    ]
-  }
-},
+  {
+    "id": 33,
+    "section": "listening",
+    "type": "continuation",
+    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "공장이 넓어요.",
+      "아침 아홉 시에 시작해요.",
+      "안전모를 썼어요.",
+      "점심을 먹었어요."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "내일 아침에 안전 교육이 있어요."
+        },
+        {
+          "speaker": "female",
+          "text": "그래요? 몇 시에 시작해요?"
+        }
+      ]
+    }
+  },
   {
     "id": 34,
     "section": "listening",
@@ -350,19 +350,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q34-1.webp"
+        "image": "assets/questions/set-001/q34-3.webp"
+      },
+      {
+        "image": "assets/questions/set-001/q34-4.webp"
       },
       {
         "image": "assets/questions/set-001/q34-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q34-3.webp"
-      },
-      {
-        "image": "assets/questions/set-001/q34-4.webp"
+        "image": "assets/questions/set-001/q34-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -379,19 +379,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q35-1.webp"
-      },
-      {
         "image": "assets/questions/set-001/q35-2.webp"
       },
       {
         "image": "assets/questions/set-001/q35-3.webp"
       },
       {
+        "image": "assets/questions/set-001/q35-1.webp"
+      },
+      {
         "image": "assets/questions/set-001/q35-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 2,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -408,19 +408,19 @@
     "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
     "options": [
       {
+        "image": "assets/questions/set-001/q36-3.webp"
+      },
+      {
         "image": "assets/questions/set-001/q36-1.webp"
       },
       {
         "image": "assets/questions/set-001/q36-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q36-3.webp"
-      },
-      {
         "image": "assets/questions/set-001/q36-4.webp"
       }
     ],
-    "answer": 0,
+    "answer": 1,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -437,19 +437,19 @@
     "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
-        "image": "assets/questions/set-001/q37-1.webp"
+        "image": "assets/questions/set-001/q37-2.webp"
       },
       {
-        "image": "assets/questions/set-001/q37-2.webp"
+        "image": "assets/questions/set-001/q37-4.webp"
       },
       {
         "image": "assets/questions/set-001/q37-3.webp"
       },
       {
-        "image": "assets/questions/set-001/q37-4.webp"
+        "image": "assets/questions/set-001/q37-1.webp"
       }
     ],
-    "answer": 0,
+    "answer": 3,
     "audio": {
       "mode": "tts",
       "lang": "ko-KR",
@@ -465,12 +465,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
+      "월급",
       "기숙사 난방",
       "회사 식당",
-      "버스 시간",
-      "월급"
+      "버스 시간"
     ],
-    "answer": 0,
+    "answer": 1,
     "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
@@ -495,12 +495,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "지하 1층",
-      "1층",
       "2층",
-      "3층"
+      "3층",
+      "지하 1층",
+      "1층"
     ],
-    "answer": 0,
+    "answer": 2,
     "stem": "세탁실은 어디에 있습니까?",
     "audio": {
       "mode": "dialogue",
@@ -525,12 +525,12 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "밤 열 시 이후에는 조용히 해야 합니다.",
-      "밤 열 시 이후에 음악을 크게 틀어도 됩니다.",
       "남자는 기숙사에 살지 않습니다.",
-      "여자는 세탁실을 찾고 있습니다."
+      "밤 열 시 이후에는 조용히 해야 합니다.",
+      "여자는 세탁실을 찾고 있습니다.",
+      "밤 열 시 이후에 음악을 크게 틀어도 됩니다."
     ],
-    "answer": 0,
+    "answer": 1,
     "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",
