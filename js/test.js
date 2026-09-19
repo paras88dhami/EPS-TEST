@@ -95,55 +95,117 @@
     el.audioButton.querySelector('span:last-child').textContent='듣기 · Play Audio';
   }
 
-  function renderOptions(q){
-    el.options.innerHTML='';
-    el.options.className='options-grid';
-    const images=q.options.every(option=>typeof option==='object'&&option.image);
-    const audioOnly=q.type==='audio_only_options';
-    const numeric=['audio_only_options','picture_audio_options'].includes(q.type);
-    if(images)el.options.classList.add('image-options');
-    if(numeric)el.options.classList.add('numeric-only');
+function renderOptions(q) {
+  el.options.innerHTML = '';
+  el.options.className = 'options-grid';
 
-    q.options.forEach((option,index)=>{
-      const button=document.createElement('button');
-      button.type='button';
+  const images = q.options.every(
+    option =>
+      typeof option === 'object' &&
+      option.image
+  );
 
-      if(images){
-        button.className='image-option';
-        const image=document.createElement('img');
-        image.src=option.image;
-        image.alt='';
-        const optionIndex=document.createElement('span');
-        optionIndex.className='option-index';
-        optionIndex.textContent=index+1;
-        button.append(image,optionIndex);
-      }else{
-        button.className='option-btn';
-        const optionIndex=document.createElement('span');
-        optionIndex.className='option-index';
-        optionIndex.textContent=index+1;
-        const optionLabel=document.createElement('span');
-        optionLabel.className='option-label';
-        optionLabel.textContent=audioOnly?'':typeof option==='string'?option:'';
-        button.append(optionIndex,optionLabel);
+  const audioOnly =
+    q.type === 'audio_only_options';
+
+  const numeric = [
+    'audio_only_options',
+    'picture_audio_options'
+  ].includes(q.type);
+
+  if (images) {
+    el.options.classList.add('image-options');
+  }
+
+  if (numeric) {
+    el.options.classList.add('numeric-only');
+  }
+
+  q.options.forEach((option, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+
+    if (images) {
+      button.className = 'image-option';
+
+      const image = document.createElement('img');
+      image.src = option.image;
+      image.alt = '';
+
+      const optionIndex = document.createElement('span');
+      optionIndex.className = 'option-index';
+      optionIndex.textContent = index + 1;
+
+      button.append(image, optionIndex);
+    } else {
+      button.className = 'option-btn';
+
+      const optionIndex = document.createElement('span');
+      optionIndex.className = 'option-index';
+      optionIndex.textContent = index + 1;
+
+      const optionLabel = document.createElement('span');
+      optionLabel.className = 'option-label';
+
+      // Q28-Q32:
+      // Never display the hidden spoken answer.
+      optionLabel.textContent =
+        audioOnly
+          ? ''
+          : typeof option === 'string'
+            ? option
+            : '';
+
+      button.append(
+        optionIndex,
+        optionLabel
+      );
+    }
+
+    if (state.answers[q.id] === index) {
+      button.classList.add('selected');
+    }
+
+    button.addEventListener('click', () => {
+      state.answers[q.id] = index;
+
+      // Q28-Q32:
+      // Tap option = select + speak only that option.
+      if (
+        audioOnly &&
+        Array.isArray(q.audio?.optionsAudio)
+      ) {
+        const optionAudio =
+          q.audio.optionsAudio[index];
+
+        if (optionAudio) {
+          EPSTTS.speakOption(optionAudio, {
+            rate: q.audio.rate ?? 0.86
+          });
+        }
       }
 
-      if(state.answers[q.id]===index)button.classList.add('selected');
-      button.addEventListener('click',()=>{
-        state.answers[q.id]=index;
-        if(audioOnly && q.audio?.optionsAudio?.[index]){
-          renderAudio();
-          EPSTTS.speakOption(q.audio.optionsAudio[index],{rate:q.audio.rate??0.86});
-        }
-        Array.from(el.options.children).forEach((child,childIndex)=>{
-          child.classList.toggle('selected',childIndex===index);
+      // Do NOT call render() here.
+      // render() would cancel the option audio.
+      Array.from(el.options.children)
+        .forEach((child, childIndex) => {
+          child.classList.toggle(
+            'selected',
+            childIndex === index
+          );
         });
-        renderNav();
-        el.answeredCount.textContent=`답변 · Answered ${Object.keys(state.answers).length} / ${state.questions.length}`;
-      });
-      el.options.appendChild(button);
+
+      renderNav();
+
+      el.answeredCount.textContent =
+        `답변 · Answered ${
+          Object.keys(state.answers).length
+        } / ${state.questions.length}`;
     });
-  }
+
+    el.options.appendChild(button);
+  });
+}
 
   function renderNav(){
     el.readingNav.innerHTML='';

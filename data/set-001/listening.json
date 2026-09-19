@@ -314,26 +314,35 @@
       ]
     }
   },
-  {
-    "id": 33,
-    "section": "listening",
-    "type": "continuation",
-    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-    "options": [
-      "아침 아홉 시에 시작해요.",
-      "안전모를 썼어요.",
-      "공장이 넓어요.",
-      "점심을 먹었어요."
-    ],
-    "answer": 0,
-    "audio": {
-      "mode": "tts",
-      "lang": "ko-KR",
-      "rate": 0.86,
-      "maxPlays": 2,
-      "text": "남자: 내일 아침에 안전 교육이 있어요.\n여자: 그래요? 몇 시에 시작해요?\n남자: ___"
-    }
-  },
+ {
+  "id": 33,
+  "section": "listening",
+  "type": "continuation",
+  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+  "options": [
+    "아침 아홉 시에 시작해요.",
+    "안전모를 썼어요.",
+    "공장이 넓어요.",
+    "점심을 먹었어요."
+  ],
+  "answer": 0,
+  "audio": {
+    "mode": "dialogue",
+    "lang": "ko-KR",
+    "rate": 0.86,
+    "maxPlays": 2,
+    "dialogue": [
+      {
+        "speaker": "male",
+        "text": "내일 아침에 안전 교육이 있어요."
+      },
+      {
+        "speaker": "female",
+        "text": "그래요? 몇 시에 시작해요?"
+      }
+    ]
+  }
+},
   {
     "id": 34,
     "section": "listening",

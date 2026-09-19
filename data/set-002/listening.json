@@ -314,26 +314,35 @@
       ]
     }
   },
-  {
-    "id": 33,
-    "section": "listening",
-    "type": "continuation",
-    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-    "options": [
-      "목이 아프고 기침이 나요.",
-      "두 시에 만나요.",
-      "병원이 커요.",
-      "버스로 왔어요."
-    ],
-    "answer": 0,
-    "audio": {
-      "mode": "tts",
-      "lang": "ko-KR",
-      "rate": 0.86,
-      "maxPlays": 2,
-      "text": "여자: 내일 병원에 가려고 해요.\n남자: 어디가 많이 아파요?\n여자: ___"
-    }
-  },
+{
+  "id": 33,
+  "section": "listening",
+  "type": "continuation",
+  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+  "options": [
+    "목이 아프고 기침이 나요.",
+    "두 시에 만나요.",
+    "병원이 커요.",
+    "버스로 왔어요."
+  ],
+  "answer": 0,
+  "audio": {
+    "mode": "dialogue",
+    "lang": "ko-KR",
+    "rate": 0.86,
+    "maxPlays": 2,
+    "dialogue": [
+      {
+        "speaker": "female",
+        "text": "내일 병원에 가려고 해요."
+      },
+      {
+        "speaker": "male",
+        "text": "어디가 많이 아파요?"
+      }
+    ]
+  }
+},
   {
     "id": 34,
     "section": "listening",

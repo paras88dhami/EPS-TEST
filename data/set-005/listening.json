@@ -314,26 +314,35 @@
       ]
     }
   },
-  {
-    "id": 33,
-    "section": "listening",
-    "type": "continuation",
-    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-    "options": [
-      "휴가 잘 보내고 오세요.",
-      "오늘 야근하세요.",
-      "기계를 고치세요.",
-      "점심을 드세요."
-    ],
-    "answer": 0,
-    "audio": {
-      "mode": "tts",
-      "lang": "ko-KR",
-      "rate": 0.86,
-      "maxPlays": 2,
-      "text": "남자: 다음 주에 휴가를 쓴다고 했죠?\n여자: 네, 고향에 다녀오려고요.\n남자: ___"
-    }
-  },
+ {
+  "id": 33,
+  "section": "listening",
+  "type": "continuation",
+  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+  "options": [
+    "휴가 잘 보내고 오세요.",
+    "오늘 야근하세요.",
+    "기계를 고치세요.",
+    "점심을 드세요."
+  ],
+  "answer": 0,
+  "audio": {
+    "mode": "dialogue",
+    "lang": "ko-KR",
+    "rate": 0.86,
+    "maxPlays": 2,
+    "dialogue": [
+      {
+        "speaker": "male",
+        "text": "다음 주에 휴가를 쓴다고 했죠?"
+      },
+      {
+        "speaker": "female",
+        "text": "네, 고향에 다녀오려고요."
+      }
+    ]
+  }
+},
   {
     "id": 34,
     "section": "listening",

@@ -314,26 +314,35 @@
       ]
     }
   },
-  {
-    "id": 33,
-    "section": "listening",
-    "type": "continuation",
-    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
-    "options": [
-      "네, 유리컵이 들어 있어요.",
-      "주소가 길어요.",
-      "내일 쉬어요.",
-      "우체국이 멀어요."
-    ],
-    "answer": 0,
-    "audio": {
-      "mode": "tts",
-      "lang": "ko-KR",
-      "rate": 0.86,
-      "maxPlays": 2,
-      "text": "여자: 이 상자를 오늘 보내고 싶어요.\n남자: 안에 깨지는 물건이 있어요?\n여자: ___"
-    }
-  },
+{
+  "id": 33,
+  "section": "listening",
+  "type": "continuation",
+  "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+  "options": [
+    "네, 유리컵이 들어 있어요.",
+    "주소가 길어요.",
+    "내일 쉬어요.",
+    "우체국이 멀어요."
+  ],
+  "answer": 0,
+  "audio": {
+    "mode": "dialogue",
+    "lang": "ko-KR",
+    "rate": 0.86,
+    "maxPlays": 2,
+    "dialogue": [
+      {
+        "speaker": "female",
+        "text": "이 상자를 오늘 보내고 싶어요."
+      },
+      {
+        "speaker": "male",
+        "text": "안에 깨지는 물건이 있어요?"
+      }
+    ]
+  }
+},
   {
     "id": 34,
     "section": "listening",
