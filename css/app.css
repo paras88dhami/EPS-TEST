@@ -11,3 +11,5 @@
 .result-set-title{margin:0 0 6px;color:var(--muted);font-weight:800}.result-shell .wrong-section{width:100%;margin:24px 0 60px}.wrong-header{gap:20px}.wrong-header h2{margin:0 0 4px}.wrong-header p{margin:0;color:var(--muted)}.wrong-header>span{min-width:42px;height:42px}.wrong-question-card{box-shadow:var(--shadow)}.review-prompt{margin:0 0 18px}.review-media{max-height:300px;margin:16px auto}.review-audio-button{margin:8px 0 18px}.perfect-result{border:1px solid var(--line)}
 
 @media(max-width:640px){.sets-header,.sets-section{padding:22px 18px}.sets-title{align-items:flex-start}}
+
+.logout-button{margin-top:24px}

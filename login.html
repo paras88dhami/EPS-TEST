@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f4c81">
+  <title>Login · EPS-TOPIK Practice</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-card">
+      <div class="auth-brand">
+        <div class="brand-mark">EPS</div>
+        <p class="auth-korean">고용허가제 한국어능력시험</p>
+        <h1>EPS-TOPIK Practice</h1>
+        <p class="auth-description">Sign in to access your practice tests.</p>
+      </div>
+
+      <div id="authStatus" class="auth-status" role="status">
+        Checking your account...
+      </div>
+
+      <button id="loginButton" class="auth-button" type="button" hidden>
+        Sign In
+      </button>
+
+      <p class="invite-message">Access is available only to invited users.</p>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      const loginButton = document.getElementById('loginButton');
+      const status = document.getElementById('authStatus');
+
+      function getRedirect() {
+        const redirect = new URLSearchParams(window.location.search).get('redirect');
+
+        if (!redirect || !/^(?:index|test|result)\.html(?:[?#].*)?$/.test(redirect)) {
+          return 'index.html';
+        }
+
+        return redirect;
+      }
+
+      function goToApp() {
+        window.location.replace(getRedirect());
+      }
+
+      if (!window.netlifyIdentity) {
+        status.textContent = 'Unable to load authentication. Please refresh.';
+        return;
+      }
+
+      window.netlifyIdentity.init();
+
+      window.netlifyIdentity.on('login', () => {
+        window.netlifyIdentity.close();
+        goToApp();
+      });
+
+      window.netlifyIdentity.on('signup', () => {
+        window.netlifyIdentity.close();
+        goToApp();
+      });
+
+      if (window.netlifyIdentity.currentUser()) {
+        goToApp();
+        return;
+      }
+
+      status.textContent = 'Please sign in with your invited account.';
+      loginButton.hidden = false;
+      loginButton.addEventListener('click', () => {
+        window.netlifyIdentity.open('login');
+      });
+
+      const hash = window.location.hash;
+      if (
+        hash.includes('invite_token=') ||
+        hash.includes('confirmation_token=') ||
+        hash.includes('recovery_token=')
+      ) {
+        window.netlifyIdentity.open();
+      }
+    })();
+  </script>
+</body>
+</html>

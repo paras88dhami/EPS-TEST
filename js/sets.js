@@ -1,4 +1,6 @@
 (()=>{
+  if (!window.epsAuth || !window.epsAuth.getUser()) return;
+
   const container=document.getElementById('setsContainer');
   const count=document.getElementById('availableSetCount');
   const error=document.getElementById('setsError');

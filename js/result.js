@@ -1,4 +1,6 @@
 (()=>{
+  if (!window.epsAuth || !window.epsAuth.getUser()) return;
+
   const RESULT_KEY='epsTopik100ResultV1';
   const $=id=>document.getElementById(id);
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" class="protected-page">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,9 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/test.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="js/auth.js"></script>
 </head>
 <body>
   <header class="exam-header">
@@ -36,6 +39,7 @@
   <div id="submitModal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-card"><h2>시험을 제출하시겠습니까? · Submit Test?</h2><p id="submitStatus"></p><div class="modal-actions"><button id="cancelSubmit" class="secondary-button" type="button">취소 · Cancel</button><button id="confirmSubmit" class="primary-button" type="button">제출 · Submit</button></div></div>
   </div>
+  <script>epsAuth.protectPage();</script>
   <script src="js/tts.js"></script>
   <script src="js/test.js"></script>
 </body>

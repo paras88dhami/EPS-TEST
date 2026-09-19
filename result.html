@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" class="protected-page">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +7,9 @@
   <title>EPS-TOPIK Result</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="js/auth.js"></script>
 </head>
 <body>
   <main class="result-shell">
@@ -38,6 +41,7 @@
       <div id="wrongQuestions" class="wrong-questions"></div>
     </section>
   </main>
+  <script>epsAuth.protectPage();</script>
   <script src="js/tts.js"></script>
   <script src="js/result.js"></script>
 </body>
