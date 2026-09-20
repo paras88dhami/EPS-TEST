@@ -43,7 +43,7 @@
     "id": 23,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q23-1.webp"
@@ -64,7 +64,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "절단기입니다."
+      "text": "지금 절단기입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -101,7 +101,7 @@
     "id": 25,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "잘 듣고 내용과 맞는 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q25-1.webp"
@@ -122,7 +122,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "테이블 톱입니다."
+      "text": "지금 테이블 톱입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -130,7 +130,7 @@
     "id": 26,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q26-1.webp"
@@ -151,7 +151,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "버니어 캘리퍼스입니다."
+      "text": "지금 버니어 캘리퍼스입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -159,7 +159,7 @@
     "id": 27,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "들은 내용과 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q27-1.webp"
@@ -180,7 +180,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "끌입니다."
+      "text": "지금 끌입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -347,7 +347,7 @@
     "id": 34,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "잘 듣고 내용과 맞는 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q34-1.webp"
@@ -368,7 +368,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "주방입니다."
+      "text": "지금 주방입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -376,7 +376,7 @@
     "id": 35,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q35-1.webp"
@@ -397,7 +397,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "국자로 음식을 담고 있습니다."
+      "text": "지금 국자로 음식을 담고 있습니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -405,7 +405,7 @@
     "id": 36,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "들은 내용과 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-029/q36-1.webp"
@@ -426,7 +426,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "오븐입니다."
+      "text": "지금 오븐입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },

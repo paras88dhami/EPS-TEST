@@ -130,7 +130,7 @@
     "id": 10,
     "section": "reading",
     "type": "image_choice",
-    "prompt": "다음 그림을 보고 알맞은 것을 고르십시오.",
+    "prompt": "다음 그림을 보고 가장 알맞은 표현을 고르십시오.",
     "options": [
       "트랙터",
       "굴착기",

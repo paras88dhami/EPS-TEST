@@ -101,7 +101,7 @@
     "id": 25,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "들은 내용과 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q25-1.webp"
@@ -122,7 +122,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "오리입니다."
+      "text": "지금 오리입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -130,7 +130,7 @@
     "id": 26,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "잘 듣고 내용과 맞는 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q26-1.webp"
@@ -151,7 +151,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "그물입니다."
+      "text": "지금 그물입니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -159,7 +159,7 @@
     "id": 27,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "다음을 듣고 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q27-1.webp"
@@ -180,7 +180,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "과수원에 약을 뿌리고 있습니다."
+      "text": "지금 과수원에 약을 뿌리고 있습니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -240,7 +240,7 @@
     "id": 30,
     "section": "listening",
     "type": "audio_only_options",
-    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "prompt": "잘 듣고 이어질 말로 알맞은 것을 고르십시오.",
     "options": [
       "",
       "",
@@ -253,12 +253,12 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "왜 농약을 뿌리려고 해요?",
+      "text": "지금 왜 농약을 뿌리려고 해요?",
       "optionsAudio": [
-        "잎에 벌레가 많아서요.",
-        "은행이 멀어서요.",
-        "신발이 작아서요.",
-        "길이 막혀서요."
+        "지금 잎에 벌레가 많아서요.",
+        "지금 은행이 멀어서요.",
+        "지금 신발이 작아서요.",
+        "지금 길이 막혀서요."
       ]
     }
   },
@@ -347,7 +347,7 @@
     "id": 34,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "들은 내용과 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q34-1.webp"
@@ -368,7 +368,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "흙을 삽으로 옮기고 있습니다."
+      "text": "지금 흙을 삽으로 옮기고 있습니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -376,7 +376,7 @@
     "id": 35,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "잘 듣고 내용과 맞는 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q35-1.webp"
@@ -397,7 +397,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "배에서 그물을 사용하고 있습니다."
+      "text": "지금 배에서 그물을 사용하고 있습니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
@@ -434,7 +434,7 @@
     "id": 37,
     "section": "listening",
     "type": "listen_image",
-    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "prompt": "들은 내용과 알맞은 그림을 고르십시오.",
     "options": [
       {
         "image": "assets/questions/set-022/q37-1.webp"
@@ -455,7 +455,7 @@
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "오리들이 있습니다."
+      "text": "지금 오리들이 있습니다."
     },
     "visual_spec": "Four book-cropped visual options; audio describes the correct option."
   },
