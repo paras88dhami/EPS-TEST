@@ -1,3 +1,5 @@
+const EPS_SPEECH_RATE = 0.72;
+
 window.EPSTTS = (() => {
   let voices = [];
 
@@ -18,9 +20,7 @@ window.EPSTTS = (() => {
   }
 
   function getVoice(speaker) {
-    if (!voices.length) {
-      refreshVoices();
-    }
+    refreshVoices();
 
     if (!voices.length) {
       return null;
@@ -31,51 +31,61 @@ window.EPSTTS = (() => {
       'sun hi',
       '선히',
       'heami',
-      'female'
+      'female',
+      'woman'
     ];
 
     const maleNames = [
       'injoon',
       'in joon',
       '인준',
-      'male'
+      'male',
+      'man'
     ];
 
-    const names =
-      speaker === 'female'
-        ? femaleNames
-        : speaker === 'male'
-          ? maleNames
-          : [];
+    const findByNames = names =>
+      voices.find(voice => {
+        const name =
+          String(voice.name || '').toLowerCase();
 
-    const matched = voices.find(voice => {
-      const name =
-        String(voice.name || '').toLowerCase();
+        return names.some(item =>
+          name.includes(item.toLowerCase())
+        );
+      });
 
-      return names.some(item =>
-        name.includes(item.toLowerCase())
-      );
-    });
+    const femaleVoice =
+      findByNames(femaleNames) ||
+      voices[0] ||
+      null;
 
-    if (matched) {
-      return matched;
+    let maleVoice =
+      findByNames(maleNames) ||
+      null;
+
+    // If no named male voice exists, prefer a different Korean voice.
+    if (!maleVoice && femaleVoice) {
+      maleVoice =
+        voices.find(voice =>
+          voice.voiceURI !== femaleVoice.voiceURI &&
+          voice.name !== femaleVoice.name
+        ) ||
+        null;
     }
 
     if (speaker === 'female') {
-      return voices[0] || null;
+      return femaleVoice;
     }
 
     if (speaker === 'male') {
-      return voices[1] || voices[0] || null;
+      return maleVoice || femaleVoice;
     }
 
-    return voices[0] || null;
+    return femaleVoice;
   }
 
   function utter(
     text,
     {
-      rate = 0.86,
       speaker = null
     } = {}
   ) {
@@ -83,7 +93,6 @@ window.EPSTTS = (() => {
       new SpeechSynthesisUtterance(text);
 
     u.lang = 'ko-KR';
-    u.rate = rate;
     u.volume = 1;
 
     const voice = getVoice(speaker);
@@ -92,13 +101,17 @@ window.EPSTTS = (() => {
       u.voice = voice;
     }
 
-    // Fallback distinction if device has
-    // only one Korean voice.
+    // Keep the two speakers distinguishable even when the device exposes
+    // only one Korean voice. JSON rates remain backwards-compatible but
+    // cannot override the global practice-test speed.
     if (speaker === 'female') {
-      u.pitch = 1.08;
+      u.rate = EPS_SPEECH_RATE;
+      u.pitch = 1.15;
     } else if (speaker === 'male') {
-      u.pitch = 0.92;
+      u.rate = Math.max(0.6, EPS_SPEECH_RATE - 0.03);
+      u.pitch = 0.78;
     } else {
+      u.rate = EPS_SPEECH_RATE;
       u.pitch = 1;
     }
 
@@ -109,6 +122,20 @@ window.EPSTTS = (() => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
+  }
+
+  function logVoices() {
+    refreshVoices();
+
+    console.table(
+      voices.map((voice, index) => ({
+        index,
+        name: voice.name,
+        lang: voice.lang,
+        voiceURI: voice.voiceURI,
+        localService: voice.localService
+      }))
+    );
   }
 
   function sequence(
@@ -244,6 +271,7 @@ window.EPSTTS = (() => {
 
   return {
     refreshVoices,
+    logVoices,
     speak,
     speakOption,
     cancel
