@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "냉장고 문이 자꾸 열려요."
+          "text": "냉장고 문이 자꾸 열려요.",
+          "src": "assets/audio/set-094/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "고장 신고를 먼저 해야겠네요."
+          "text": "고장 신고를 먼저 해야겠네요.",
+          "src": "assets/audio/set-094/q33-02-male.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 부품은 치수가 조금 다른 것 같은데요."
+          "text": "이 부품은 치수가 조금 다른 것 같은데요.",
+          "src": "assets/audio/set-094/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "버니어 캘리퍼스로 다시 재 보겠습니다."
+          "text": "버니어 캘리퍼스로 다시 재 보겠습니다.",
+          "src": "assets/audio/set-094/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?"
+          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?",
+          "src": "assets/audio/set-094/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 불량 상자에 넣고 기록하겠습니다."
+          "text": "네, 불량 상자에 넣고 기록하겠습니다.",
+          "src": "assets/audio/set-094/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 부품은 치수가 조금 다른 것 같은데요."
+          "text": "이 부품은 치수가 조금 다른 것 같은데요.",
+          "src": "assets/audio/set-094/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "버니어 캘리퍼스로 다시 재 보겠습니다."
+          "text": "버니어 캘리퍼스로 다시 재 보겠습니다.",
+          "src": "assets/audio/set-094/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?"
+          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?",
+          "src": "assets/audio/set-094/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 불량 상자에 넣고 기록하겠습니다."
+          "text": "네, 불량 상자에 넣고 기록하겠습니다.",
+          "src": "assets/audio/set-094/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 부품은 치수가 조금 다른 것 같은데요."
+          "text": "이 부품은 치수가 조금 다른 것 같은데요.",
+          "src": "assets/audio/set-094/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "버니어 캘리퍼스로 다시 재 보겠습니다."
+          "text": "버니어 캘리퍼스로 다시 재 보겠습니다.",
+          "src": "assets/audio/set-094/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?"
+          "text": "기준보다 1밀리미터 길면 불량으로 처리하죠?",
+          "src": "assets/audio/set-094/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 불량 상자에 넣고 기록하겠습니다."
+          "text": "네, 불량 상자에 넣고 기록하겠습니다.",
+          "src": "assets/audio/set-094/q40-04-female.mp3"
         }
       ]
     }

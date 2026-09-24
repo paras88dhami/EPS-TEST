@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "기숙사 세탁실은 몇 시까지 써요?"
+          "text": "기숙사 세탁실은 몇 시까지 써요?",
+          "src": "assets/audio/set-097/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "밤 열 시까지 사용할 수 있어요."
+          "text": "밤 열 시까지 사용할 수 있어요.",
+          "src": "assets/audio/set-097/q33-02-male.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 생산 목표가 오백 개라고 들었어요."
+          "text": "오늘 생산 목표가 오백 개라고 들었어요.",
+          "src": "assets/audio/set-097/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다."
+          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다.",
+          "src": "assets/audio/set-097/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "불량이 나오면 바로 표시해 두겠습니다."
+          "text": "불량이 나오면 바로 표시해 두겠습니다.",
+          "src": "assets/audio/set-097/q38-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 수량 기록도 잊지 마세요."
+          "text": "좋아요. 수량 기록도 잊지 마세요.",
+          "src": "assets/audio/set-097/q38-04-male.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 생산 목표가 오백 개라고 들었어요."
+          "text": "오늘 생산 목표가 오백 개라고 들었어요.",
+          "src": "assets/audio/set-097/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다."
+          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다.",
+          "src": "assets/audio/set-097/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "불량이 나오면 바로 표시해 두겠습니다."
+          "text": "불량이 나오면 바로 표시해 두겠습니다.",
+          "src": "assets/audio/set-097/q39-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 수량 기록도 잊지 마세요."
+          "text": "좋아요. 수량 기록도 잊지 마세요.",
+          "src": "assets/audio/set-097/q39-04-male.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 생산 목표가 오백 개라고 들었어요."
+          "text": "오늘 생산 목표가 오백 개라고 들었어요.",
+          "src": "assets/audio/set-097/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다."
+          "text": "네, 오전에 이백오십 개를 먼저 만들 계획입니다.",
+          "src": "assets/audio/set-097/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "불량이 나오면 바로 표시해 두겠습니다."
+          "text": "불량이 나오면 바로 표시해 두겠습니다.",
+          "src": "assets/audio/set-097/q40-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 수량 기록도 잊지 마세요."
+          "text": "좋아요. 수량 기록도 잊지 마세요.",
+          "src": "assets/audio/set-097/q40-04-male.mp3"
         }
       ]
     }

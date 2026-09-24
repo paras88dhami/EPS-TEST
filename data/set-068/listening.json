@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "도로 공사장에서 문제가 있는 포장 자재을 발견했어요."
+          "text": "도로 공사장에서 문제가 있는 포장 자재을 발견했어요.",
+          "src": "assets/audio/set-068/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 표지판인지 확인하고 다른 물품과 섞이지 않게 해 주세요."
+          "text": "그럼 파손 표지판인지 확인하고 다른 물품과 섞이지 않게 해 주세요.",
+          "src": "assets/audio/set-068/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 도로 공사장에서 정리 작업은 어디까지 했어요?"
+          "text": "오늘 도로 공사장에서 정리 작업은 어디까지 했어요?",
+          "src": "assets/audio/set-068/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "포장 자재 수량을 확인했고 지금 작업 계획표을 정리하고 있어요."
+          "text": "포장 자재 수량을 확인했고 지금 작업 계획표을 정리하고 있어요.",
+          "src": "assets/audio/set-068/q38-02-female.mp3"
         }
       ]
     }
@@ -508,15 +512,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "포장 자재 중에서 파손 표지판을 발견했어요."
+          "text": "포장 자재 중에서 파손 표지판을 발견했어요.",
+          "src": "assets/audio/set-068/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그 물품은 따로 표시하고 작업 계획표에도 이유를 적어 주세요."
+          "text": "그 물품은 따로 표시하고 작업 계획표에도 이유를 적어 주세요.",
+          "src": "assets/audio/set-068/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 다른 물품과 섞이지 않게 분리해 두겠습니다."
+          "text": "네, 다른 물품과 섞이지 않게 분리해 두겠습니다.",
+          "src": "assets/audio/set-068/q39-03-female.mp3"
         }
       ]
     }
@@ -541,15 +548,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 도로 공사장에서 작업량이 많다고 들었어요."
+          "text": "내일 도로 공사장에서 작업량이 많다고 들었어요.",
+          "src": "assets/audio/set-068/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네. 그래서 오늘 작업 계획표과 안전 조끼 상태를 미리 확인하려고 해요."
+          "text": "네. 그래서 오늘 작업 계획표과 안전 조끼 상태를 미리 확인하려고 해요.",
+          "src": "assets/audio/set-068/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 정리 순서도 다시 확인하고 문제가 있으면 바로 알려 주세요."
+          "text": "좋아요. 정리 순서도 다시 확인하고 문제가 있으면 바로 알려 주세요.",
+          "src": "assets/audio/set-068/q40-03-male.mp3"
         }
       ]
     }

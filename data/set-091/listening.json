@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "배송할 상자가 다 준비됐어요?"
+          "text": "배송할 상자가 다 준비됐어요?",
+          "src": "assets/audio/set-091/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아직 하나가 남았어요."
+          "text": "아직 하나가 남았어요.",
+          "src": "assets/audio/set-091/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 아침에 토마토 구역에 물을 줬어요?"
+          "text": "오늘 아침에 토마토 구역에 물을 줬어요?",
+          "src": "assets/audio/set-091/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 일곱 시에 먼저 물을 줬습니다."
+          "text": "네, 일곱 시에 먼저 물을 줬습니다.",
+          "src": "assets/audio/set-091/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요."
+          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요.",
+          "src": "assets/audio/set-091/q38-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "온도도 같이 확인해서 기록하겠습니다."
+          "text": "온도도 같이 확인해서 기록하겠습니다.",
+          "src": "assets/audio/set-091/q38-04-male.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 아침에 토마토 구역에 물을 줬어요?"
+          "text": "오늘 아침에 토마토 구역에 물을 줬어요?",
+          "src": "assets/audio/set-091/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 일곱 시에 먼저 물을 줬습니다."
+          "text": "네, 일곱 시에 먼저 물을 줬습니다.",
+          "src": "assets/audio/set-091/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요."
+          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요.",
+          "src": "assets/audio/set-091/q39-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "온도도 같이 확인해서 기록하겠습니다."
+          "text": "온도도 같이 확인해서 기록하겠습니다.",
+          "src": "assets/audio/set-091/q39-04-male.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 아침에 토마토 구역에 물을 줬어요?"
+          "text": "오늘 아침에 토마토 구역에 물을 줬어요?",
+          "src": "assets/audio/set-091/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 일곱 시에 먼저 물을 줬습니다."
+          "text": "네, 일곱 시에 먼저 물을 줬습니다.",
+          "src": "assets/audio/set-091/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요."
+          "text": "그럼 오이 구역은 여덟 시에 시작하면 되겠네요.",
+          "src": "assets/audio/set-091/q40-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "온도도 같이 확인해서 기록하겠습니다."
+          "text": "온도도 같이 확인해서 기록하겠습니다.",
+          "src": "assets/audio/set-091/q40-04-male.mp3"
         }
       ]
     }

@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "다음 주에 휴가를 쓴다고 했죠?"
+          "text": "다음 주에 휴가를 쓴다고 했죠?",
+          "src": "assets/audio/set-005/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 고향에 다녀오려고요."
+          "text": "네, 고향에 다녀오려고요.",
+          "src": "assets/audio/set-005/q33-02-female.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "다음 달에 사흘 동안 휴가를 쓰고 싶어요."
+          "text": "다음 달에 사흘 동안 휴가를 쓰고 싶어요.",
+          "src": "assets/audio/set-005/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 신청서를 작성해서 제출하세요."
+          "text": "먼저 신청서를 작성해서 제출하세요.",
+          "src": "assets/audio/set-005/q38-02-male.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "휴가는 언제부터예요?"
+          "text": "휴가는 언제부터예요?",
+          "src": "assets/audio/set-005/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "7월 15일부터예요."
+          "text": "7월 15일부터예요.",
+          "src": "assets/audio/set-005/q39-02-female.mp3"
         }
       ]
     }
@@ -540,11 +546,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "휴가 동안 제 업무는 민수 씨가 대신하기로 했어요."
+          "text": "휴가 동안 제 업무는 민수 씨가 대신하기로 했어요.",
+          "src": "assets/audio/set-005/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 업무 내용을 미리 잘 전달해 주세요."
+          "text": "그럼 업무 내용을 미리 잘 전달해 주세요.",
+          "src": "assets/audio/set-005/q40-02-male.mp3"
         }
       ]
     }

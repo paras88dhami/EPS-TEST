@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "배송할 상자가 다 준비됐어요?"
+          "text": "배송할 상자가 다 준비됐어요?",
+          "src": "assets/audio/set-086/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아직 하나가 남았어요."
+          "text": "아직 하나가 남았어요.",
+          "src": "assets/audio/set-086/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요."
+          "text": "오늘 출고할 상자가 평소보다 많네요.",
+          "src": "assets/audio/set-086/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요."
+          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
+          "src": "assets/audio/set-086/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요."
+          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
+          "src": "assets/audio/set-086/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요."
+          "text": "알겠습니다. 출고표도 다시 확인할게요.",
+          "src": "assets/audio/set-086/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요."
+          "text": "오늘 출고할 상자가 평소보다 많네요.",
+          "src": "assets/audio/set-086/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요."
+          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
+          "src": "assets/audio/set-086/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요."
+          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
+          "src": "assets/audio/set-086/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요."
+          "text": "알겠습니다. 출고표도 다시 확인할게요.",
+          "src": "assets/audio/set-086/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요."
+          "text": "오늘 출고할 상자가 평소보다 많네요.",
+          "src": "assets/audio/set-086/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요."
+          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
+          "src": "assets/audio/set-086/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요."
+          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
+          "src": "assets/audio/set-086/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요."
+          "text": "알겠습니다. 출고표도 다시 확인할게요.",
+          "src": "assets/audio/set-086/q40-04-female.mp3"
         }
       ]
     }

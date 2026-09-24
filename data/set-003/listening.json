@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "가족에게 송금했어요?"
+          "text": "가족에게 송금했어요?",
+          "src": "assets/audio/set-003/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아직 못 했어요."
+          "text": "아직 못 했어요.",
+          "src": "assets/audio/set-003/q33-02-female.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "이번 달 월급을 고향에 보내려고 해요."
+          "text": "이번 달 월급을 고향에 보내려고 해요.",
+          "src": "assets/audio/set-003/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "모바일 뱅킹을 이용하면 편해요."
+          "text": "모바일 뱅킹을 이용하면 편해요.",
+          "src": "assets/audio/set-003/q38-02-male.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "얼마를 보내려고 해요?"
+          "text": "얼마를 보내려고 해요?",
+          "src": "assets/audio/set-003/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오십만 원을 보낼 거예요."
+          "text": "오십만 원을 보낼 거예요.",
+          "src": "assets/audio/set-003/q39-02-female.mp3"
         }
       ]
     }
@@ -540,11 +546,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "송금하기 전에 계좌번호를 다시 확인했어요."
+          "text": "송금하기 전에 계좌번호를 다시 확인했어요.",
+          "src": "assets/audio/set-003/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "잘했어요. 잘못 보내면 처리하는 데 시간이 걸려요."
+          "text": "잘했어요. 잘못 보내면 처리하는 데 시간이 걸려요.",
+          "src": "assets/audio/set-003/q40-02-male.mp3"
         }
       ]
     }

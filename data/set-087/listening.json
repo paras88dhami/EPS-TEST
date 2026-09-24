@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "기숙사 세탁실은 몇 시까지 써요?"
+          "text": "기숙사 세탁실은 몇 시까지 써요?",
+          "src": "assets/audio/set-087/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "밤 열 시까지 사용할 수 있어요."
+          "text": "밤 열 시까지 사용할 수 있어요.",
+          "src": "assets/audio/set-087/q33-02-male.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?"
+          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?",
+          "src": "assets/audio/set-087/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요."
+          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요.",
+          "src": "assets/audio/set-087/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요."
+          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요.",
+          "src": "assets/audio/set-087/q38-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "사용한 뒤에는 필터 청소도 부탁드립니다."
+          "text": "사용한 뒤에는 필터 청소도 부탁드립니다.",
+          "src": "assets/audio/set-087/q38-04-male.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?"
+          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?",
+          "src": "assets/audio/set-087/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요."
+          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요.",
+          "src": "assets/audio/set-087/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요."
+          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요.",
+          "src": "assets/audio/set-087/q39-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "사용한 뒤에는 필터 청소도 부탁드립니다."
+          "text": "사용한 뒤에는 필터 청소도 부탁드립니다.",
+          "src": "assets/audio/set-087/q39-04-male.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?"
+          "text": "세탁실 사용 시간이 밤 열 시까지 맞죠?",
+          "src": "assets/audio/set-087/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요."
+          "text": "네, 그 이후에는 소음 때문에 사용할 수 없어요.",
+          "src": "assets/audio/set-087/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요."
+          "text": "그럼 저녁 식사 후에 빨래를 해야겠네요.",
+          "src": "assets/audio/set-087/q40-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "사용한 뒤에는 필터 청소도 부탁드립니다."
+          "text": "사용한 뒤에는 필터 청소도 부탁드립니다.",
+          "src": "assets/audio/set-087/q40-04-male.mp3"
         }
       ]
     }

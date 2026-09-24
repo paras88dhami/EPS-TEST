@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "3번 상자의 수량이 맞지 않는 것 같아요."
+          "text": "3번 상자의 수량이 맞지 않는 것 같아요.",
+          "src": "assets/audio/set-011/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그래요? 주문서와 다시 비교해 주세요."
+          "text": "그래요? 주문서와 다시 비교해 주세요.",
+          "src": "assets/audio/set-011/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 오후에 보내기로 한 물건이 준비됐어요?"
+          "text": "오늘 오후에 보내기로 한 물건이 준비됐어요?",
+          "src": "assets/audio/set-011/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 포장까지 끝났어요. 세 시에 화물차가 오면 바로 보낼 수 있어요."
+          "text": "네, 포장까지 끝났어요. 세 시에 화물차가 오면 바로 보낼 수 있어요.",
+          "src": "assets/audio/set-011/q38-02-female.mp3"
         }
       ]
     }
@@ -508,11 +512,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "상자를 확인했는데 컵 두 개가 깨져 있었어요. 그래서 따로 빼고 표시해 뒀어요."
+          "text": "상자를 확인했는데 컵 두 개가 깨져 있었어요. 그래서 따로 빼고 표시해 뒀어요.",
+          "src": "assets/audio/set-011/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "잘했어요. 새 제품으로 교환해서 다시 포장해 주세요."
+          "text": "잘했어요. 새 제품으로 교환해서 다시 포장해 주세요.",
+          "src": "assets/audio/set-011/q39-02-male.mp3"
         }
       ]
     }
@@ -537,15 +543,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "다음 주에 주문이 많이 들어올 것 같아요. 필요한 물건이 충분할까요?"
+          "text": "다음 주에 주문이 많이 들어올 것 같아요. 필요한 물건이 충분할까요?",
+          "src": "assets/audio/set-011/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오늘 재고를 먼저 확인하겠습니다. 부족한 품목이 있으면 오늘 안에 추가로 주문할게요."
+          "text": "오늘 재고를 먼저 확인하겠습니다. 부족한 품목이 있으면 오늘 안에 추가로 주문할게요.",
+          "src": "assets/audio/set-011/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 수량을 정확히 확인해 주세요."
+          "text": "좋아요. 수량을 정확히 확인해 주세요.",
+          "src": "assets/audio/set-011/q40-03-male.mp3"
         }
       ]
     }

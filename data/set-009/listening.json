@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "내일 은행에 가려고 해요."
+          "text": "내일 은행에 가려고 해요.",
+          "src": "assets/audio/set-009/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "무슨 일을 보려고요?"
+          "text": "무슨 일을 보려고요?",
+          "src": "assets/audio/set-009/q33-02-male.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "기숙사 세탁기가 작동하지 않아요."
+          "text": "기숙사 세탁기가 작동하지 않아요.",
+          "src": "assets/audio/set-009/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "관리실에 고장 신고를 하세요."
+          "text": "관리실에 고장 신고를 하세요.",
+          "src": "assets/audio/set-009/q38-02-female.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "여권 유효기간이 곧 끝나요."
+          "text": "여권 유효기간이 곧 끝나요.",
+          "src": "assets/audio/set-009/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 만료 전에 갱신 신청을 하세요."
+          "text": "그럼 만료 전에 갱신 신청을 하세요.",
+          "src": "assets/audio/set-009/q39-02-male.mp3"
         }
       ]
     }
@@ -540,15 +546,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 택배가 도착했다는 문자를 받았어요."
+          "text": "오늘 택배가 도착했다는 문자를 받았어요.",
+          "src": "assets/audio/set-009/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "경비실에 맡겨져 있을 거예요."
+          "text": "경비실에 맡겨져 있을 거예요.",
+          "src": "assets/audio/set-009/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "퇴근하면서 찾아가야겠네요."
+          "text": "퇴근하면서 찾아가야겠네요.",
+          "src": "assets/audio/set-009/q40-03-male.mp3"
         }
       ]
     }

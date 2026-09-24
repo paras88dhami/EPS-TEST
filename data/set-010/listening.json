@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 상자는 어디로 보내는 거예요?"
+          "text": "이 상자는 어디로 보내는 거예요?",
+          "src": "assets/audio/set-010/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "부산 물류센터로 보내요."
+          "text": "부산 물류센터로 보내요.",
+          "src": "assets/audio/set-010/q33-02-female.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "이 상자 수량이 운송장과 달라요."
+          "text": "이 상자 수량이 운송장과 달라요.",
+          "src": "assets/audio/set-010/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 다시 세어 보고 기록을 고쳐요."
+          "text": "그럼 다시 세어 보고 기록을 고쳐요.",
+          "src": "assets/audio/set-010/q38-02-male.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 큰 상자는 너무 무거워요."
+          "text": "이 큰 상자는 너무 무거워요.",
+          "src": "assets/audio/set-010/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "손수레를 가져와서 같이 옮겨요."
+          "text": "손수레를 가져와서 같이 옮겨요.",
+          "src": "assets/audio/set-010/q39-02-female.mp3"
         }
       ]
     }
@@ -540,15 +546,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 배송 차량이 열 시에 돌아와요."
+          "text": "오늘 배송 차량이 열 시에 돌아와요.",
+          "src": "assets/audio/set-010/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 돌아오는 즉시 빈 상자를 내리고 내일 출고 물품을 싣겠습니다."
+          "text": "그럼 돌아오는 즉시 빈 상자를 내리고 내일 출고 물품을 싣겠습니다.",
+          "src": "assets/audio/set-010/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "먼저 차량 상태도 확인해 주세요."
+          "text": "먼저 차량 상태도 확인해 주세요.",
+          "src": "assets/audio/set-010/q40-03-female.mp3"
         }
       ]
     }

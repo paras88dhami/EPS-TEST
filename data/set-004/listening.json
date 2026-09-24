@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "이 상자를 오늘 보내고 싶어요."
+          "text": "이 상자를 오늘 보내고 싶어요.",
+          "src": "assets/audio/set-004/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "안에 깨지는 물건이 있어요?"
+          "text": "안에 깨지는 물건이 있어요?",
+          "src": "assets/audio/set-004/q33-02-male.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 소포를 부산으로 보내고 싶어요."
+          "text": "이 소포를 부산으로 보내고 싶어요.",
+          "src": "assets/audio/set-004/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "내용물이 무엇인지 먼저 확인하겠습니다."
+          "text": "내용물이 무엇인지 먼저 확인하겠습니다.",
+          "src": "assets/audio/set-004/q38-02-female.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "빠른 배송으로 보내면 내일 도착합니다."
+          "text": "빠른 배송으로 보내면 내일 도착합니다.",
+          "src": "assets/audio/set-004/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 빠른 배송으로 해 주세요."
+          "text": "그럼 빠른 배송으로 해 주세요.",
+          "src": "assets/audio/set-004/q39-02-male.mp3"
         }
       ]
     }
@@ -540,11 +546,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "상자 안에 유리병이 있어서 잘 포장했어요."
+          "text": "상자 안에 유리병이 있어서 잘 포장했어요.",
+          "src": "assets/audio/set-004/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 겉면에 깨지기 쉬움 표시도 붙이겠습니다."
+          "text": "그럼 겉면에 깨지기 쉬움 표시도 붙이겠습니다.",
+          "src": "assets/audio/set-004/q40-02-female.mp3"
         }
       ]
     }

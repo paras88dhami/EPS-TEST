@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "냉장고 문이 자꾸 열려요."
+          "text": "냉장고 문이 자꾸 열려요.",
+          "src": "assets/audio/set-089/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "고장 신고를 먼저 해야겠네요."
+          "text": "고장 신고를 먼저 해야겠네요.",
+          "src": "assets/audio/set-089/q33-02-male.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?"
+          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?",
+          "src": "assets/audio/set-089/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다."
+          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다.",
+          "src": "assets/audio/set-089/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 먼저 유통기한도 확인할게요."
+          "text": "알겠습니다. 먼저 유통기한도 확인할게요.",
+          "src": "assets/audio/set-089/q38-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "포장이 찢어진 건 따로 분리해 주세요."
+          "text": "포장이 찢어진 건 따로 분리해 주세요.",
+          "src": "assets/audio/set-089/q38-04-male.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?"
+          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?",
+          "src": "assets/audio/set-089/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다."
+          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다.",
+          "src": "assets/audio/set-089/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 먼저 유통기한도 확인할게요."
+          "text": "알겠습니다. 먼저 유통기한도 확인할게요.",
+          "src": "assets/audio/set-089/q39-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "포장이 찢어진 건 따로 분리해 주세요."
+          "text": "포장이 찢어진 건 따로 분리해 주세요.",
+          "src": "assets/audio/set-089/q39-04-male.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?"
+          "text": "우유 상자를 잠깐 밖에 두어도 괜찮을까요?",
+          "src": "assets/audio/set-089/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다."
+          "text": "아니요, 유제품은 바로 냉장고에 넣어야 합니다.",
+          "src": "assets/audio/set-089/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 먼저 유통기한도 확인할게요."
+          "text": "알겠습니다. 먼저 유통기한도 확인할게요.",
+          "src": "assets/audio/set-089/q40-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "포장이 찢어진 건 따로 분리해 주세요."
+          "text": "포장이 찢어진 건 따로 분리해 주세요.",
+          "src": "assets/audio/set-089/q40-04-male.mp3"
         }
       ]
     }

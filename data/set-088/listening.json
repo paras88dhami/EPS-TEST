@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 서류는 어디에 제출하면 돼요?"
+          "text": "이 서류는 어디에 제출하면 돼요?",
+          "src": "assets/audio/set-088/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "우체국 옆 민원실에 내면 됩니다."
+          "text": "우체국 옆 민원실에 내면 됩니다.",
+          "src": "assets/audio/set-088/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?"
+          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?",
+          "src": "assets/audio/set-088/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오만 원 이상 송금하면 수수료가 천 원입니다."
+          "text": "오만 원 이상 송금하면 수수료가 천 원입니다.",
+          "src": "assets/audio/set-088/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 신분증만 있으면 되나요?"
+          "text": "그럼 신분증만 있으면 되나요?",
+          "src": "assets/audio/set-088/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 신분증과 계좌번호를 준비해 주세요."
+          "text": "네, 신분증과 계좌번호를 준비해 주세요.",
+          "src": "assets/audio/set-088/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?"
+          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?",
+          "src": "assets/audio/set-088/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오만 원 이상 송금하면 수수료가 천 원입니다."
+          "text": "오만 원 이상 송금하면 수수료가 천 원입니다.",
+          "src": "assets/audio/set-088/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 신분증만 있으면 되나요?"
+          "text": "그럼 신분증만 있으면 되나요?",
+          "src": "assets/audio/set-088/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 신분증과 계좌번호를 준비해 주세요."
+          "text": "네, 신분증과 계좌번호를 준비해 주세요.",
+          "src": "assets/audio/set-088/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?"
+          "text": "고향에 돈을 보내려고 하는데 수수료가 얼마예요?",
+          "src": "assets/audio/set-088/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오만 원 이상 송금하면 수수료가 천 원입니다."
+          "text": "오만 원 이상 송금하면 수수료가 천 원입니다.",
+          "src": "assets/audio/set-088/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 신분증만 있으면 되나요?"
+          "text": "그럼 신분증만 있으면 되나요?",
+          "src": "assets/audio/set-088/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 신분증과 계좌번호를 준비해 주세요."
+          "text": "네, 신분증과 계좌번호를 준비해 주세요.",
+          "src": "assets/audio/set-088/q40-04-female.mp3"
         }
       ]
     }

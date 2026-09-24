@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이사와 아파트 생활 관련 대화입니다. 이 서류는 어디에 제출하면 돼요?"
+          "text": "이사와 아파트 생활 관련 대화입니다. 이 서류는 어디에 제출하면 돼요?",
+          "src": "assets/audio/set-098/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "우체국 옆 민원실에 내면 됩니다."
+          "text": "우체국 옆 민원실에 내면 됩니다.",
+          "src": "assets/audio/set-098/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?"
+          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
+          "src": "assets/audio/set-098/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요."
+          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
+          "src": "assets/audio/set-098/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요."
+          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
+          "src": "assets/audio/set-098/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요."
+          "text": "네, 안내문이 게시판에도 붙어 있어요.",
+          "src": "assets/audio/set-098/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?"
+          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
+          "src": "assets/audio/set-098/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요."
+          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
+          "src": "assets/audio/set-098/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요."
+          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
+          "src": "assets/audio/set-098/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요."
+          "text": "네, 안내문이 게시판에도 붙어 있어요.",
+          "src": "assets/audio/set-098/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?"
+          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
+          "src": "assets/audio/set-098/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요."
+          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
+          "src": "assets/audio/set-098/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요."
+          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
+          "src": "assets/audio/set-098/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요."
+          "text": "네, 안내문이 게시판에도 붙어 있어요.",
+          "src": "assets/audio/set-098/q40-04-female.mp3"
         }
       ]
     }

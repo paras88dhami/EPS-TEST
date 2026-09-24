@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 조립한 부품의 크기를 확인했어요?"
+          "text": "오늘 조립한 부품의 크기를 확인했어요?",
+          "src": "assets/audio/set-024/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아직 마지막 상자는 검사하지 못했어요."
+          "text": "아직 마지막 상자는 검사하지 못했어요.",
+          "src": "assets/audio/set-024/q33-02-female.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "이 부품은 표면에 흠집이 있어요."
+          "text": "이 부품은 표면에 흠집이 있어요.",
+          "src": "assets/audio/set-024/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그러면 정상품과 섞지 말고 불량품 구역에 따로 두세요."
+          "text": "그러면 정상품과 섞지 말고 불량품 구역에 따로 두세요.",
+          "src": "assets/audio/set-024/q38-02-male.mp3"
         }
       ]
     }
@@ -508,11 +512,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "이 설비 안쪽에 먼지가 많이 쌓였어요. 지금 닦을까요?"
+          "text": "이 설비 안쪽에 먼지가 많이 쌓였어요. 지금 닦을까요?",
+          "src": "assets/audio/set-024/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 전원을 끄고 플러그를 뽑으세요. 그다음 장갑을 끼고 점검하세요."
+          "text": "먼저 전원을 끄고 플러그를 뽑으세요. 그다음 장갑을 끼고 점검하세요.",
+          "src": "assets/audio/set-024/q39-02-male.mp3"
         }
       ]
     }
@@ -537,15 +543,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 조립량이 평소보다 적네요."
+          "text": "오늘 조립량이 평소보다 적네요.",
+          "src": "assets/audio/set-024/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "설비 속도가 조금 느려진 것 같아요. 재료 상태도 같이 확인해 볼까요?"
+          "text": "설비 속도가 조금 느려진 것 같아요. 재료 상태도 같이 확인해 볼까요?",
+          "src": "assets/audio/set-024/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 원인을 확인하고 작업 일지에 기록합시다."
+          "text": "좋아요. 원인을 확인하고 작업 일지에 기록합시다.",
+          "src": "assets/audio/set-024/q40-03-male.mp3"
         }
       ]
     }

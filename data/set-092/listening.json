@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "기숙사 세탁실은 몇 시까지 써요?"
+          "text": "기숙사 세탁실은 몇 시까지 써요?",
+          "src": "assets/audio/set-092/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "밤 열 시까지 사용할 수 있어요."
+          "text": "밤 열 시까지 사용할 수 있어요.",
+          "src": "assets/audio/set-092/q33-02-male.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 건강검진 접수는 어디에서 하나요?"
+          "text": "오늘 건강검진 접수는 어디에서 하나요?",
+          "src": "assets/audio/set-092/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "1층 안내 데스크 옆 창구에서 합니다."
+          "text": "1층 안내 데스크 옆 창구에서 합니다.",
+          "src": "assets/audio/set-092/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "검사 전에 식사는 하면 안 되죠?"
+          "text": "검사 전에 식사는 하면 안 되죠?",
+          "src": "assets/audio/set-092/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다."
+          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다.",
+          "src": "assets/audio/set-092/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 건강검진 접수는 어디에서 하나요?"
+          "text": "오늘 건강검진 접수는 어디에서 하나요?",
+          "src": "assets/audio/set-092/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "1층 안내 데스크 옆 창구에서 합니다."
+          "text": "1층 안내 데스크 옆 창구에서 합니다.",
+          "src": "assets/audio/set-092/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "검사 전에 식사는 하면 안 되죠?"
+          "text": "검사 전에 식사는 하면 안 되죠?",
+          "src": "assets/audio/set-092/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다."
+          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다.",
+          "src": "assets/audio/set-092/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 건강검진 접수는 어디에서 하나요?"
+          "text": "오늘 건강검진 접수는 어디에서 하나요?",
+          "src": "assets/audio/set-092/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "1층 안내 데스크 옆 창구에서 합니다."
+          "text": "1층 안내 데스크 옆 창구에서 합니다.",
+          "src": "assets/audio/set-092/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "검사 전에 식사는 하면 안 되죠?"
+          "text": "검사 전에 식사는 하면 안 되죠?",
+          "src": "assets/audio/set-092/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다."
+          "text": "네, 어젯밤 열 시 이후에는 금식하셔야 합니다.",
+          "src": "assets/audio/set-092/q40-04-female.mp3"
         }
       ]
     }

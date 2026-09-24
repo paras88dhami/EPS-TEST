@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "월요일에 안전 교육이 있지요?"
+          "text": "월요일에 안전 교육이 있지요?",
+          "src": "assets/audio/set-020/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오전 8시에 시작해요."
+          "text": "네, 오전 8시에 시작해요.",
+          "src": "assets/audio/set-020/q33-02-male.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "절단기 점검은 다 했어요?"
+          "text": "절단기 점검은 다 했어요?",
+          "src": "assets/audio/set-020/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 이상이 없어서 바로 사용할 수 있어요."
+          "text": "네, 이상이 없어서 바로 사용할 수 있어요.",
+          "src": "assets/audio/set-020/q38-02-female.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "새 안전 장갑은 어디에 있어요?"
+          "text": "새 안전 장갑은 어디에 있어요?",
+          "src": "assets/audio/set-020/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "창고 안쪽 선반 위에 있어요."
+          "text": "창고 안쪽 선반 위에 있어요.",
+          "src": "assets/audio/set-020/q39-02-male.mp3"
         }
       ]
     }

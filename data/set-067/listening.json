@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "병원 시설팀에서 문제가 있는 시설을 발견했어요."
+          "text": "병원 시설팀에서 문제가 있는 시설을 발견했어요.",
+          "src": "assets/audio/set-067/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 고장 장비인지 확인하고 다른 물품과 섞이지 않게 해 주세요."
+          "text": "그럼 고장 장비인지 확인하고 다른 물품과 섞이지 않게 해 주세요.",
+          "src": "assets/audio/set-067/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 병원 시설팀에서 수리 작업은 어디까지 했어요?"
+          "text": "오늘 병원 시설팀에서 수리 작업은 어디까지 했어요?",
+          "src": "assets/audio/set-067/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "시설 수량을 확인했고 지금 수리 요청서을 정리하고 있어요."
+          "text": "시설 수량을 확인했고 지금 수리 요청서을 정리하고 있어요.",
+          "src": "assets/audio/set-067/q38-02-female.mp3"
         }
       ]
     }
@@ -508,15 +512,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "시설 중에서 고장 장비을 발견했어요."
+          "text": "시설 중에서 고장 장비을 발견했어요.",
+          "src": "assets/audio/set-067/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그 물품은 따로 표시하고 수리 요청서에도 이유를 적어 주세요."
+          "text": "그 물품은 따로 표시하고 수리 요청서에도 이유를 적어 주세요.",
+          "src": "assets/audio/set-067/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 다른 물품과 섞이지 않게 분리해 두겠습니다."
+          "text": "네, 다른 물품과 섞이지 않게 분리해 두겠습니다.",
+          "src": "assets/audio/set-067/q39-03-female.mp3"
         }
       ]
     }
@@ -541,15 +548,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 병원 시설팀에서 작업량이 많다고 들었어요."
+          "text": "내일 병원 시설팀에서 작업량이 많다고 들었어요.",
+          "src": "assets/audio/set-067/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네. 그래서 오늘 수리 요청서과 보호 장갑 상태를 미리 확인하려고 해요."
+          "text": "네. 그래서 오늘 수리 요청서과 보호 장갑 상태를 미리 확인하려고 해요.",
+          "src": "assets/audio/set-067/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 수리 순서도 다시 확인하고 문제가 있으면 바로 알려 주세요."
+          "text": "좋아요. 수리 순서도 다시 확인하고 문제가 있으면 바로 알려 주세요.",
+          "src": "assets/audio/set-067/q40-03-male.mp3"
         }
       ]
     }

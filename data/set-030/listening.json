@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "민원실에 사람이 많네요."
+          "text": "민원실에 사람이 많네요.",
+          "src": "assets/audio/set-030/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 접수표를 뽑고 화면에 번호가 나올 때까지 기다리세요."
+          "text": "먼저 접수표를 뽑고 화면에 번호가 나올 때까지 기다리세요.",
+          "src": "assets/audio/set-030/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "체류카드을 잃어버렸다고요?"
+          "text": "체류카드을 잃어버렸다고요?",
+          "src": "assets/audio/set-030/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네. 관할 기관에 신고했고 재발급에 필요한 서류를 확인하러 왔어요."
+          "text": "네. 관할 기관에 신고했고 재발급에 필요한 서류를 확인하러 왔어요.",
+          "src": "assets/audio/set-030/q38-02-female.mp3"
         }
       ]
     }
@@ -508,15 +512,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "계단에 물이 흘러서 사람들이 미끄러질 것 같아요."
+          "text": "계단에 물이 흘러서 사람들이 미끄러질 것 같아요.",
+          "src": "assets/audio/set-030/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 닦고 아래쪽에 주의 표지판을 세워 주세요."
+          "text": "먼저 닦고 아래쪽에 주의 표지판을 세워 주세요.",
+          "src": "assets/audio/set-030/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 바로 하겠습니다."
+          "text": "네, 바로 하겠습니다.",
+          "src": "assets/audio/set-030/q39-03-female.mp3"
         }
       ]
     }
@@ -541,15 +548,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "민원실에서 신청 서류가 하나 빠졌다고 했어요."
+          "text": "민원실에서 신청 서류가 하나 빠졌다고 했어요.",
+          "src": "assets/audio/set-030/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "어떤 서류가 필요한지 다시 확인했어요?"
+          "text": "어떤 서류가 필요한지 다시 확인했어요?",
+          "src": "assets/audio/set-030/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 재직증명서를 준비해서 내일 다시 제출하려고 해요."
+          "text": "네, 재직증명서를 준비해서 내일 다시 제출하려고 해요.",
+          "src": "assets/audio/set-030/q40-03-female.mp3"
         }
       ]
     }

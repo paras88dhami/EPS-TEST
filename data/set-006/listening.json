@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 새 기계 사용 교육이 있어요."
+          "text": "내일 새 기계 사용 교육이 있어요.",
+          "src": "assets/audio/set-006/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그래요? 어디에서 해요?"
+          "text": "그래요? 어디에서 해요?",
+          "src": "assets/audio/set-006/q33-02-female.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "작업장 바닥이 미끄러워요."
+          "text": "작업장 바닥이 미끄러워요.",
+          "src": "assets/audio/set-006/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 먼저 기름을 닦고 표지판을 세워요."
+          "text": "그럼 먼저 기름을 닦고 표지판을 세워요.",
+          "src": "assets/audio/set-006/q38-02-male.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "이 드릴이 자꾸 멈춰요."
+          "text": "이 드릴이 자꾸 멈춰요.",
+          "src": "assets/audio/set-006/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "전원을 끄고 정비팀에 연락하세요."
+          "text": "전원을 끄고 정비팀에 연락하세요.",
+          "src": "assets/audio/set-006/q39-02-female.mp3"
         }
       ]
     }
@@ -540,15 +546,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 용접 작업은 네 시에 끝나요."
+          "text": "오늘 용접 작업은 네 시에 끝나요.",
+          "src": "assets/audio/set-006/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 끝난 뒤에 작업장을 정리하겠습니다."
+          "text": "그럼 끝난 뒤에 작업장을 정리하겠습니다.",
+          "src": "assets/audio/set-006/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "소화기도 제자리에 있는지 확인해 주세요."
+          "text": "소화기도 제자리에 있는지 확인해 주세요.",
+          "src": "assets/audio/set-006/q40-03-female.mp3"
         }
       ]
     }

@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 안전 교육은 몇 시예요?"
+          "text": "오늘 안전 교육은 몇 시예요?",
+          "src": "assets/audio/set-100/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오전 아홉 시 반이에요."
+          "text": "오전 아홉 시 반이에요.",
+          "src": "assets/audio/set-100/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?"
+          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?",
+          "src": "assets/audio/set-100/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다."
+          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다.",
+          "src": "assets/audio/set-100/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 교육 준비 회의는 오후 세 시군요."
+          "text": "그럼 교육 준비 회의는 오후 세 시군요.",
+          "src": "assets/audio/set-100/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다."
+          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다.",
+          "src": "assets/audio/set-100/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?"
+          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?",
+          "src": "assets/audio/set-100/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다."
+          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다.",
+          "src": "assets/audio/set-100/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 교육 준비 회의는 오후 세 시군요."
+          "text": "그럼 교육 준비 회의는 오후 세 시군요.",
+          "src": "assets/audio/set-100/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다."
+          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다.",
+          "src": "assets/audio/set-100/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?"
+          "text": "오전 아홉 시 안전회의 끝나고 바로 교육이 있나요?",
+          "src": "assets/audio/set-100/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다."
+          "text": "아니요, 열한 시에 거래처 미팅이 먼저 있습니다.",
+          "src": "assets/audio/set-100/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 교육 준비 회의는 오후 세 시군요."
+          "text": "그럼 교육 준비 회의는 오후 세 시군요.",
+          "src": "assets/audio/set-100/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다."
+          "text": "네, 회의실 사용 일정표에 그렇게 적혀 있습니다.",
+          "src": "assets/audio/set-100/q40-04-female.mp3"
         }
       ]
     }

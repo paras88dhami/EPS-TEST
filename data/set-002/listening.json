@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "내일 병원에 가려고 해요."
+          "text": "내일 병원에 가려고 해요.",
+          "src": "assets/audio/set-002/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "어디가 많이 아파요?"
+          "text": "어디가 많이 아파요?",
+          "src": "assets/audio/set-002/q33-02-male.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 병원 예약을 바꾸고 싶어요."
+          "text": "내일 병원 예약을 바꾸고 싶어요.",
+          "src": "assets/audio/set-002/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 병원에 전화해서 시간을 변경하세요."
+          "text": "그럼 병원에 전화해서 시간을 변경하세요.",
+          "src": "assets/audio/set-002/q38-02-female.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "예약 시간이 언제예요?"
+          "text": "예약 시간이 언제예요?",
+          "src": "assets/audio/set-002/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "오후 세 시 반이에요."
+          "text": "오후 세 시 반이에요.",
+          "src": "assets/audio/set-002/q39-02-male.mp3"
         }
       ]
     }
@@ -540,11 +546,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "열이 계속 나면 내일 다시 병원에 오세요."
+          "text": "열이 계속 나면 내일 다시 병원에 오세요.",
+          "src": "assets/audio/set-002/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 약도 시간에 맞춰 먹겠습니다."
+          "text": "네, 약도 시간에 맞춰 먹겠습니다.",
+          "src": "assets/audio/set-002/q40-02-female.mp3"
         }
       ]
     }

@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "참외가 많이 익었네요."
+          "text": "참외가 많이 익었네요.",
+          "src": "assets/audio/set-012/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오늘 안에 따는 게 좋겠어요."
+          "text": "네, 오늘 안에 따는 게 좋겠어요.",
+          "src": "assets/audio/set-012/q33-02-female.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오이가 아직 조금 작은 것 같아요."
+          "text": "오이가 아직 조금 작은 것 같아요.",
+          "src": "assets/audio/set-012/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "맞아요. 이틀 정도 더 기다렸다가 크기가 맞으면 수확합시다."
+          "text": "맞아요. 이틀 정도 더 기다렸다가 크기가 맞으면 수확합시다.",
+          "src": "assets/audio/set-012/q38-02-male.mp3"
         }
       ]
     }
@@ -508,15 +512,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 농약을 뿌리려고 했는데 바람이 너무 세네요."
+          "text": "오늘 농약을 뿌리려고 했는데 바람이 너무 세네요.",
+          "src": "assets/audio/set-012/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오늘은 하지 말고 바람이 약한 날에 하는 게 안전해요."
+          "text": "그럼 오늘은 하지 말고 바람이 약한 날에 하는 게 안전해요.",
+          "src": "assets/audio/set-012/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 내일 날씨를 다시 확인할게요."
+          "text": "네, 내일 날씨를 다시 확인할게요.",
+          "src": "assets/audio/set-012/q39-03-male.mp3"
         }
       ]
     }
@@ -541,15 +548,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "수확한 오이는 바로 상자에 넣으면 돼요?"
+          "text": "수확한 오이는 바로 상자에 넣으면 돼요?",
+          "src": "assets/audio/set-012/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 크기와 상태를 확인해서 선별하세요. 그다음 상자에 담아 시원한 창고에 보관하면 됩니다."
+          "text": "먼저 크기와 상태를 확인해서 선별하세요. 그다음 상자에 담아 시원한 창고에 보관하면 됩니다.",
+          "src": "assets/audio/set-012/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 상한 것은 따로 빼겠습니다."
+          "text": "네, 상한 것은 따로 빼겠습니다.",
+          "src": "assets/audio/set-012/q40-03-female.mp3"
         }
       ]
     }

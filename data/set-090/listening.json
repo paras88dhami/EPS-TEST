@@ -329,11 +329,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 안전 교육은 몇 시예요?"
+          "text": "오늘 안전 교육은 몇 시예요?",
+          "src": "assets/audio/set-090/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "오전 아홉 시 반이에요."
+          "text": "오전 아홉 시 반이에요.",
+          "src": "assets/audio/set-090/q33-02-female.mp3"
         }
       ]
     }
@@ -470,19 +472,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요."
+          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요.",
+          "src": "assets/audio/set-090/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 헬멧이랑 안전화도 다 착용했습니다."
+          "text": "네, 헬멧이랑 안전화도 다 착용했습니다.",
+          "src": "assets/audio/set-090/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요."
+          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요.",
+          "src": "assets/audio/set-090/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 공구도 줄로 고정해 둘게요."
+          "text": "알겠습니다. 공구도 줄로 고정해 둘게요.",
+          "src": "assets/audio/set-090/q38-04-female.mp3"
         }
       ]
     }
@@ -507,19 +513,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요."
+          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요.",
+          "src": "assets/audio/set-090/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 헬멧이랑 안전화도 다 착용했습니다."
+          "text": "네, 헬멧이랑 안전화도 다 착용했습니다.",
+          "src": "assets/audio/set-090/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요."
+          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요.",
+          "src": "assets/audio/set-090/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 공구도 줄로 고정해 둘게요."
+          "text": "알겠습니다. 공구도 줄로 고정해 둘게요.",
+          "src": "assets/audio/set-090/q39-04-female.mp3"
         }
       ]
     }
@@ -544,19 +554,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요."
+          "text": "오늘은 비계 위에서 작업하니까 안전벨트를 꼭 매세요.",
+          "src": "assets/audio/set-090/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 헬멧이랑 안전화도 다 착용했습니다."
+          "text": "네, 헬멧이랑 안전화도 다 착용했습니다.",
+          "src": "assets/audio/set-090/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요."
+          "text": "바닥이 젖어서 미끄러우니 천천히 이동하세요.",
+          "src": "assets/audio/set-090/q40-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 공구도 줄로 고정해 둘게요."
+          "text": "알겠습니다. 공구도 줄로 고정해 둘게요.",
+          "src": "assets/audio/set-090/q40-04-female.mp3"
         }
       ]
     }

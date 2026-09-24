@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "내일 아침에 감자를 캘 거예요."
+          "text": "내일 아침에 감자를 캘 거예요.",
+          "src": "assets/audio/set-007/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "몇 시까지 농장에 가면 돼요?"
+          "text": "몇 시까지 농장에 가면 돼요?",
+          "src": "assets/audio/set-007/q33-02-male.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오이 잎이 많이 시들었어요."
+          "text": "오이 잎이 많이 시들었어요.",
+          "src": "assets/audio/set-007/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "물과 온도를 먼저 확인해 봐요."
+          "text": "물과 온도를 먼저 확인해 봐요.",
+          "src": "assets/audio/set-007/q38-02-female.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "수확한 참외를 어디에 둘까요?"
+          "text": "수확한 참외를 어디에 둘까요?",
+          "src": "assets/audio/set-007/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "저울로 무게를 잰 뒤에 저쪽 상자에 넣어 주세요."
+          "text": "저울로 무게를 잰 뒤에 저쪽 상자에 넣어 주세요.",
+          "src": "assets/audio/set-007/q39-02-male.mp3"
         }
       ]
     }
@@ -540,15 +546,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 비가 많이 온대요."
+          "text": "내일 비가 많이 온대요.",
+          "src": "assets/audio/set-007/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오늘 배수로를 확인하고 비닐도 단단히 고정해요."
+          "text": "그럼 오늘 배수로를 확인하고 비닐도 단단히 고정해요.",
+          "src": "assets/audio/set-007/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오후에 같이 하겠습니다."
+          "text": "네, 오후에 같이 하겠습니다.",
+          "src": "assets/audio/set-007/q40-03-male.mp3"
         }
       ]
     }

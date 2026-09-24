@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "행정실에 사람이 많네요."
+          "text": "행정실에 사람이 많네요.",
+          "src": "assets/audio/set-025/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 대기표를 뽑고 화면에 번호가 나올 때까지 기다리세요."
+          "text": "먼저 대기표를 뽑고 화면에 번호가 나올 때까지 기다리세요.",
+          "src": "assets/audio/set-025/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "외국인등록증을 잃어버렸다고요?"
+          "text": "외국인등록증을 잃어버렸다고요?",
+          "src": "assets/audio/set-025/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네. 출입국사무소에 신고했고 재발급에 필요한 서류를 확인하러 왔어요."
+          "text": "네. 출입국사무소에 신고했고 재발급에 필요한 서류를 확인하러 왔어요.",
+          "src": "assets/audio/set-025/q38-02-female.mp3"
         }
       ]
     }
@@ -508,15 +512,18 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "계단에 물이 흘러서 사람들이 미끄러질 것 같아요."
+          "text": "계단에 물이 흘러서 사람들이 미끄러질 것 같아요.",
+          "src": "assets/audio/set-025/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 닦고 아래쪽에 주의 표지판을 세워 주세요."
+          "text": "먼저 닦고 아래쪽에 주의 표지판을 세워 주세요.",
+          "src": "assets/audio/set-025/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 바로 하겠습니다."
+          "text": "네, 바로 하겠습니다.",
+          "src": "assets/audio/set-025/q39-03-female.mp3"
         }
       ]
     }
@@ -541,15 +548,18 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 동료와 작업 방법 때문에 의견이 달랐어요."
+          "text": "오늘 동료와 작업 방법 때문에 의견이 달랐어요.",
+          "src": "assets/audio/set-025/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "먼저 차분하게 서로 이야기해 보세요. 그래도 해결이 안 되면 관리자에게 도움을 요청하는 게 좋아요."
+          "text": "먼저 차분하게 서로 이야기해 보세요. 그래도 해결이 안 되면 관리자에게 도움을 요청하는 게 좋아요.",
+          "src": "assets/audio/set-025/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 감정적으로 말하지 않도록 하겠습니다."
+          "text": "네, 감정적으로 말하지 않도록 하겠습니다.",
+          "src": "assets/audio/set-025/q40-03-male.mp3"
         }
       ]
     }

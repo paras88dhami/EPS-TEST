@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "마트에서 작업 준비는 다 했어요?"
+          "text": "마트에서 작업 준비는 다 했어요?",
+          "src": "assets/audio/set-044/q33-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "아직 계산 상태를 확인하지 못했어요."
+          "text": "아직 계산 상태를 확인하지 못했어요.",
+          "src": "assets/audio/set-044/q33-02-male.mp3"
         }
       ]
     }
@@ -479,11 +481,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "마트에서 계산에 문제가 생겼어요."
+          "text": "마트에서 계산에 문제가 생겼어요.",
+          "src": "assets/audio/set-044/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그러면 사용하지 말고 담당자에게 알려 주세요."
+          "text": "그러면 사용하지 말고 담당자에게 알려 주세요.",
+          "src": "assets/audio/set-044/q38-02-male.mp3"
         }
       ]
     }
@@ -508,11 +512,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 상품은 몇 시에 끝나요?"
+          "text": "오늘 상품은 몇 시에 끝나요?",
+          "src": "assets/audio/set-044/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "오후 다섯 시에 끝나고 정리를 시작해요."
+          "text": "오후 다섯 시에 끝나고 정리를 시작해요.",
+          "src": "assets/audio/set-044/q39-02-male.mp3"
         }
       ]
     }
@@ -537,11 +543,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "작업 전에 무엇을 먼저 해야 해요?"
+          "text": "작업 전에 무엇을 먼저 해야 해요?",
+          "src": "assets/audio/set-044/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "계산 상태와 보호 장비를 먼저 확인해야 해요."
+          "text": "계산 상태와 보호 장비를 먼저 확인해야 해요.",
+          "src": "assets/audio/set-044/q40-02-male.mp3"
         }
       ]
     }
