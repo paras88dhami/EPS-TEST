@@ -1,6 +1,6 @@
 (()=>{
   const RESULT_KEY='epsTopik100ResultV2';
-  const state={set:null,questions:[],index:0,answers:{},plays:{},seconds:50*60,timer:null,submitted:false};
+  const state={set:null,questions:[],index:0,answers:{},plays:{},optionPlays:{},seconds:50*60,timer:null,submitted:false};
   const $=id=>document.getElementById(id);
   const el={sectionTitle:$('sectionTitle'),answeredCount:$('answeredCount'),timer:$('timer'),readingNav:$('readingNav'),listeningNav:$('listeningNav'),questionNumber:$('questionNumber'),sectionBadge:$('sectionBadge'),progressLabel:$('progressLabel'),progressBar:$('progressBar'),prompt:$('prompt'),mediaWrap:$('mediaWrap'),audioWrap:$('audioWrap'),audioButton:$('audioButton'),audioCount:$('audioCount'),stem:$('stem'),options:$('options'),prev:$('prevButton'),next:$('nextButton'),modal:$('submitModal'),submitStatus:$('submitStatus'),cancelSubmit:$('cancelSubmit'),confirmSubmit:$('confirmSubmit')};
 
@@ -173,12 +173,19 @@ function renderOptions(q) {
       // Tap option = select + speak only that option.
       if (
         audioOnly &&
+        Number(q.id) >= 28 &&
+        Number(q.id) <= 32 &&
         Array.isArray(q.audio?.optionsAudio)
       ) {
         const optionAudio =
           q.audio.optionsAudio[index];
 
-        if (optionAudio) {
+        const playKey = `${q.id}:${index}`;
+        const used = state.optionPlays[playKey] || 0;
+
+        if (optionAudio && used < 2) {
+          state.optionPlays[playKey] = used + 1;
+
           EPSTTS.speakOption(optionAudio, {
             rate: q.audio.rate ?? 0.86
           });
