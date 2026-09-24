@@ -2,6 +2,8 @@ const EPS_SPEECH_RATE = 0.72;
 
 window.EPSTTS = (() => {
   let voices = [];
+  let activeAudio = null;
+  let playbackSession = 0;
 
   function refreshVoices() {
     if (!('speechSynthesis' in window)) {
@@ -119,9 +121,61 @@ window.EPSTTS = (() => {
   }
 
   function cancel() {
+    playbackSession++;
+
+    if (activeAudio) {
+      activeAudio.pause();
+
+      try {
+        activeAudio.currentTime = 0;
+      } catch {
+        // Ignore seek error.
+      }
+
+      activeAudio = null;
+    }
+
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
+  }
+
+  function playAudioFile(
+    src,
+    {
+      onEnd,
+      onError
+    } = {}
+  ) {
+    const audio = new Audio(src);
+    let settled = false;
+
+    activeAudio = audio;
+
+    audio.onended = () => {
+      if (settled) return;
+      settled = true;
+
+      if (activeAudio === audio) {
+        activeAudio = null;
+      }
+
+      onEnd?.();
+    };
+
+    const fail = () => {
+      if (settled) return;
+      settled = true;
+
+      if (activeAudio === audio) {
+        activeAudio = null;
+      }
+
+      onError?.();
+    };
+
+    audio.onerror = fail;
+    audio.play().catch(fail);
   }
 
   function logVoices() {
@@ -147,16 +201,17 @@ window.EPSTTS = (() => {
       onError
     } = {}
   ) {
-    if (!('speechSynthesis' in window)) {
-      onError?.();
-      return;
-    }
-
     cancel();
+
+    const session = playbackSession;
 
     let index = 0;
 
     function next() {
+      if (session !== playbackSession) {
+        return;
+      }
+
       if (index >= items.length) {
         onEnd?.();
         return;
@@ -164,16 +219,11 @@ window.EPSTTS = (() => {
 
       const item = items[index];
 
-      const u = utter(item.text, {
-        rate: item.rate ?? rate,
-        speaker: item.speaker ?? null
-      });
+      function finishItem() {
+        if (session !== playbackSession) {
+          return;
+        }
 
-      u.onerror = () => {
-        onError?.();
-      };
-
-      u.onend = () => {
         index++;
 
         if (index < items.length) {
@@ -184,9 +234,48 @@ window.EPSTTS = (() => {
         } else {
           onEnd?.();
         }
-      };
+      }
 
-      window.speechSynthesis.speak(u);
+      function browserFallback() {
+        if (session !== playbackSession) {
+          return;
+        }
+
+        if (!('speechSynthesis' in window)) {
+          onError?.();
+          return;
+        }
+
+        const u = utter(
+          item.text,
+          {
+            rate: item.rate ?? rate,
+            speaker: item.speaker ?? null
+          }
+        );
+
+        u.onend = finishItem;
+
+        u.onerror = () => {
+          onError?.();
+        };
+
+        window.speechSynthesis.speak(u);
+      }
+
+      if (item.src) {
+        playAudioFile(
+          item.src,
+          {
+            onEnd: finishItem,
+            onError: browserFallback
+          }
+        );
+
+        return;
+      }
+
+      browserFallback();
     }
 
     next();

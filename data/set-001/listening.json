@@ -334,11 +334,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 아침에 안전 교육이 있어요."
+          "text": "내일 아침에 안전 교육이 있어요.",
+          "src": "assets/audio/set-001/q33-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그래요? 몇 시에 시작해요?"
+          "text": "그래요? 몇 시에 시작해요?",
+          "src": "assets/audio/set-001/q33-02-female.mp3"
         }
       ]
     }
@@ -480,11 +482,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "기숙사 방이 너무 추워요."
+          "text": "기숙사 방이 너무 추워요.",
+          "src": "assets/audio/set-001/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "관리실에 난방을 확인해 달라고 말해 보세요."
+          "text": "관리실에 난방을 확인해 달라고 말해 보세요.",
+          "src": "assets/audio/set-001/q38-02-male.mp3"
         }
       ]
     }
@@ -510,11 +514,13 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "기숙사 세탁실은 몇 층에 있어요?"
+          "text": "기숙사 세탁실은 몇 층에 있어요?",
+          "src": "assets/audio/set-001/q39-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "지하 1층에 있어요."
+          "text": "지하 1층에 있어요.",
+          "src": "assets/audio/set-001/q39-02-female.mp3"
         }
       ]
     }
@@ -540,11 +546,13 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "오늘 밤 열 시 이후에는 기숙사에서 큰 소리를 내면 안 돼요."
+          "text": "오늘 밤 열 시 이후에는 기숙사에서 큰 소리를 내면 안 돼요.",
+          "src": "assets/audio/set-001/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 다른 사람들에게 방해가 되지 않게 조용히 할게요."
+          "text": "네, 다른 사람들에게 방해가 되지 않게 조용히 할게요.",
+          "src": "assets/audio/set-001/q40-02-male.mp3"
         }
       ]
     }

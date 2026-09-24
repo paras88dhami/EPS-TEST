@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.js",
-    "test": "node --test tests/auth.test.js"
+    "test": "node --test tests/auth.test.js",
+    "audio:plan": "python scripts/generate_dialogue_audio.py --dry-run",
+    "audio:generate": "python scripts/generate_dialogue_audio.py"
   },
   "dependencies": {
     "@netlify/identity": "2.0.0"
