@@ -315,12 +315,12 @@
     "type": "continuation",
     "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
     "options": [
-      "아니요, 오늘은 병원에 가요.",
-      "그럼 제가 마저 포장할게요.",
-      "네, 버스 정류장이 멀어요.",
-      "좋아요, 점심은 비빔밥이에요."
+      "온수기를 직접 만지지 말고 직원이 올 때까지 기다리는 것이 좋습니다.",
+      "오늘 저녁은 식당에서 비빔밥을 먹는 것이 좋습니다.",
+      "내일 버스는 평소보다 십 분 일찍 출발합니다.",
+      "세탁 세제는 편의점에서 사는 것이 더 쌉니다."
     ],
-    "answer": 1,
+    "answer": 0,
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -328,14 +328,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "지훈 씨, 기숙사 욕실에서 온수가 잘 나오지 않는다는 이야기를 들었어요. 지금도 같은 문제가 있습니까?",
+          "src": "assets/audio/set-086/q33-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "배송할 상자가 다 준비됐어요?",
-          "src": "assets/audio/set-086/q33-01-male.mp3"
+          "text": "네. 어젯밤부터 물이 미지근하게만 나오고 온도가 올라가지 않아요. 같은 층에 사는 사람들도 비슷하다고 해요.",
+          "src": "assets/audio/set-086/q33-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "아직 하나가 남았어요.",
-          "src": "assets/audio/set-086/q33-02-female.mp3"
+          "text": "그럼 관리실에 방 번호와 문제가 시작된 시간을 알려 주세요. 직원이 오늘 저녁에 점검하러 갈 수 있다고 했어요 혹시 변경된 내용이 있는지 게시판도 다시 확인해 보겠습니다.",
+          "src": "assets/audio/set-086/q33-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "알겠습니다. 제가 관리실에 접수한 뒤에 직원이 오기 전까지는 어떻게 하면 될까요?",
+          "src": "assets/audio/set-086/q33-04-male.mp3"
         }
       ]
     }
@@ -455,15 +465,16 @@
   {
     "id": 38,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 두 사람이 무엇에 대해 이야기하는지 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 택배 분류 작업에 대해 이야기하고 있습니다.",
-      "두 사람은 영화 예매에 대해 이야기하고 있습니다.",
-      "두 사람은 여행 계획에 대해 이야기하고 있습니다.",
-      "두 사람은 취미 활동에 대해 이야기하고 있습니다."
+      "통근버스 운행 변경",
+      "기숙사 난방",
+      "식당 이용",
+      "공구 수리"
     ],
     "answer": 0,
+    "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -472,22 +483,22 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요.",
+          "text": "하나 씨, 회사로 오는 버스 노선이 다음 주부터 조금 바뀐다고 들었어요. 우리 정류장도 변경됩니까?",
           "src": "assets/audio/set-086/q38-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
+          "text": "정류장은 그대로인데 출발 시간이 십 분 빨라진대요. 아침에는 교통이 막혀서 노선을 조금 조정했다고 해요.",
           "src": "assets/audio/set-086/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
+          "text": "그럼 평소보다 일찍 나가야겠네요. 퇴근 버스 시간도 같이 바뀌는지 확인해 봤어요? 혹시 변경된 내용이 있는지 게시판도 다시 확인해 보겠습니다.",
           "src": "assets/audio/set-086/q38-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요.",
+          "text": "퇴근 버스는 그대로예요. 자세한 시간표는 회사 게시판에 새로 올라왔습니다.",
           "src": "assets/audio/set-086/q38-04-female.mp3"
         }
       ]
@@ -496,15 +507,16 @@
   {
     "id": 39,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 주말 여행 일정을 정하고 있습니다.",
-      "대화에서 물건 가격 이야기는 나오지 않습니다.",
-      "파손 주의 상자는 따로 놓아야 합니다.",
-      "두 사람은 서로 처음 만난 사람들입니다."
+      "오후 두 시",
+      "오전 열 시",
+      "오후 네 시",
+      "저녁 일곱 시"
     ],
-    "answer": 2,
+    "answer": 1,
+    "stem": "안전 교육은 언제 시작합니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -512,24 +524,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
-          "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요.",
-          "src": "assets/audio/set-086/q39-01-male.mp3"
-        },
-        {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
-          "src": "assets/audio/set-086/q39-02-female.mp3"
+          "text": "준호 씨, 화요일 안전 교육 시간이 바뀌었다고 들었어요. 원래 오전 열 시였는데 확인했습니까?",
+          "src": "assets/audio/set-086/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
-          "src": "assets/audio/set-086/q39-03-male.mp3"
+          "text": "네. 생산 일정 때문에 오전 열 시로 바뀌었다고 공지가 올라왔어요. 장소는 예전처럼 교육실입니다.",
+          "src": "assets/audio/set-086/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요.",
-          "src": "assets/audio/set-086/q39-04-female.mp3"
+          "text": "그럼 작업을 조금 일찍 마치고 가야겠네요. 교육 전에 출석 확인도 한다고 하더라고요 혹시 변경된 내용이 있는지 게시판도 다시 확인해 보겠습니다.",
+          "src": "assets/audio/set-086/q39-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "맞아요. 시작 십 분 전까지 도착해서 사원증으로 출석을 확인하면 된대요.",
+          "src": "assets/audio/set-086/q39-04-male.mp3"
         }
       ]
     }
@@ -537,15 +549,16 @@
   {
     "id": 40,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 오늘 영화를 보기로 했습니다.",
-      "남자는 출고 전에 표시를 다시 확인하라고 말합니다.",
-      "두 사람은 서로의 고향을 묻고 있습니다.",
-      "두 사람은 휴가 계획만 이야기하고 있습니다."
+      "방문객은 등록 없이 기숙사에 들어갈 수 있습니다.",
+      "방문객은 밤에 기숙사에서 숙박할 수 있습니다.",
+      "방문객은 관리실에서 등록해야 합니다.",
+      "방문증은 필요하지 않습니다."
     ],
-    "answer": 1,
+    "answer": 2,
+    "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -553,24 +566,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
-          "speaker": "male",
-          "text": "오늘 출고할 상자가 평소보다 많네요.",
-          "src": "assets/audio/set-086/q40-01-male.mp3"
-        },
-        {
           "speaker": "female",
-          "text": "네, 오전 주문이 많아서 먼저 분류하고 있어요.",
-          "src": "assets/audio/set-086/q40-02-female.mp3"
+          "text": "동현 씨, 이번 주부터 기숙사 방문객 규칙이 달라졌어요. 외부 사람이 오면 먼저 관리실에 등록해야 해요.",
+          "src": "assets/audio/set-086/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 파손 주의 표시가 있는 상자는 따로 놓아 주세요.",
-          "src": "assets/audio/set-086/q40-03-male.mp3"
+          "text": "친구가 주말에 잠깐 찾아오려고 하는데 방 안까지 들어와도 됩니까?",
+          "src": "assets/audio/set-086/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "알겠습니다. 출고표도 다시 확인할게요.",
-          "src": "assets/audio/set-086/q40-04-female.mp3"
+          "text": "방문 시간 안에는 가능하지만 신분증을 맡기고 방문증을 받아야 해요. 밤에는 숙박할 수 없습니다 그래서 혹시 변경된 내용이 있는지 게시판도 다시 확인해 보겠습니다.",
+          "src": "assets/audio/set-086/q40-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "알겠습니다. 친구에게도 미리 알려 주고 도착하면 관리실부터 들르겠습니다.",
+          "src": "assets/audio/set-086/q40-04-male.mp3"
         }
       ]
     }

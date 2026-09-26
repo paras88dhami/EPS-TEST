@@ -315,12 +315,12 @@
     "type": "continuation",
     "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
     "options": [
-      "네, 감기가 심해요.",
-      "감사합니다. 바로 가져다드릴게요.",
-      "맞아요, 장갑이 두 켤레예요.",
-      "아니요, 오늘은 비가 안 와요."
+      "평소보다 일찍 준비해서 출발 시간 전에 정류장에 가겠습니다.",
+      "오늘 저녁에는 세탁기를 두 번 사용하겠습니다.",
+      "작업장 창문은 모두 새 유리로 바뀌었습니다.",
+      "월급은 항상 같은 은행 계좌로 들어옵니다."
     ],
-    "answer": 1,
+    "answer": 0,
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -328,14 +328,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "영수 씨, 내일부터 회사 통근버스 시간이 바뀐다는 공지를 봤어요? 아침 버스가 조금 일찍 출발한대요.",
+          "src": "assets/audio/set-098/q33-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "이사와 아파트 생활 관련 대화입니다. 이 서류는 어디에 제출하면 돼요?",
-          "src": "assets/audio/set-098/q33-01-male.mp3"
+          "text": "네, 봤어요. 제가 타는 정류장에서는 저녁 일곱 시에 출발한다고 되어 있더라고요. 예전보다 십 분 정도 빨라졌어요.",
+          "src": "assets/audio/set-098/q33-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "우체국 옆 민원실에 내면 됩니다.",
-          "src": "assets/audio/set-098/q33-02-female.mp3"
+          "text": "맞아요. 첫날에는 사람들이 시간을 헷갈릴 수 있으니까 조금 일찍 정류장에 나가는 게 좋겠어요 중요한 내용은 잊지 않도록 휴대전화에 적어 두겠습니다.",
+          "src": "assets/audio/set-098/q33-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "그럼 내일부터 늦지 않으려면 제가 어떻게 준비하는 게 좋을까요?",
+          "src": "assets/audio/set-098/q33-04-male.mp3"
         }
       ]
     }
@@ -455,15 +465,16 @@
   {
     "id": 38,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 두 사람이 무엇에 대해 이야기하는지 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 아파트 생활에 대해 이야기하고 있습니다.",
-      "두 사람은 영화 예매에 대해 이야기하고 있습니다.",
-      "두 사람은 여행 계획에 대해 이야기하고 있습니다.",
-      "두 사람은 취미 활동에 대해 이야기하고 있습니다."
+      "월급과 해외송금",
+      "기숙사 청소",
+      "회사 식당",
+      "작업복 세탁"
     ],
     "answer": 0,
+    "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -471,24 +482,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
-          "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
-          "src": "assets/audio/set-098/q38-01-male.mp3"
-        },
-        {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
-          "src": "assets/audio/set-098/q38-02-female.mp3"
+          "text": "민수 씨, 이번 달 월급이 들어왔어요? 저는 가족에게 생활비를 보내야 해서 오늘 은행에 가려고 해요.",
+          "src": "assets/audio/set-098/q38-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
-          "src": "assets/audio/set-098/q38-03-male.mp3"
+          "text": "네, 어제 입금됐어요. 저는 모바일뱅킹으로 먼저 송금했는데 해외송금 수수료가 지난달보다 조금 달라졌더라고요.",
+          "src": "assets/audio/set-098/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요.",
-          "src": "assets/audio/set-098/q38-04-female.mp3"
+          "text": "그래요? 저는 은행 창구에서 보내려고 했는데 수수료와 환율을 먼저 확인해 봐야겠네요 중요한 내용은 잊지 않도록 휴대전화에 적어 두겠습니다.",
+          "src": "assets/audio/set-098/q38-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "맞아요. 송금하기 전에 받을 사람의 계좌번호와 이름도 다시 확인하는 게 좋습니다.",
+          "src": "assets/audio/set-098/q38-04-male.mp3"
         }
       ]
     }
@@ -496,15 +507,16 @@
   {
     "id": 39,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 주말 여행 일정을 정하고 있습니다.",
-      "대화에서 물건 가격 이야기는 나오지 않습니다.",
-      "두 사람은 서로 처음 만난 사람들입니다.",
-      "엘리베이터 점검은 오전 열 시부터입니다."
+      "주문을 늦게 해서",
+      "차량이 고장 나서",
+      "교통이 막혀서",
+      "창고가 문을 닫아서"
     ],
-    "answer": 3,
+    "answer": 2,
+    "stem": "원자재 배송이 늦는 이유는 무엇입니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -512,24 +524,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
-          "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
-          "src": "assets/audio/set-098/q39-01-male.mp3"
-        },
-        {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
-          "src": "assets/audio/set-098/q39-02-female.mp3"
+          "text": "태훈 씨, 오늘 들어오기로 한 원자재가 아직 도착하지 않았어요. 공급업체에 연락해 봤습니까?",
+          "src": "assets/audio/set-098/q39-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
-          "src": "assets/audio/set-098/q39-03-male.mp3"
+          "text": "네. 출발은 했는데 고속도로에서 사고가 나서 차가 많이 막힌다고 해요. 한 시간 정도 늦을 수 있대요.",
+          "src": "assets/audio/set-098/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요.",
-          "src": "assets/audio/set-098/q39-04-female.mp3"
+          "text": "그럼 오후 작업 일정도 조금 조정해야겠네요. 도착하면 바로 수량부터 확인해 주세요 중요한 내용은 잊지 않도록 휴대전화에 적어 두겠습니다.",
+          "src": "assets/audio/set-098/q39-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "알겠습니다. 작업반에도 배송 지연 사실을 알려서 먼저 할 수 있는 일을 진행하겠습니다.",
+          "src": "assets/audio/set-098/q39-04-male.mp3"
         }
       ]
     }
@@ -537,15 +549,16 @@
   {
     "id": 40,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 오늘 영화를 보기로 했습니다.",
-      "두 사람은 서로의 고향을 묻고 있습니다.",
-      "여자는 게시판 안내문도 함께 보라고 말합니다.",
-      "두 사람은 휴가 계획만 이야기하고 있습니다."
+      "기계 청소는 전원을 켠 채로 합니다.",
+      "작업장 바닥은 청소하지 않습니다.",
+      "기계 주변은 전원을 끄고 청소해야 합니다.",
+      "청소할 때 기계에 물을 직접 뿌립니다."
     ],
     "answer": 2,
+    "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -553,24 +566,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
-          "speaker": "male",
-          "text": "내일 엘리베이터 점검이 있다던데 몇 시부터예요?",
-          "src": "assets/audio/set-098/q40-01-male.mp3"
-        },
-        {
           "speaker": "female",
-          "text": "오전 열 시부터 한 시간 동안 점검한대요.",
-          "src": "assets/audio/set-098/q40-02-female.mp3"
+          "text": "현우 씨, 이번 달부터 작업장 청소 담당 구역이 바뀌었어요. 우리 팀은 월요일하고 목요일에 바닥과 작업대를 청소합니다.",
+          "src": "assets/audio/set-098/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 그 시간에는 계단을 이용해야겠네요.",
-          "src": "assets/audio/set-098/q40-03-male.mp3"
+          "text": "청소할 때 기계 주변도 같이 닦아야 합니까? 전원이 켜진 상태에서는 위험할 것 같아요.",
+          "src": "assets/audio/set-098/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 안내문이 게시판에도 붙어 있어요.",
-          "src": "assets/audio/set-098/q40-04-female.mp3"
+          "text": "맞아요. 기계 주변은 반드시 전원을 끄고 청소해야 해요. 물을 직접 뿌리지 말고 마른 걸레를 사용하세요 그래서 중요한 내용은 잊지 않도록 휴대전화에 적어 두겠습니다.",
+          "src": "assets/audio/set-098/q40-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "네. 청소가 끝나면 통로에 물건이 남아 있지 않은지도 확인하겠습니다.",
+          "src": "assets/audio/set-098/q40-04-male.mp3"
         }
       ]
     }

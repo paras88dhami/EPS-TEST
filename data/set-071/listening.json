@@ -320,10 +320,10 @@
     "type": "continuation",
     "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
     "options": [
-      "네, 오염 원단은 따로 빼고 담당자에게 알리겠습니다.",
-      "점심은 이미 먹었습니다.",
-      "내일 고향에 갈 예정입니다.",
-      "버스가 곧 도착합니다."
+      "네, 교육이 끝나면 작업장으로 가서 바로 오전 작업을 시작하겠습니다.",
+      "아니요, 오늘 점심은 회사 식당에서 먹지 않았습니다.",
+      "회의실은 기숙사보다 조금 더 넓은 것 같습니다.",
+      "어제 새 안전화를 샀는데 색깔이 마음에 듭니다."
     ],
     "answer": 0,
     "audio": {
@@ -333,14 +333,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "male",
+          "text": "수진 씨, 월요일에 안전 교육이 있다고 들었어요. 우리 작업반도 모두 참석해야 하는지 확인했어요?",
+          "src": "assets/audio/set-071/q33-01-male.mp3"
+        },
+        {
           "speaker": "female",
-          "text": "섬유 공장에서 문제가 있는 원단을 발견했어요.",
-          "src": "assets/audio/set-071/q33-01-female.mp3"
+          "text": "네. 오전 아홉 시부터 회의실에서 교육을 받아야 해요. 작업을 시작하기 전에 보호구 점검 방법도 같이 배운다고 했어요.",
+          "src": "assets/audio/set-071/q33-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그럼 오염 원단인지 확인하고 다른 물품과 섞이지 않게 해 주세요.",
-          "src": "assets/audio/set-071/q33-02-male.mp3"
+          "text": "그럼 평소보다 조금 일찍 와야겠네요. 교육 전에 따로 준비하거나 가지고 가야 할 것이 있습니까? 오늘 퇴근 전에 필요한 사항을 한 번 더 정리해 보려고 해요.",
+          "src": "assets/audio/set-071/q33-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "사원증하고 안전모를 꼭 가지고 오세요. 교육이 끝난 다음에는 바로 오전 작업을 시작하면 되는지 알고 있지요?",
+          "src": "assets/audio/set-071/q33-04-female.mp3"
         }
       ]
     }
@@ -464,15 +474,16 @@
   {
     "id": 38,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 두 사람이 무엇에 대해 이야기하는지 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "섬유 공장의 작업 진행 상황",
-      "주말 여행 계획",
-      "병원 진료 예약",
-      "은행 이용 시간"
+      "작업 중 사고 보고",
+      "휴가 신청",
+      "식당 메뉴",
+      "기숙사 방문"
     ],
     "answer": 0,
+    "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -480,14 +491,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "태훈 씨, 아까 작업장에서 손을 다친 사람이 있었다고 들었어요. 큰 사고는 아니었습니까?",
+          "src": "assets/audio/set-071/q38-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "오늘 섬유 공장에서 재단 작업은 어디까지 했어요?",
-          "src": "assets/audio/set-071/q38-01-male.mp3"
+          "text": "다행히 심하지 않았어요. 바로 작업을 멈추고 보건실에서 치료를 받은 뒤에 사고 경위도 작성했어요.",
+          "src": "assets/audio/set-071/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "원단 수량을 확인했고 지금 작업 지시서을 정리하고 있어요.",
-          "src": "assets/audio/set-071/q38-02-female.mp3"
+          "text": "그런 사고가 나면 반장님에게 먼저 보고해야 하지요? 안전 담당자도 현장을 확인한다고 들었어요 오늘 퇴근 전에 필요한 사항을 한 번 더 정리해 보려고 해요.",
+          "src": "assets/audio/set-071/q38-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "맞아요. 작은 사고라도 숨기지 말고 바로 보고해야 같은 일이 다시 생기는 것을 막을 수 있어요.",
+          "src": "assets/audio/set-071/q38-04-male.mp3"
         }
       ]
     }
@@ -495,15 +516,16 @@
   {
     "id": 39,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "여자는 문제가 있는 물품을 그대로 사용합니다.",
-      "남자는 기록할 필요가 없다고 말합니다.",
-      "여자는 오염 원단을 다른 물품과 분리합니다.",
-      "두 사람은 작업을 시작하지 않았습니다."
+      "관리실",
+      "인사팀",
+      "식당",
+      "보건실"
     ],
-    "answer": 2,
+    "answer": 1,
+    "stem": "휴가 신청서는 어디에 제출해야 합니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -511,19 +533,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "male",
+          "text": "지현 씨, 다음 주에 하루 쉬려고 하는데 휴가 신청서를 어디에 제출해야 합니까?",
+          "src": "assets/audio/set-071/q39-01-male.mp3"
+        },
+        {
           "speaker": "female",
-          "text": "원단 중에서 오염 원단을 발견했어요.",
-          "src": "assets/audio/set-071/q39-01-female.mp3"
+          "text": "먼저 반장님에게 쉬는 날짜를 말씀드리고 승인을 받은 뒤에 인사팀에 신청서를 제출하면 돼요.",
+          "src": "assets/audio/set-071/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "그 물품은 따로 표시하고 작업 지시서에도 이유를 적어 주세요.",
-          "src": "assets/audio/set-071/q39-02-male.mp3"
+          "text": "전산 시스템에도 따로 등록해야 하나요? 종이 신청서만 내면 되는 줄 알았어요 오늘 퇴근 전에 필요한 사항을 한 번 더 정리해 보려고 해요.",
+          "src": "assets/audio/set-071/q39-03-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 다른 물품과 섞이지 않게 분리해 두겠습니다.",
-          "src": "assets/audio/set-071/q39-03-female.mp3"
+          "text": "둘 다 해야 해요. 신청서를 인사팀에 내고 시스템에서도 휴가 날짜를 등록하세요.",
+          "src": "assets/audio/set-071/q39-04-female.mp3"
         }
       ]
     }
@@ -531,15 +558,16 @@
   {
     "id": 40,
     "section": "listening",
-    "type": "dialogue",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "두 사람은 내일 작업을 취소합니다.",
-      "여자는 내일 작업을 위해 작업 지시서과 보호 장갑 상태를 미리 확인합니다.",
-      "남자는 안전 확인이 필요 없다고 말합니다.",
-      "여자는 작업 순서를 확인하지 않을 것입니다."
+      "재활용품은 아무 날이나 내놓아도 됩니다.",
+      "플라스틱과 캔은 내용물을 남긴 채 버립니다.",
+      "깨끗한 종이는 재활용할 수 있습니다.",
+      "음식물이 묻은 종이는 반드시 재활용합니다."
     ],
-    "answer": 1,
+    "answer": 2,
+    "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -548,18 +576,23 @@
       "dialogue": [
         {
           "speaker": "male",
-          "text": "내일 섬유 공장에서 작업량이 많다고 들었어요.",
+          "text": "민지 씨, 재활용품 수거일이 바뀌었다고 들었어요. 이번 주에도 금요일에 내놓으면 됩니까?",
           "src": "assets/audio/set-071/q40-01-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네. 그래서 오늘 작업 지시서과 보호 장갑 상태를 미리 확인하려고 해요.",
+          "text": "아니요. 이번 달부터는 이번 주 금요일 저녁에 내놓아야 해요. 플라스틱과 캔은 내용물을 비우고 따로 분리해야 합니다.",
           "src": "assets/audio/set-071/q40-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "좋아요. 재단 순서도 다시 확인하고 문제가 있으면 바로 알려 주세요.",
+          "text": "종이 상자는 테이프를 떼고 접어서 내놓으면 되지요? 음식물이 묻은 종이는 어떻게 합니까? 그래서 오늘 퇴근 전에 필요한 사항을 한 번 더 정리해 보려고 해요.",
           "src": "assets/audio/set-071/q40-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "깨끗한 종이만 재활용하고 음식물이 많이 묻은 것은 일반 쓰레기로 버리세요.",
+          "src": "assets/audio/set-071/q40-04-female.mp3"
         }
       ]
     }

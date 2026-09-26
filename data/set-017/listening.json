@@ -320,12 +320,12 @@
     "type": "continuation",
     "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
     "options": [
-      "어제 교육을 받았어요.",
-      "교육실에서 만나요.",
-      "기계가 고장 났어요.",
-      "점심을 먹지 않았어요."
+      "네, 확인이 끝난 상자는 출고 대기 구역으로 옮기겠습니다.",
+      "아니요, 오늘 아침에는 버스를 타지 않았습니다.",
+      "휴게실 냉장고가 새것이라서 아주 조용합니다.",
+      "이번 주말에는 고향 친구를 만날 예정입니다."
     ],
-    "answer": 1,
+    "answer": 0,
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -333,14 +333,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "male",
+          "text": "지현 씨, 오늘 포장할 제품은 깨지기 쉬워서 평소와 다른 방법으로 포장해야 한다고 들었어요.",
+          "src": "assets/audio/set-017/q33-01-male.mp3"
+        },
+        {
           "speaker": "female",
-          "text": "수요일에 안전 교육이 있지요?",
-          "src": "assets/audio/set-017/q33-01-female.mp3"
+          "text": "맞아요. 먼저 제품을 완충재로 감싸고 상자 안에서 움직이지 않도록 빈 공간을 채워야 합니다.",
+          "src": "assets/audio/set-017/q33-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 오전 8시 30분에 시작해요.",
-          "src": "assets/audio/set-017/q33-02-male.mp3"
+          "text": "포장이 끝나면 상자에 제품 번호하고 취급 주의 표시도 붙여야 하지요? 출고 전에 더 확인할 것이 있습니까? 저도 헷갈리지 않도록 중요한 부분은 따로 메모해 두겠습니다.",
+          "src": "assets/audio/set-017/q33-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "수량과 라벨을 한 번 더 확인하면 돼요. 모두 확인한 다음에는 어디로 옮겨야 하는지 알고 있지요?",
+          "src": "assets/audio/set-017/q33-04-female.mp3"
         }
       ]
     }
@@ -467,10 +477,10 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "기계 점검",
+      "포장 기계 고장과 수리",
       "휴가 계획",
-      "식사 주문",
-      "기숙사 규칙"
+      "회사 식사",
+      "은행 송금"
     ],
     "answer": 0,
     "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
@@ -481,14 +491,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "우진 씨, 포장 기계가 자꾸 멈춘다고 했지요? 오늘도 같은 문제가 생겼습니까?",
+          "src": "assets/audio/set-017/q38-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "용접기 점검은 다 했어요?",
-          "src": "assets/audio/set-017/q38-01-male.mp3"
+          "text": "네. 전원을 다시 켜도 잠시 후에 멈춰요. 안전 센서 쪽에 문제가 있는 것 같아서 사용을 중지했습니다.",
+          "src": "assets/audio/set-017/q38-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 이상이 없어서 바로 사용할 수 있어요.",
-          "src": "assets/audio/set-017/q38-02-female.mp3"
+          "text": "잘했어요. 정비팀에 연락해서 점검을 받아야겠네요. 직접 분해하면 더 위험할 수 있어요 저도 헷갈리지 않도록 중요한 부분은 따로 메모해 두겠습니다.",
+          "src": "assets/audio/set-017/q38-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "정비 담당자가 올 때까지 다른 기계를 사용하고 고장 표시를 붙여 두겠습니다.",
+          "src": "assets/audio/set-017/q38-04-male.mp3"
         }
       ]
     }
@@ -499,13 +519,13 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "식당 안",
-      "사무실 책상 아래",
-      "기숙사 입구",
-      "창고 선반 위"
+      "트럭에 바로 싣습니다.",
+      "제품 번호를 확인합니다.",
+      "상자를 다시 만듭니다.",
+      "창고 문을 닫습니다."
     ],
-    "answer": 3,
-    "stem": "안전 장갑은 어디에 있습니까?",
+    "answer": 1,
+    "stem": "남자는 다음에 무엇을 해야 합니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -513,14 +533,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "male",
+          "text": "지은 씨, 오늘 출고할 제품 포장은 다 끝났어요. 이제 상자를 바로 트럭에 실으면 됩니까?",
+          "src": "assets/audio/set-017/q39-01-male.mp3"
+        },
+        {
           "speaker": "female",
-          "text": "새 안전 장갑은 어디에 있어요?",
-          "src": "assets/audio/set-017/q39-01-female.mp3"
+          "text": "아직 안 돼요. 먼저 상자에 붙은 제품 번호와 주문서의 번호가 같은지 확인해야 해요.",
+          "src": "assets/audio/set-017/q39-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "창고 안쪽 선반 위에 있어요.",
-          "src": "assets/audio/set-017/q39-02-male.mp3"
+          "text": "번호가 맞으면 그다음에는 출고 날짜 라벨을 붙이고 수량도 다시 확인하면 되겠네요 저도 헷갈리지 않도록 중요한 부분은 따로 메모해 두겠습니다.",
+          "src": "assets/audio/set-017/q39-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "맞아요. 라벨과 수량 확인이 끝난 상자만 출고 대기 구역으로 옮겨 주세요.",
+          "src": "assets/audio/set-017/q39-04-female.mp3"
         }
       ]
     }
@@ -531,19 +561,40 @@
     "type": "dialogue_comprehension",
     "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "점검은 오늘 합니다.",
-      "점검 중에는 용접기를 사용할 수 없습니다.",
-      "점검 장소는 기숙사입니다.",
-      "작업자는 안내를 따르지 않아도 됩니다."
+      "화재 대피 때는 엘리베이터를 이용합니다.",
+      "경보가 울리면 기계를 계속 사용합니다.",
+      "대피 후 주차장에서 인원 확인을 합니다.",
+      "훈련 중에는 비상구를 사용하면 안 됩니다."
     ],
-    "answer": 1,
+    "answer": 2,
     "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
-      "mode": "tts",
+      "mode": "dialogue",
       "lang": "ko-KR",
       "rate": 0.86,
       "maxPlays": 2,
-      "text": "내일 오전 8시 30분부터 작업장에서 안전 점검을 합니다. 점검하는 동안에는 용접기를 사용하지 마십시오. 작업자는 관리자의 안내를 따라 주십시오."
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "은지 씨, 이번 주 토요일에 화재 대피 훈련을 한다고 들었어요. 실제 작업도 잠시 멈춰야 합니까?",
+          "src": "assets/audio/set-017/q40-01-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "네. 경보가 울리면 기계를 안전하게 멈추고 가장 가까운 비상구로 이동해야 해요. 집합 장소는 주차장입니다.",
+          "src": "assets/audio/set-017/q40-02-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "엘리베이터를 사용하면 더 빨리 내려갈 수 있을 것 같은데 사용해도 되나요? 그래서 저도 헷갈리지 않도록 중요한 부분은 따로 메모해 두겠습니다.",
+          "src": "assets/audio/set-017/q40-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "안 돼요. 화재 때는 계단을 이용해야 하고 집합 장소에서 인원 확인이 끝날 때까지 기다려야 합니다.",
+          "src": "assets/audio/set-017/q40-04-female.mp3"
+        }
+      ]
     }
   }
 ]

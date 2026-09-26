@@ -320,12 +320,12 @@
     "type": "continuation",
     "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
     "options": [
-      "은행이 네 시에 닫아요.",
-      "어제 영화 봤어요.",
-      "그럼 오후에 같이 수확해요.",
-      "버스가 곧 와요."
+      "네, 바로 담당자에게 알리고 차이가 난 수량을 다시 확인하겠습니다.",
+      "아니요, 저는 오늘 기숙사에서 저녁을 먹을 겁니다.",
+      "그 창고는 작년보다 조금 더 넓어졌습니다.",
+      "주말에는 친구와 영화를 보러 갈 생각입니다."
     ],
-    "answer": 2,
+    "answer": 0,
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -333,14 +333,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "준호 씨, 거래처에서 주문한 부품이 화요일에 도착한다고 했는데 배송 시간을 다시 확인했어요?",
+          "src": "assets/audio/set-022/q33-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "수박가 많이 익었네요.",
-          "src": "assets/audio/set-022/q33-01-male.mp3"
+          "text": "네. 원래 오전에 오기로 했지만 도로 사정 때문에 오전 열 시쯤 도착할 예정이라고 연락이 왔어요.",
+          "src": "assets/audio/set-022/q33-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 오늘 안에 따는 게 좋겠어요.",
-          "src": "assets/audio/set-022/q33-02-female.mp3"
+          "text": "그럼 물건이 오기 전에 창고 입구를 정리하고 주문서도 준비해야겠네요. 수량 확인은 누가 합니까? 새로 온 사람에게도 알려 줘야 해서 정확한 내용을 알아두고 싶어요.",
+          "src": "assets/audio/set-022/q33-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "제가 주문서와 실제 수량을 비교해 보겠습니다. 혹시 수량이 다르면 어떻게 해야 하는지 알고 계시지요?",
+          "src": "assets/audio/set-022/q33-04-male.mp3"
         }
       ]
     }
@@ -465,14 +475,15 @@
     "id": 38,
     "section": "listening",
     "type": "dialogue_comprehension",
-    "prompt": "다음을 듣고 두 사람이 무엇에 대해 이야기하는지 고르십시오.",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "토마토 수확 시기",
-      "은행 영업시간",
-      "기숙사 청소",
-      "병원 진료"
+      "용접 작업 보호구",
+      "월급 계산",
+      "기숙사 식사",
+      "통근버스 시간"
     ],
     "answer": 0,
+    "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -480,14 +491,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "male",
+          "text": "유나 씨, 오늘 용접 작업할 때 새 보호구를 사용해야 한다고 들었어요. 어떤 것을 준비해야 합니까?",
+          "src": "assets/audio/set-022/q38-01-male.mp3"
+        },
+        {
           "speaker": "female",
-          "text": "토마토가 아직 조금 작은 것 같아요.",
-          "src": "assets/audio/set-022/q38-01-female.mp3"
+          "text": "보안면하고 방열 장갑을 꼭 착용해야 하고, 작업복 소매도 내려서 피부가 노출되지 않게 해야 해요.",
+          "src": "assets/audio/set-022/q38-02-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "맞아요. 이틀 정도 더 기다렸다가 크기가 맞으면 수확합시다.",
-          "src": "assets/audio/set-022/q38-02-male.mp3"
+          "text": "예전 장갑이 조금 낡았는데 그대로 사용해도 될까요? 아직 완전히 찢어지지는 않았어요 새로 온 사람에게도 알려 줘야 해서 정확한 내용을 알아두고 싶어요.",
+          "src": "assets/audio/set-022/q38-03-male.mp3"
+        },
+        {
+          "speaker": "female",
+          "text": "낡은 보호구는 사용하지 않는 게 좋아요. 안전창고에서 새 장갑으로 교체한 뒤 작업하세요.",
+          "src": "assets/audio/set-022/q38-04-female.mp3"
         }
       ]
     }
@@ -496,14 +517,15 @@
     "id": 39,
     "section": "listening",
     "type": "dialogue_comprehension",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "남자는 지금 바로 농약을 뿌립니다.",
-      "남자는 바람이 강해서 농약 살포를 미룹니다.",
-      "여자는 보호구가 필요 없다고 말합니다.",
-      "오늘은 바람이 전혀 불지 않습니다."
+      "아침 여덟 시 반",
+      "저녁 일곱 시",
+      "오전 아홉 시",
+      "오후 한 시"
     ],
     "answer": 1,
+    "stem": "물건은 언제쯤 도착합니까?",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -511,19 +533,24 @@
       "maxPlays": 2,
       "dialogue": [
         {
+          "speaker": "female",
+          "text": "영수 씨, 오늘 거래처에서 물건이 몇 시에 도착하는지 다시 확인했어요? 오전에는 안 온다고 하던데요.",
+          "src": "assets/audio/set-022/q39-01-female.mp3"
+        },
+        {
           "speaker": "male",
-          "text": "오늘 농약을 뿌리려고 했는데 바람이 너무 세네요.",
-          "src": "assets/audio/set-022/q39-01-male.mp3"
+          "text": "네. 배송 기사님이 저녁 일곱 시쯤 도착할 거라고 연락했어요. 교통 상황에 따라 조금 늦을 수도 있대요.",
+          "src": "assets/audio/set-022/q39-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "그럼 오늘은 하지 말고 바람이 약한 날에 하는 게 안전해요.",
-          "src": "assets/audio/set-022/q39-02-female.mp3"
+          "text": "그럼 그 전에 창고 통로를 정리하고 입고 확인서를 준비해 두면 되겠네요 새로 온 사람에게도 알려 줘야 해서 정확한 내용을 알아두고 싶어요.",
+          "src": "assets/audio/set-022/q39-03-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "네, 내일 날씨를 다시 확인할게요.",
-          "src": "assets/audio/set-022/q39-03-male.mp3"
+          "text": "네. 도착하면 기사님과 함께 수량을 확인하고 이상이 있으면 바로 기록하겠습니다.",
+          "src": "assets/audio/set-022/q39-04-male.mp3"
         }
       ]
     }
@@ -532,14 +559,15 @@
     "id": 40,
     "section": "listening",
     "type": "dialogue_comprehension",
-    "prompt": "다음을 듣고 내용과 같은 것을 고르십시오.",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
     "options": [
-      "수확한 채소를 햇볕 아래 오래 둡니다.",
-      "수확한 채소는 선별한 뒤 시원한 곳에 보관합니다.",
-      "크기와 상관없이 한 상자에 모두 넣습니다.",
-      "상자는 젖은 곳에 보관합니다."
+      "남자는 밤 열 시 전에 항상 기숙사에 돌아옵니다.",
+      "밤 열 시 이후에는 기숙사에서 조용히 해야 합니다.",
+      "밤 열 시 이후에는 샤워를 할 수 없습니다.",
+      "세탁기는 밤 열 시 이후에만 사용할 수 있습니다."
     ],
     "answer": 1,
+    "stem": "들은 내용과 같은 것을 고르십시오.",
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
@@ -548,18 +576,23 @@
       "dialogue": [
         {
           "speaker": "female",
-          "text": "수확한 토마토는 바로 상자에 넣으면 돼요?",
+          "text": "민수 씨, 기숙사 생활 규칙이 조금 바뀌었어요. 밤 열 시 이후에는 복도에서 큰 소리로 이야기하거나 음악을 크게 틀면 안 된대요.",
           "src": "assets/audio/set-022/q40-01-female.mp3"
         },
         {
           "speaker": "male",
-          "text": "먼저 크기와 상태를 확인해서 선별하세요. 그다음 상자에 담아 시원한 창고에 보관하면 됩니다.",
+          "text": "알겠습니다. 저는 늦게 퇴근하는 날이 있는데 밤 열 시 이후에 샤워를 하는 것은 괜찮습니까?",
           "src": "assets/audio/set-022/q40-02-male.mp3"
         },
         {
           "speaker": "female",
-          "text": "네, 상한 것은 따로 빼겠습니다.",
+          "text": "샤워는 괜찮지만 세탁기는 열 시 전에 사용하는 게 좋아요. 늦은 시간에는 다른 방에 소음이 들릴 수 있어요 그래서 새로 온 사람에게도 알려 줘야 해서 정확한 내용을 알아두고 싶어요.",
           "src": "assets/audio/set-022/q40-03-female.mp3"
+        },
+        {
+          "speaker": "male",
+          "text": "그럼 늦게 들어오는 날에는 조용히 하고 세탁은 다음 날 아침에 하겠습니다.",
+          "src": "assets/audio/set-022/q40-04-male.mp3"
         }
       ]
     }
