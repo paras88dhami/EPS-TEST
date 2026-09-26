@@ -95,6 +95,45 @@
     el.audioButton.querySelector('span:last-child').textContent='듣기 · Play Audio';
   }
 
+function renderMarkedText(element, text) {
+  element.textContent = '';
+
+  if (typeof text !== 'string') {
+    return;
+  }
+
+  const pattern = /\[\[(.+?)\]\]/g;
+
+  let lastIndex = 0;
+  let match;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      element.append(
+        document.createTextNode(
+          text.slice(lastIndex, match.index)
+        )
+      );
+    }
+
+    const underline = document.createElement('span');
+    underline.className = 'grammar-underline';
+    underline.textContent = match[1];
+
+    element.appendChild(underline);
+
+    lastIndex = pattern.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    element.append(
+      document.createTextNode(
+        text.slice(lastIndex)
+      )
+    );
+  }
+}
+
 function renderOptions(q) {
   el.options.innerHTML = '';
   el.options.className = 'options-grid';
@@ -149,12 +188,11 @@ function renderOptions(q) {
 
       // Q28-Q32:
       // Never display the hidden spoken answer.
-      optionLabel.textContent =
-        audioOnly
-          ? ''
-          : typeof option === 'string'
-            ? option
-            : '';
+      if (audioOnly) {
+        optionLabel.textContent = '';
+      } else if (typeof option === 'string') {
+        renderMarkedText(optionLabel, option);
+      }
 
       button.append(
         optionIndex,
