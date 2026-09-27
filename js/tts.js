@@ -143,12 +143,16 @@ window.EPSTTS = (() => {
   function playAudioFile(
     src,
     {
+      rate = 0.80,
       onEnd,
       onError
     } = {}
   ) {
     const audio = new Audio(src);
     let settled = false;
+
+    audio.playbackRate = rate;
+    audio.preservesPitch = true;
 
     activeAudio = audio;
 
@@ -267,6 +271,7 @@ window.EPSTTS = (() => {
         playAudioFile(
           item.src,
           {
+            rate: item.rate ?? rate,
             onEnd: finishItem,
             onError: browserFallback
           }

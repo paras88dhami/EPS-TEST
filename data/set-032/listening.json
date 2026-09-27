@@ -329,7 +329,7 @@
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
-      "rate": 0.86,
+      "rate": 0.80,
       "maxPlays": 2,
       "dialogue": [
         {
@@ -487,7 +487,7 @@
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
-      "rate": 0.86,
+      "rate": 0.80,
       "maxPlays": 2,
       "dialogue": [
         {
@@ -529,7 +529,7 @@
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
-      "rate": 0.86,
+      "rate": 0.80,
       "maxPlays": 2,
       "dialogue": [
         {
@@ -571,7 +571,7 @@
     "audio": {
       "mode": "dialogue",
       "lang": "ko-KR",
-      "rate": 0.86,
+      "rate": 0.80,
       "maxPlays": 2,
       "dialogue": [
         {
