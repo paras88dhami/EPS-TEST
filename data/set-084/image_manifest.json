@@ -1,0 +1,140 @@
+[
+  {
+    "question": 1,
+    "type": "image_choice",
+    "target": "assets/questions/set-084/q01.webp",
+    "spec": "Clear pictogram of 광석 for 광물 자원 개발 생산"
+  },
+  {
+    "question": 2,
+    "type": "image_sentence",
+    "target": "assets/questions/set-084/q02.webp",
+    "spec": "작업자가 광석을 운반 상자에 담고 있습니다."
+  },
+  {
+    "question": 10,
+    "type": "graph",
+    "target": "assets/questions/set-084/q10.webp",
+    "spec": {
+      "kind": "bar_chart",
+      "title": "광물 자원 개발 생산 작업 비율",
+      "data": [
+        [
+          "채굴",
+          26
+        ],
+        [
+          "운반",
+          24
+        ],
+        [
+          "선별",
+          30
+        ],
+        [
+          "보관",
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "question": 23,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q23-1.webp",
+      "assets/questions/set-084/q23-2.webp",
+      "assets/questions/set-084/q23-3.webp",
+      "assets/questions/set-084/q23-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 광석"
+  },
+  {
+    "question": 24,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q24-1.webp",
+      "assets/questions/set-084/q24-2.webp",
+      "assets/questions/set-084/q24-3.webp",
+      "assets/questions/set-084/q24-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 안전등"
+  },
+  {
+    "question": 25,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q25-1.webp",
+      "assets/questions/set-084/q25-2.webp",
+      "assets/questions/set-084/q25-3.webp",
+      "assets/questions/set-084/q25-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 안전모"
+  },
+  {
+    "question": 26,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q26-1.webp",
+      "assets/questions/set-084/q26-2.webp",
+      "assets/questions/set-084/q26-3.webp",
+      "assets/questions/set-084/q26-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 마스크"
+  },
+  {
+    "question": 27,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q27-1.webp",
+      "assets/questions/set-084/q27-2.webp",
+      "assets/questions/set-084/q27-3.webp",
+      "assets/questions/set-084/q27-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 장갑"
+  },
+  {
+    "question": 34,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q34-1.webp",
+      "assets/questions/set-084/q34-2.webp",
+      "assets/questions/set-084/q34-3.webp",
+      "assets/questions/set-084/q34-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 트럭"
+  },
+  {
+    "question": 35,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q35-1.webp",
+      "assets/questions/set-084/q35-2.webp",
+      "assets/questions/set-084/q35-3.webp",
+      "assets/questions/set-084/q35-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 상자"
+  },
+  {
+    "question": 36,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q36-1.webp",
+      "assets/questions/set-084/q36-2.webp",
+      "assets/questions/set-084/q36-3.webp",
+      "assets/questions/set-084/q36-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 표지"
+  },
+  {
+    "question": 37,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-084/q37-1.webp",
+      "assets/questions/set-084/q37-2.webp",
+      "assets/questions/set-084/q37-3.webp",
+      "assets/questions/set-084/q37-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 삽"
+  }
+]

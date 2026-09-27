@@ -1,0 +1,140 @@
+[
+  {
+    "question": 1,
+    "type": "image_choice",
+    "target": "assets/questions/set-082/q01.webp",
+    "spec": "Clear pictogram of 어망 for 연안 어업과 양식"
+  },
+  {
+    "question": 2,
+    "type": "image_sentence",
+    "target": "assets/questions/set-082/q02.webp",
+    "spec": "작업자가 그물을 정리하고 있습니다."
+  },
+  {
+    "question": 10,
+    "type": "graph",
+    "target": "assets/questions/set-082/q10.webp",
+    "spec": {
+      "kind": "bar_chart",
+      "title": "연안 어업과 양식 작업 비율",
+      "data": [
+        [
+          "그물 점검",
+          20
+        ],
+        [
+          "먹이 공급",
+          25
+        ],
+        [
+          "선별",
+          30
+        ],
+        [
+          "포장",
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "question": 23,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q23-1.webp",
+      "assets/questions/set-082/q23-2.webp",
+      "assets/questions/set-082/q23-3.webp",
+      "assets/questions/set-082/q23-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 물고기"
+  },
+  {
+    "question": 24,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q24-1.webp",
+      "assets/questions/set-082/q24-2.webp",
+      "assets/questions/set-082/q24-3.webp",
+      "assets/questions/set-082/q24-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 그물"
+  },
+  {
+    "question": 25,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q25-1.webp",
+      "assets/questions/set-082/q25-2.webp",
+      "assets/questions/set-082/q25-3.webp",
+      "assets/questions/set-082/q25-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 구명조끼"
+  },
+  {
+    "question": 26,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q26-1.webp",
+      "assets/questions/set-082/q26-2.webp",
+      "assets/questions/set-082/q26-3.webp",
+      "assets/questions/set-082/q26-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 배"
+  },
+  {
+    "question": 27,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q27-1.webp",
+      "assets/questions/set-082/q27-2.webp",
+      "assets/questions/set-082/q27-3.webp",
+      "assets/questions/set-082/q27-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 상자"
+  },
+  {
+    "question": 34,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q34-1.webp",
+      "assets/questions/set-082/q34-2.webp",
+      "assets/questions/set-082/q34-3.webp",
+      "assets/questions/set-082/q34-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 장갑"
+  },
+  {
+    "question": 35,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q35-1.webp",
+      "assets/questions/set-082/q35-2.webp",
+      "assets/questions/set-082/q35-3.webp",
+      "assets/questions/set-082/q35-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 부표"
+  },
+  {
+    "question": 36,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q36-1.webp",
+      "assets/questions/set-082/q36-2.webp",
+      "assets/questions/set-082/q36-3.webp",
+      "assets/questions/set-082/q36-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 얼음"
+  },
+  {
+    "question": 37,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-082/q37-1.webp",
+      "assets/questions/set-082/q37-2.webp",
+      "assets/questions/set-082/q37-3.webp",
+      "assets/questions/set-082/q37-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 바구니"
+  }
+]

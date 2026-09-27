@@ -1,0 +1,584 @@
+[
+  {
+    "id": 21,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "들은 것을 고르십시오.",
+    "options": [
+      "내일은 날씨가 맑을 것 같습니다.",
+      "광산 작업장에서 작업하기 전에 환기 점검표를 확인하세요.",
+      "오늘 저녁에는 친구와 영화를 보러 갈 거예요.",
+      "점심에는 김치찌개를 먹었습니다."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광산 작업장에서 작업하기 전에 환기 점검표를 확인하세요."
+    }
+  },
+  {
+    "id": 22,
+    "section": "listening",
+    "type": "listen_text",
+    "prompt": "들은 것을 고르십시오.",
+    "options": [
+      "점심에는 김치찌개를 먹었습니다.",
+      "주말에는 집에서 푹 쉬려고 합니다.",
+      "광물 자원 개발 생산 작업에서 사용한 물품은 작업이 끝난 뒤 지정된 곳에 정리해 주세요.",
+      "내일은 날씨가 맑을 것 같습니다."
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업에서 사용한 물품은 작업이 끝난 뒤 지정된 곳에 정리해 주세요."
+    }
+  },
+  {
+    "id": 23,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q23-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q23-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q23-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q23-4.webp"
+      }
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업과 관계있는 광석입니다."
+    },
+    "visual_spec": "네 그림 중 광석을 고르는 문제"
+  },
+  {
+    "id": 24,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q24-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q24-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q24-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q24-4.webp"
+      }
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업과 관계있는 안전등입니다."
+    },
+    "visual_spec": "네 그림 중 안전등을 고르는 문제"
+  },
+  {
+    "id": 25,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q25-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q25-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q25-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q25-4.webp"
+      }
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업과 관계있는 안전모입니다."
+    },
+    "visual_spec": "네 그림 중 안전모을 고르는 문제"
+  },
+  {
+    "id": 26,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q26-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q26-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q26-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q26-4.webp"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업과 관계있는 마스크입니다."
+    },
+    "visual_spec": "네 그림 중 마스크을 고르는 문제"
+  },
+  {
+    "id": 27,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q27-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q27-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q27-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q27-4.webp"
+      }
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업과 관계있는 장갑입니다."
+    },
+    "visual_spec": "네 그림 중 장갑을 고르는 문제"
+  },
+  {
+    "id": 28,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "question_and_options",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다. 광산 작업장에서 작업을 시작하기 전에 무엇을 확인해야 해요?",
+      "optionsAudio": [
+        "환기 점검표를 먼저 확인해야 해요.",
+        "점심 메뉴를 확인해야 해요.",
+        "친구에게 전화해야 해요.",
+        "버스 시간을 바꿔야 해요."
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "question_and_options",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다. 그런데 광석에 문제가 있으면 어떻게 해야 해요?",
+      "optionsAudio": [
+        "그냥 계속 사용해야 해요.",
+        "사용을 멈추고 담당자에게 알려야 해요.",
+        "통로에 놓아 두면 돼요.",
+        "아무에게도 말하지 않아도 돼요."
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "question_and_options",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다. 광물 자원 개발 생산 작업이 끝난 뒤에는 무엇을 해야 합니까?",
+      "optionsAudio": [
+        "바로 밖으로 나가야 합니다.",
+        "작업 기록을 모두 버려야 합니다.",
+        "사용한 도구와 자재를 정리해야 합니다.",
+        "안전 표지를 숨겨야 합니다."
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "question_and_options",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다. 선별 작업은 어디에서 합니까?",
+      "optionsAudio": [
+        "은행에서 합니다.",
+        "버스 정류장에서 합니다.",
+        "식당에서 합니다.",
+        "광산 작업장에서 합니다."
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "section": "listening",
+    "type": "audio_only_options",
+    "prompt": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "question_and_options",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다. 왜 광물 자원 개발 생산 작업 내용을 기록합니까?",
+      "optionsAudio": [
+        "다음 근무자가 현재 상태를 알 수 있기 때문입니다.",
+        "점심시간을 늘리기 위해서입니다.",
+        "버스 요금을 확인하기 위해서입니다.",
+        "휴대전화를 바꾸기 위해서입니다."
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "section": "listening",
+    "type": "continuation",
+    "prompt": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "아니요, 오늘 점심은 김치찌개를 먹었습니다.",
+      "네, 바로 작업하지 않고 담당자에게 먼저 알리겠습니다.",
+      "버스 정류장은 회사 정문 앞에 있습니다.",
+      "주말에는 친구와 영화를 볼 예정입니다."
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "오늘 광산 작업장에서 새 작업을 시작한다고 들었어요. 갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다."
+        },
+        {
+          "speaker": "female",
+          "text": "네. 시작 전에 환기 점검표를 확인하고 필요한 보호 장비를 준비해야 해요."
+        },
+        {
+          "speaker": "male",
+          "text": "광석의 상태도 먼저 확인하면 되지요?"
+        },
+        {
+          "speaker": "female",
+          "text": "맞아요. 그런데 이상이 발견되면 어떻게 해야 하는지 알고 있어요?"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q34-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q34-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q34-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q34-4.webp"
+      }
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업입니다. 트럭 확인하세요."
+    },
+    "visual_spec": "네 그림 중 트럭을 고르는 문제"
+  },
+  {
+    "id": 35,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q35-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q35-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q35-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q35-4.webp"
+      }
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업입니다. 상자 확인하세요."
+    },
+    "visual_spec": "네 그림 중 상자을 고르는 문제"
+  },
+  {
+    "id": 36,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q36-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q36-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q36-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q36-4.webp"
+      }
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업입니다. 표지 확인하세요."
+    },
+    "visual_spec": "네 그림 중 표지을 고르는 문제"
+  },
+  {
+    "id": 37,
+    "section": "listening",
+    "type": "listen_image",
+    "prompt": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+    "options": [
+      {
+        "image": "assets/questions/set-084/q37-1.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q37-2.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q37-3.webp"
+      },
+      {
+        "image": "assets/questions/set-084/q37-4.webp"
+      }
+    ],
+    "answer": 1,
+    "audio": {
+      "mode": "tts",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "text": "광물 자원 개발 생산 작업입니다. 삽 확인하세요."
+    },
+    "visual_spec": "네 그림 중 삽을 고르는 문제"
+  },
+  {
+    "id": 38,
+    "section": "listening",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
+    "stem": "두 사람은 무엇에 대해 이야기하고 있습니까?",
+    "options": [
+      "회사 식당 메뉴",
+      "기숙사 방문 시간",
+      "광석 상태 확인과 처리",
+      "통근버스 노선"
+    ],
+    "answer": 2,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "오늘 광산 작업장에서 광석 상태를 확인했는데 일부가 손상되어 있었어요. 갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다."
+        },
+        {
+          "speaker": "male",
+          "text": "그러면 정상적인 것과 섞이지 않도록 따로 표시해 두는 것이 좋겠네요."
+        },
+        {
+          "speaker": "female",
+          "text": "네. 담당자에게 수량도 알려서 교체가 필요한지 확인하려고 해요."
+        },
+        {
+          "speaker": "male",
+          "text": "좋아요. 작업 전에 처리하면 실수를 줄일 수 있겠어요."
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "section": "listening",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
+    "stem": "안전 교육은 언제 시작합니까?",
+    "options": [
+      "오전 일곱 시",
+      "오전 여덟 시",
+      "오전 열한 시",
+      "오전 아홉 시 반"
+    ],
+    "answer": 3,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "male",
+          "text": "내일 광물 자원 개발 생산 안전 교육은 몇 시에 시작합니까?"
+        },
+        {
+          "speaker": "female",
+          "text": "공지에는 오전 아홉 시 반에 시작한다고 되어 있어요. 장소는 교육실입니다. 갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다."
+        },
+        {
+          "speaker": "male",
+          "text": "시작 전에 출석 확인도 합니까?"
+        },
+        {
+          "speaker": "female",
+          "text": "네. 십 분 전에 도착해서 사원증으로 확인해 주세요."
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "section": "listening",
+    "type": "dialogue_comprehension",
+    "prompt": "다음을 듣고 질문에 알맞은 것을 고르십시오.",
+    "stem": "들은 내용과 같은 것을 고르십시오.",
+    "options": [
+      "작업 후에는 도구를 정리하고 작업 내용을 기록해야 합니다.",
+      "작업 기록은 다음 달에 작성해도 됩니다.",
+      "사용한 도구는 작업 장소에 그대로 둡니다.",
+      "이상이 있어도 담당자에게 알리지 않습니다."
+    ],
+    "answer": 0,
+    "audio": {
+      "mode": "dialogue",
+      "lang": "ko-KR",
+      "rate": 0.86,
+      "maxPlays": 2,
+      "dialogue": [
+        {
+          "speaker": "female",
+          "text": "광산 작업장에서 작업이 끝난 뒤에는 사용한 도구를 제자리에 정리해 주세요. 갱도 환기와 분진 상태를 확인하고 보호구를 점검합니다."
+        },
+        {
+          "speaker": "male",
+          "text": "작업 기록도 오늘 안에 작성해야 합니까?"
+        },
+        {
+          "speaker": "female",
+          "text": "네. 환기 점검표와 작업 결과를 확인해서 기록하고, 이상이 있으면 담당자에게 알려 주세요."
+        },
+        {
+          "speaker": "male",
+          "text": "알겠습니다. 정리와 기록을 마친 뒤에 퇴근하겠습니다."
+        }
+      ]
+    }
+  }
+]

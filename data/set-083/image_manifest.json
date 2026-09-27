@@ -1,0 +1,140 @@
+[
+  {
+    "question": 1,
+    "type": "image_choice",
+    "target": "assets/questions/set-083/q01.webp",
+    "spec": "Clear pictogram of 철판 for 선체 건조"
+  },
+  {
+    "question": 2,
+    "type": "image_sentence",
+    "target": "assets/questions/set-083/q02.webp",
+    "spec": "작업자가 보호면을 쓰고 용접 준비를 하고 있습니다."
+  },
+  {
+    "question": 10,
+    "type": "graph",
+    "target": "assets/questions/set-083/q10.webp",
+    "spec": {
+      "kind": "bar_chart",
+      "title": "선체 건조 작업 비율",
+      "data": [
+        [
+          "절단",
+          22
+        ],
+        [
+          "조립",
+          28
+        ],
+        [
+          "용접",
+          32
+        ],
+        [
+          "도장",
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "question": 23,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q23-1.webp",
+      "assets/questions/set-083/q23-2.webp",
+      "assets/questions/set-083/q23-3.webp",
+      "assets/questions/set-083/q23-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 철판"
+  },
+  {
+    "question": 24,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q24-1.webp",
+      "assets/questions/set-083/q24-2.webp",
+      "assets/questions/set-083/q24-3.webp",
+      "assets/questions/set-083/q24-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 용접면"
+  },
+  {
+    "question": 25,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q25-1.webp",
+      "assets/questions/set-083/q25-2.webp",
+      "assets/questions/set-083/q25-3.webp",
+      "assets/questions/set-083/q25-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 장갑"
+  },
+  {
+    "question": 26,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q26-1.webp",
+      "assets/questions/set-083/q26-2.webp",
+      "assets/questions/set-083/q26-3.webp",
+      "assets/questions/set-083/q26-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 크레인"
+  },
+  {
+    "question": 27,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q27-1.webp",
+      "assets/questions/set-083/q27-2.webp",
+      "assets/questions/set-083/q27-3.webp",
+      "assets/questions/set-083/q27-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 배"
+  },
+  {
+    "question": 34,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q34-1.webp",
+      "assets/questions/set-083/q34-2.webp",
+      "assets/questions/set-083/q34-3.webp",
+      "assets/questions/set-083/q34-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 망치"
+  },
+  {
+    "question": 35,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q35-1.webp",
+      "assets/questions/set-083/q35-2.webp",
+      "assets/questions/set-083/q35-3.webp",
+      "assets/questions/set-083/q35-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 안전모"
+  },
+  {
+    "question": 36,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q36-1.webp",
+      "assets/questions/set-083/q36-2.webp",
+      "assets/questions/set-083/q36-3.webp",
+      "assets/questions/set-083/q36-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 도면"
+  },
+  {
+    "question": 37,
+    "type": "listen_image",
+    "target": [
+      "assets/questions/set-083/q37-1.webp",
+      "assets/questions/set-083/q37-2.webp",
+      "assets/questions/set-083/q37-3.webp",
+      "assets/questions/set-083/q37-4.webp"
+    ],
+    "spec": "Four pictograms; correct concept: 체인"
+  }
+]
