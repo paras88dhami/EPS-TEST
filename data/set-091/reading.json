@@ -11,7 +11,7 @@
       "손수레"
     ],
     "answer": 0,
-    "image": "assets/questions/set-091/q01.webp"
+    "media": "assets/questions/set-091/q01.webp"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "요양보호사가 어르신을 돕고 있습니다."
     ],
     "answer": 1,
-    "image": "assets/questions/set-091/q02.webp"
+    "media": "assets/questions/set-091/q02.webp"
   },
   {
     "id": 3,
@@ -134,7 +134,7 @@
       "버스 노선을 안내하는 표지입니다."
     ],
     "answer": 1,
-    "image": "assets/questions/set-091/q10.webp"
+    "media": "assets/questions/set-091/q10.webp"
   },
   {
     "id": 11,

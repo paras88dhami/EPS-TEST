@@ -11,7 +11,7 @@
       "손수레"
     ],
     "answer": 0,
-    "image": "assets/questions/set-098/q01.webp"
+    "media": "assets/questions/set-098/q01.webp"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "이것은 사과 수확입니다."
     ],
     "answer": 3,
-    "image": "assets/questions/set-098/q02.webp"
+    "media": "assets/questions/set-098/q02.webp"
   },
   {
     "id": 3,
@@ -135,7 +135,7 @@
       "스패너입니다."
     ],
     "answer": 2,
-    "image": "assets/questions/set-098/q10.webp"
+    "media": "assets/questions/set-098/q10.webp"
   },
   {
     "id": 11,

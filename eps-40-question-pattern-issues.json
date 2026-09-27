@@ -2,11 +2,10 @@
   "meta": {
     "total_sets": 90,
     "questions_per_set": 40,
-    "issue_count": 1649,
+    "issue_count": 1604,
     "counts_by_status": {
       "DUPLICATE": 436,
       "INSUFFICIENT_VARIATION": 4,
-      "MEDIA_MISMATCH": 45,
       "NEAR_DUPLICATE": 925,
       "PATTERN_MISMATCH": 235,
       "UNBALANCED_ANSWER_POSITION": 4
@@ -55,96 +54,6 @@
       "question": 1,
       "status": "DUPLICATE",
       "reason": "Exact semantic-content duplicate group 3: set-022, set-027. Paths are excluded; image bytes are compared by hash."
-    },
-    {
-      "set": "set-086",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-087",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-088",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-089",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-090",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-091",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-092",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-093",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-094",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-095",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-096",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-097",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-098",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-099",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-100",
-      "question": 1,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
     },
     {
       "set": "set-004",
@@ -217,96 +126,6 @@
       "question": 1,
       "status": "NEAR_DUPLICATE",
       "reason": "Near-duplicate group 5 (normalized character-trigram Jaccard up to 0.857, threshold 0.820): set-014, set-024, set-029."
-    },
-    {
-      "set": "set-086",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-087",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-088",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-089",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-090",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-091",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-092",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-093",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-094",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-095",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-096",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-097",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-098",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-099",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-100",
-      "question": 2,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
     },
     {
       "set": "set-001",
@@ -2275,96 +2094,6 @@
       "question": 10,
       "status": "DUPLICATE",
       "reason": "Exact semantic-content duplicate group 3: set-015, set-025, set-030. Paths are excluded; image bytes are compared by hash."
-    },
-    {
-      "set": "set-086",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-087",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-088",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-089",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-090",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-091",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-092",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-093",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-094",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-095",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-096",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-097",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-098",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-099",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
-    },
-    {
-      "set": "set-100",
-      "question": 10,
-      "status": "MEDIA_MISMATCH",
-      "reason": "Question stores its main image in `image`, but the current renderer reads `media`; the asset exists but will not be shown by js/test.js."
     },
     {
       "set": "set-023",

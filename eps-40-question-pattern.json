@@ -136,10 +136,9 @@
         "2": 19,
         "3": 30
       },
-      "media": "Main image references: media=75, image=15; text options.",
+      "media": "Main image references: media=90, image=0; text options.",
       "media_distribution": {
-        "one main image (media key)": 75,
-        "one main image (image key; renderer mismatch)": 15
+        "one main image (media key)": 90
       },
       "current_length": {
         "question_prompt": {
@@ -301,7 +300,7 @@
         "MEDIUM": "Familiar vocabulary/grammar and one explicit clue with clearly distinct distractors.",
         "HARD": "Less familiar workplace vocabulary, denser syntax or multiple details, inference/negation/sequence, and plausible distractors."
       },
-      "consistency": "RENDERER_MEDIA_KEY_MISMATCH",
+      "consistency": "CONSISTENT",
       "recommended_length": {
         "question_chars": "10-30",
         "option_chars": "2-12",
@@ -332,10 +331,9 @@
         "2": 21,
         "3": 23
       },
-      "media": "Main image references: media=75, image=15; text options.",
+      "media": "Main image references: media=90, image=0; text options.",
       "media_distribution": {
-        "one main image (media key)": 75,
-        "one main image (image key; renderer mismatch)": 15
+        "one main image (media key)": 90
       },
       "current_length": {
         "question_prompt": {
@@ -492,7 +490,7 @@
         "MEDIUM": "Familiar vocabulary/grammar and one explicit clue with clearly distinct distractors.",
         "HARD": "Less familiar workplace vocabulary, denser syntax or multiple details, inference/negation/sequence, and plausible distractors."
       },
-      "consistency": "TYPE_VARIANTS; RENDERER_MEDIA_KEY_MISMATCH",
+      "consistency": "TYPE_VARIANTS",
       "recommended_length": {
         "question_chars": "10-35",
         "option_chars": "10-40",
@@ -2158,10 +2156,9 @@
         "2": 24,
         "3": 22
       },
-      "media": "Main image references: media=55, image=15; text options.",
+      "media": "Main image references: media=70, image=0; text options; 20 vocabulary-practical variants have no main image.",
       "media_distribution": {
-        "one main image (media key)": 55,
-        "one main image (image key; renderer mismatch)": 15
+        "one main image (media key)": 70
       },
       "current_length": {
         "question_prompt": {
@@ -2335,7 +2332,7 @@
         "MEDIUM": "Familiar vocabulary/grammar and one explicit clue with clearly distinct distractors.",
         "HARD": "Less familiar workplace vocabulary, denser syntax or multiple details, inference/negation/sequence, and plausible distractors."
       },
-      "consistency": "TYPE_VARIANTS; RENDERER_MEDIA_KEY_MISMATCH",
+      "consistency": "TYPE_VARIANTS",
       "recommended_length": {
         "question_chars": "10-35",
         "option_chars": "5-45",

@@ -11,7 +11,7 @@
       "손수레"
     ],
     "answer": 2,
-    "image": "assets/questions/set-096/q01.webp"
+    "media": "assets/questions/set-096/q01.webp"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "이것은 결제입니다."
     ],
     "answer": 3,
-    "image": "assets/questions/set-096/q02.webp"
+    "media": "assets/questions/set-096/q02.webp"
   },
   {
     "id": 3,
@@ -134,7 +134,7 @@
       "음식을 그릇에 담고 있습니다."
     ],
     "answer": 1,
-    "image": "assets/questions/set-096/q10.webp"
+    "media": "assets/questions/set-096/q10.webp"
   },
   {
     "id": 11,
