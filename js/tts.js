@@ -200,7 +200,7 @@ window.EPSTTS = (() => {
     items,
     {
       rate = 0.86,
-      pauseMs = 150,
+      pauseMs = 50,
       onEnd,
       onError
     } = {}
@@ -291,7 +291,7 @@ window.EPSTTS = (() => {
 
     const opts = {
       rate: audio.rate ?? 0.86,
-      pauseMs: audio.pauseMs ?? 150,
+      pauseMs: audio.pauseMs ?? 50,
       ...callbacks
     };
 
