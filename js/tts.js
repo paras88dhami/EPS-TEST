@@ -1,4 +1,8 @@
 const EPS_SPEECH_RATE = 0.72;
+// Dialogue MP3s are already generated 15% slower than normal by
+// generate_dialogue_audio.py. Playing them at 0.80x slowed them twice and
+// stretched the silence between turns, so files should play at normal speed.
+const DIALOGUE_FILE_RATE = 0.90;
 const DIALOGUE_TRIM_MS = {
   male: {
     start: 330,
@@ -407,6 +411,9 @@ window.EPSTTS = (() => {
         dialogue,
         {
           ...opts,
+          rate:
+            audio.dialogueRate ??
+            DIALOGUE_FILE_RATE,
           pauseMs: audio.pauseMs ?? 0
         }
       );

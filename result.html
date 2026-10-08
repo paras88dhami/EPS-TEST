@@ -44,7 +44,7 @@
     window.epsAuth.protectPage().then((user) => {
       if (!user) return;
       const tts = document.createElement('script');
-      tts.src = '/js/tts.js';
+      tts.src = '/js/tts.js?v=dialogue-audio-3';
       tts.onload = () => {
         const result = document.createElement('script');
         result.src = '/js/result.js';
