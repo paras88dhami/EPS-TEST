@@ -144,12 +144,21 @@ window.EPSTTS = (() => {
     src,
     {
       rate = 0.80,
+      preparedAudio = null,
       onEnd,
       onError
     } = {}
   ) {
-    const audio = new Audio(src);
+    const audio = preparedAudio || new Audio(src);
     let settled = false;
+
+    if (preparedAudio) {
+      try {
+        audio.currentTime = 0;
+      } catch {
+        // The preloaded file is not seekable yet; play() will start at zero.
+      }
+    }
 
     audio.playbackRate = rate;
     audio.preservesPitch = true;
@@ -208,6 +217,18 @@ window.EPSTTS = (() => {
     cancel();
 
     const session = playbackSession;
+    const preparedAudio = items.map(item => {
+      if (!item.src) {
+        return null;
+      }
+
+      const audio = new Audio();
+      audio.preload = 'auto';
+      audio.src = item.src;
+      audio.load();
+
+      return audio;
+    });
 
     let index = 0;
 
@@ -272,6 +293,7 @@ window.EPSTTS = (() => {
           item.src,
           {
             rate: item.rate ?? rate,
+            preparedAudio: preparedAudio[index],
             onEnd: finishItem,
             onError: browserFallback
           }
@@ -299,7 +321,10 @@ window.EPSTTS = (() => {
     if (audio.mode === 'dialogue') {
       return sequence(
         audio.dialogue || [],
-        opts
+        {
+          ...opts,
+          pauseMs: audio.pauseMs ?? 0
+        }
       );
     }
 
