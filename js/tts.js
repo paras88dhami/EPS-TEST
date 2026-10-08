@@ -1,4 +1,6 @@
 const EPS_SPEECH_RATE = 0.72;
+const DIALOGUE_START_TRIM_MS = 80;
+const DIALOGUE_END_TRIM_MS = 180;
 
 window.EPSTTS = (() => {
   let voices = [];
@@ -145,19 +147,64 @@ window.EPSTTS = (() => {
     {
       rate = 0.80,
       preparedAudio = null,
+      startTrimMs = 0,
+      endTrimMs = 0,
       onEnd,
       onError
     } = {}
   ) {
     const audio = preparedAudio || new Audio(src);
     let settled = false;
+    let trimFrame = null;
 
-    if (preparedAudio) {
-      try {
-        audio.currentTime = 0;
-      } catch {
-        // The preloaded file is not seekable yet; play() will start at zero.
+    function applyStartTrim() {
+      if (!startTrimMs) {
+        return;
       }
+
+      try {
+        audio.currentTime = startTrimMs / 1000;
+      } catch {
+        // Retry when metadata makes the preloaded file seekable.
+      }
+    }
+
+    function finish() {
+      if (settled) return;
+      settled = true;
+
+      if (trimFrame !== null) {
+        cancelAnimationFrame(trimFrame);
+      }
+
+      if (activeAudio === audio) {
+        activeAudio = null;
+      }
+
+      onEnd?.();
+    }
+
+    function watchForSilentTail() {
+      if (settled || activeAudio !== audio) {
+        return;
+      }
+
+      const remainingMs =
+        (audio.duration - audio.currentTime) * 1000;
+
+      if (
+        endTrimMs > 0 &&
+        Number.isFinite(remainingMs) &&
+        remainingMs <= endTrimMs
+      ) {
+        audio.pause();
+        finish();
+        return;
+      }
+
+      trimFrame = requestAnimationFrame(
+        watchForSilentTail
+      );
     }
 
     audio.playbackRate = rate;
@@ -165,20 +212,16 @@ window.EPSTTS = (() => {
 
     activeAudio = audio;
 
-    audio.onended = () => {
-      if (settled) return;
-      settled = true;
-
-      if (activeAudio === audio) {
-        activeAudio = null;
-      }
-
-      onEnd?.();
-    };
+    audio.onloadedmetadata = applyStartTrim;
+    audio.onended = finish;
 
     const fail = () => {
       if (settled) return;
       settled = true;
+
+      if (trimFrame !== null) {
+        cancelAnimationFrame(trimFrame);
+      }
 
       if (activeAudio === audio) {
         activeAudio = null;
@@ -188,7 +231,10 @@ window.EPSTTS = (() => {
     };
 
     audio.onerror = fail;
-    audio.play().catch(fail);
+    applyStartTrim();
+    audio.play()
+      .then(watchForSilentTail)
+      .catch(fail);
   }
 
   function logVoices() {
@@ -210,6 +256,8 @@ window.EPSTTS = (() => {
     {
       rate = 0.86,
       pauseMs = 10,
+      startTrimMs = 0,
+      endTrimMs = 0,
       onEnd,
       onError
     } = {}
@@ -294,6 +342,10 @@ window.EPSTTS = (() => {
           {
             rate: item.rate ?? rate,
             preparedAudio: preparedAudio[index],
+            startTrimMs:
+              item.startTrimMs ?? startTrimMs,
+            endTrimMs:
+              item.endTrimMs ?? endTrimMs,
             onEnd: finishItem,
             onError: browserFallback
           }
@@ -323,7 +375,13 @@ window.EPSTTS = (() => {
         audio.dialogue || [],
         {
           ...opts,
-          pauseMs: audio.pauseMs ?? 0
+          pauseMs: audio.pauseMs ?? 0,
+          startTrimMs:
+            audio.startTrimMs ??
+            DIALOGUE_START_TRIM_MS,
+          endTrimMs:
+            audio.endTrimMs ??
+            DIALOGUE_END_TRIM_MS
         }
       );
     }
