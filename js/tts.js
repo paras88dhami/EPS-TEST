@@ -1,6 +1,18 @@
 const EPS_SPEECH_RATE = 0.72;
-const DIALOGUE_START_TRIM_MS = 80;
-const DIALOGUE_END_TRIM_MS = 180;
+const DIALOGUE_TRIM_MS = {
+  male: {
+    start: 330,
+    end: 1250
+  },
+  female: {
+    start: 200,
+    end: 1020
+  },
+  default: {
+    start: 200,
+    end: 1020
+  }
+};
 
 window.EPSTTS = (() => {
   let voices = [];
@@ -371,17 +383,31 @@ window.EPSTTS = (() => {
 
     // Q33 / Q38 / Q39 / Q40
     if (audio.mode === 'dialogue') {
+      const dialogue = (
+        audio.dialogue || []
+      ).map(item => {
+        const trim =
+          DIALOGUE_TRIM_MS[item.speaker] ||
+          DIALOGUE_TRIM_MS.default;
+
+        return {
+          ...item,
+          startTrimMs:
+            item.startTrimMs ??
+            audio.startTrimMs ??
+            trim.start,
+          endTrimMs:
+            item.endTrimMs ??
+            audio.endTrimMs ??
+            trim.end
+        };
+      });
+
       return sequence(
-        audio.dialogue || [],
+        dialogue,
         {
           ...opts,
-          pauseMs: audio.pauseMs ?? 0,
-          startTrimMs:
-            audio.startTrimMs ??
-            DIALOGUE_START_TRIM_MS,
-          endTrimMs:
-            audio.endTrimMs ??
-            DIALOGUE_END_TRIM_MS
+          pauseMs: audio.pauseMs ?? 0
         }
       );
     }
