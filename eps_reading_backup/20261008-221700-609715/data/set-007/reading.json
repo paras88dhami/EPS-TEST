@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "section": "reading",
+    "type": "image_choice",
+    "prompt": "다음 그림을 보고 알맞은 것을 고르십시오.",
+    "options": [
+      "사과",
+      "참외",
+      "감자",
+      "오이"
+    ],
+    "answer": 3,
+    "media": "assets/questions/set-007/q01.webp",
+    "visual_spec": "Book-cropped image: 오이"
+  },
+  {
+    "id": 2,
+    "section": "reading",
+    "type": "image_sentence",
+    "prompt": "다음 그림을 보고 알맞은 문장을 고르십시오.",
+    "options": [
+      "사람이 바닥을 청소하고 있습니다.",
+      "사람이 나무에서 과일을 따고 있습니다.",
+      "사람이 기계를 수리하고 있습니다.",
+      "사람이 옷을 다리고 있습니다."
+    ],
+    "answer": 1,
+    "media": "assets/questions/set-007/q02.webp",
+    "visual_spec": "Book-cropped scene: 과일을 따고 있습니다"
+  },
+  {
+    "id": 3,
+    "section": "reading",
+    "type": "word_completion",
+    "prompt": "빈칸에 들어갈 알맞은 것을 고르십시오.",
+    "options": [
+      "약",
+      "장",
+      "문",
+      "실"
+    ],
+    "answer": 0,
+    "stem": "농___"
+  },
+  {
+    "id": 4,
+    "section": "reading",
+    "type": "grammar_judgment",
+    "prompt": "다음 중 밑줄 친 부분이 맞는 것을 고르십시오.",
+    "options": [
+      "아침에 밭에 가서 물을 [[줬습니까가]].",
+      "아침에 밭에 가서 물을 [[주어요 했습니다]].",
+      "아침에 밭에 가서 물을 [[줬습니다]].",
+      "아침에 밭에 가고 물을 [[줬어요가]]."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 5,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 단어와 뜻이 비슷한 것을 고르십시오.",
+    "options": [
+      "고치다",
+      "닫다",
+      "거두다",
+      "빌리다"
+    ],
+    "answer": 2,
+    "stem": "수확하다"
+  },
+  {
+    "id": 6,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 단어와 반대되는 것을 고르십시오.",
+    "options": [
+      "마르다",
+      "높다",
+      "길다",
+      "넓다"
+    ],
+    "answer": 0,
+    "stem": "젖다"
+  },
+  {
+    "id": 7,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 중 관계있는 것을 고르십시오.",
+    "options": [
+      "전화",
+      "흙",
+      "여권",
+      "우유"
+    ],
+    "answer": 1,
+    "stem": "삽"
+  },
+  {
+    "id": 8,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 순서에 알맞은 것을 고르십시오.",
+    "options": [
+      "차를 세웁니다.",
+      "표를 삽니다.",
+      "창문을 닫습니다.",
+      "물을 줍니다."
+    ],
+    "answer": 3,
+    "stem": "씨를 뿌린 뒤"
+  },
+  {
+    "id": 9,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 안내와 관계있는 것을 고르십시오.",
+    "options": [
+      "마스크와 장갑을 착용해야 합니다.",
+      "맨손으로 작업해야 합니다.",
+      "음식을 먹어야 합니다.",
+      "문을 열어 두어야 합니다."
+    ],
+    "answer": 0,
+    "stem": "농약 살포 중"
+  },
+  {
+    "id": 10,
+    "section": "reading",
+    "type": "image_choice",
+    "prompt": "다음 그림을 보고 알맞은 것을 고르십시오.",
+    "options": [
+      "오이",
+      "삽",
+      "오리",
+      "수건"
+    ],
+    "answer": 1,
+    "media": "assets/questions/set-007/q10.webp",
+    "visual_spec": "Book-cropped image: 삽"
+  },
+  {
+    "id": 11,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "취소",
+      "식사",
+      "준비",
+      "환전"
+    ],
+    "answer": 2,
+    "stem": "오늘 자동차 부품 공장에서 브레이크 부품 검사 작업이 예정되어 있습니다.\n작업이 지연되지 않도록 필요한 재료와 도구를 미리 ___해야 합니다."
+  },
+  {
+    "id": 12,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "기 전에",
+      "기 위해서",
+      "기보다",
+      "기 때문에"
+    ],
+    "answer": 3,
+    "stem": "자동차 부품 공장에서 브레이크 부품 검사 작업에 필요한 재료가 부족합니다.\n재료가 부족하___ 필요한 수량을 모두 만들 수 없습니다."
+  },
+  {
+    "id": 13,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "분리해",
+      "예약해",
+      "운동해",
+      "계산해"
+    ],
+    "answer": 0,
+    "stem": "자동차 부품 공장에서 브레이크 부품 검사 작업 중 불량품이 발견되었습니다.\n정상 제품과 섞이지 않도록 불량품을 따로 ___ 주세요."
+  },
+  {
+    "id": 14,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "갈아타세요",
+      "물어보세요",
+      "환전하세요",
+      "포장하세요"
+    ],
+    "answer": 1,
+    "stem": "오늘 자동차 부품 공장에서 처음으로 브레이크 부품 검사 작업을 맡았습니다.\n작업 방법이 정확하지 않으면 혼자 판단하지 말고 관리자에게 ___."
+  },
+  {
+    "id": 15,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "빌려야",
+      "팔아야",
+      "지켜야",
+      "씻어야"
+    ],
+    "answer": 2,
+    "stem": "자동차 부품 공장의 브레이크 부품 검사 작업에는 정해진 순서와 방법이 있습니다.\n사고를 예방하려면 작업 절차를 꼭 ___ 합니다."
+  },
+  {
+    "id": 16,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "드세요",
+      "타세요",
+      "사세요",
+      "끄세요"
+    ],
+    "answer": 3,
+    "stem": "오늘 자동차 부품 공장에서 브레이크 부품 검사 작업이 모두 끝났습니다.\n퇴근하기 전에 검사 장비 전원과 사용하지 않는 전등을 모두 ___."
+  },
+  {
+    "id": 17,
+    "section": "reading",
+    "type": "definition_to_word",
+    "prompt": "다음 설명에 알맞은 것을 고르십시오.",
+    "options": [
+      "삽",
+      "저울",
+      "여권",
+      "수건"
+    ],
+    "answer": 0,
+    "stem": "흙을 파거나 옮길 때 사용하는 긴 손잡이의 농기구입니다."
+  },
+  {
+    "id": 18,
+    "section": "reading",
+    "type": "short_reading",
+    "prompt": "다음 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "낮에만 물을 줍니다.",
+      "채소에는 아침과 저녁에 물을 줍니다.",
+      "날씨가 추워서 채소가 마릅니다.",
+      "하루에 한 번만 물을 줍니다."
+    ],
+    "answer": 1,
+    "stem": "요즘 날씨가 더워서 채소가 빨리 마릅니다. 그래서 우리는 아침과 저녁에 한 번씩 물을 줍니다. 낮에는 햇빛이 강해서 물을 주지 않습니다."
+  },
+  {
+    "id": 19,
+    "section": "reading",
+    "type": "practical_document",
+    "prompt": "다음 안내의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "작업은 9월 25일입니다.",
+      "장갑은 필요하지 않습니다.",
+      "작업은 오전 6시 30분에 시작합니다.",
+      "작업은 오후에 시작합니다."
+    ],
+    "answer": 2,
+    "stem": "수확 작업 안내\n날짜: 9월 24일\n시작: 오전 6시 30분\n준비물: 장갑, 모자, 물"
+  },
+  {
+    "id": 20,
+    "section": "reading",
+    "type": "long_reading",
+    "prompt": "다음 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "지수 씨는 비닐하우스에서 사과를 재배합니다.",
+      "창문은 절대 열지 않습니다.",
+      "병든 잎을 그대로 둡니다.",
+      "지수 씨는 아침마다 온도와 습도를 확인합니다."
+    ],
+    "answer": 3,
+    "stem": "지수 씨는 비닐하우스에서 오이를 재배합니다. 아침마다 온도와 습도를 확인하고, 필요하면 창문을 열어 환기합니다. 병든 잎이 보이면 바로 제거하고 다른 식물도 확인합니다."
+  }
+]

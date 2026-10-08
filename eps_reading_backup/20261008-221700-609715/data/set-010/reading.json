@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "section": "reading",
+    "type": "image_choice",
+    "prompt": "다음 그림을 보고 알맞은 것을 고르십시오.",
+    "options": [
+      "사다리",
+      "저울",
+      "손수레",
+      "드라이버"
+    ],
+    "answer": 2,
+    "media": "assets/questions/set-010/q01.webp",
+    "visual_spec": "Book-cropped image: 손수레"
+  },
+  {
+    "id": 2,
+    "section": "reading",
+    "type": "image_sentence",
+    "prompt": "다음 그림을 보고 알맞은 문장을 고르십시오.",
+    "options": [
+      "작업자가 트럭에서 짐을 내리고 있습니다.",
+      "작업자가 책을 읽고 있습니다.",
+      "작업자가 음식을 주문하고 있습니다.",
+      "작업자가 과일을 따고 있습니다."
+    ],
+    "answer": 0,
+    "media": "assets/questions/set-010/q02.webp",
+    "visual_spec": "Book-cropped scene: 트럭에서 짐을 내리고 있습니다"
+  },
+  {
+    "id": 3,
+    "section": "reading",
+    "type": "word_completion",
+    "prompt": "빈칸에 들어갈 알맞은 것을 고르십시오.",
+    "options": [
+      "전",
+      "동",
+      "행",
+      "반"
+    ],
+    "answer": 3,
+    "stem": "운___"
+  },
+  {
+    "id": 4,
+    "section": "reading",
+    "type": "grammar_judgment",
+    "prompt": "다음 중 밑줄 친 부분이 맞는 것을 고르십시오.",
+    "options": [
+      "상자를 너무 높이 쌓으면 [[위험합니까가]].",
+      "상자를 너무 높이 쌓으면 [[위험합니다]].",
+      "상자를 너무 높이 쌓고 [[위험합니다요]].",
+      "상자를 너무 높이 쌓으면 [[위험했어요가]]."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 단어와 뜻이 비슷한 것을 고르십시오.",
+    "options": [
+      "재다",
+      "옮기다",
+      "닫다",
+      "씻다"
+    ],
+    "answer": 1,
+    "stem": "운반하다"
+  },
+  {
+    "id": 6,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 단어와 반대되는 것을 고르십시오.",
+    "options": [
+      "넓다",
+      "새롭다",
+      "밝다",
+      "비다"
+    ],
+    "answer": 3,
+    "stem": "가득 차다"
+  },
+  {
+    "id": 7,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 중 관계있는 것을 고르십시오.",
+    "options": [
+      "상자",
+      "약",
+      "여권",
+      "수건"
+    ],
+    "answer": 0,
+    "stem": "손수레"
+  },
+  {
+    "id": 8,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 순서에 알맞은 것을 고르십시오.",
+    "options": [
+      "병원에 예약합니다.",
+      "농약을 뿌립니다.",
+      "수량을 확인합니다.",
+      "옷을 세탁합니다."
+    ],
+    "answer": 2,
+    "stem": "물건을 싣기 전에"
+  },
+  {
+    "id": 9,
+    "section": "reading",
+    "type": "vocabulary_practical",
+    "prompt": "다음 안내와 관계있는 것을 고르십시오.",
+    "options": [
+      "음식을 먹으십시오.",
+      "창문을 여십시오.",
+      "사진을 찍으십시오.",
+      "상자 아래에 서지 마십시오."
+    ],
+    "answer": 3,
+    "stem": "적재 중"
+  },
+  {
+    "id": 10,
+    "section": "reading",
+    "type": "image_choice",
+    "prompt": "다음 그림을 보고 알맞은 것을 고르십시오.",
+    "options": [
+      "보안경",
+      "손수레",
+      "트럭",
+      "상자"
+    ],
+    "answer": 0,
+    "media": "assets/questions/set-010/q10.webp",
+    "visual_spec": "Book-cropped image: 보안경"
+  },
+  {
+    "id": 11,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "배달",
+      "점검",
+      "요리",
+      "쇼핑"
+    ],
+    "answer": 1,
+    "stem": "오늘 자동차 부품 공장에서 품질 검사 작업을 시작합니다.\n사고를 예방하려면 작업 전에 주변과 측정 장비의 안전 상태를 꼼꼼히 ___해야 합니다."
+  },
+  {
+    "id": 12,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "부터",
+      "마다",
+      "위해서",
+      "밖에"
+    ],
+    "answer": 2,
+    "stem": "자동차 부품 공장에서는 품질 검사 작업 중 작은 실수도 사고로 이어질 수 있습니다.\n안전사고를 예방하기 ___ 정해진 작업 절차를 지켜야 합니다."
+  },
+  {
+    "id": 13,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "환전해",
+      "산책해",
+      "취소해",
+      "보관해"
+    ],
+    "answer": 3,
+    "stem": "자동차 부품 공장에서 품질 검사 작업에 사용한 재료가 조금 남았습니다.\n다음에 다시 사용할 수 있도록 지정된 장소에 ___ 주세요."
+  },
+  {
+    "id": 14,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "끄세요",
+      "드세요",
+      "타세요",
+      "파세요"
+    ],
+    "answer": 0,
+    "stem": "자동차 부품 공장에서 품질 검사 작업 중 사용하던 장비가 정상적으로 작동하지 않습니다.\n점검하기 전에 안전을 위해 먼저 장비의 전원을 ___."
+  },
+  {
+    "id": 15,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "식사해야",
+      "보고해야",
+      "세탁해야",
+      "예약해야"
+    ],
+    "answer": 1,
+    "stem": "자동차 부품 공장에서 품질 검사 작업 중 제품이나 측정 장비에 이상을 발견했습니다.\n작은 문제라도 그냥 넘기지 말고 관리자에게 바로 ___ 합니다."
+  },
+  {
+    "id": 16,
+    "section": "reading",
+    "type": "context_blank",
+    "prompt": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "options": [
+      "예약하세요",
+      "운전하세요",
+      "분리하세요",
+      "요리하세요"
+    ],
+    "answer": 2,
+    "stem": "자동차 부품 공장에서 품질 검사 작업이 끝난 뒤 일반 쓰레기와 작업 폐기물이 생겼습니다.\n정해진 방법에 따라 두 종류의 폐기물을 서로 ___."
+  },
+  {
+    "id": 17,
+    "section": "reading",
+    "type": "definition_to_word",
+    "prompt": "다음 설명에 알맞은 것을 고르십시오.",
+    "options": [
+      "보안경",
+      "망치",
+      "여권",
+      "손수레"
+    ],
+    "answer": 3,
+    "stem": "무거운 짐을 바닥에서 밀어서 옮길 때 사용하는 바퀴가 달린 운반 도구입니다."
+  },
+  {
+    "id": 18,
+    "section": "reading",
+    "type": "short_reading",
+    "prompt": "다음 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "손상된 상자는 새로 포장합니다.",
+      "출고 전에는 주소를 확인하지 않습니다.",
+      "수량은 한 번도 확인하지 않습니다.",
+      "손상된 상자도 그대로 보냅니다."
+    ],
+    "answer": 0,
+    "stem": "창고에서는 출고 전에 상품의 수량과 주소를 두 번 확인합니다. 상자가 손상되었으면 새 상자로 포장하고, 운송장도 다시 붙입니다."
+  },
+  {
+    "id": 19,
+    "section": "reading",
+    "type": "practical_document",
+    "prompt": "다음 안내의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "집합 장소는 2번 창고입니다.",
+      "물류팀은 오전 8시에 출발합니다.",
+      "장갑은 필요하지 않습니다.",
+      "작업은 오후 8시에 시작합니다."
+    ],
+    "answer": 1,
+    "stem": "배송 작업 안내\n출발: 오전 8시\n집합: 1번 창고 앞\n준비: 안전화, 장갑\n담당: 물류팀"
+  },
+  {
+    "id": 20,
+    "section": "reading",
+    "type": "long_reading",
+    "prompt": "다음 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+      "아딜 씨는 운송장을 확인하지 않았습니다.",
+      "깨지기 쉬운 물건을 다른 짐 아래에 놓았습니다.",
+      "아딜 씨는 무거운 상자를 손수레로 옮겼습니다.",
+      "트럭 문을 확인하지 않았습니다."
+    ],
+    "answer": 2,
+    "stem": "아딜 씨는 출고할 상자를 트럭에 싣기 전에 운송장과 수량을 확인했습니다. 무거운 상자는 손수레로 옮겼고, 깨지기 쉬운 물건은 다른 짐 아래에 놓지 않았습니다. 마지막으로 트럭 문이 잘 잠겼는지 확인했습니다."
+  }
+]
