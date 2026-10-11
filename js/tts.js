@@ -1,4 +1,4 @@
-const EPS_SPEECH_RATE = 0.60;
+const EPS_SPEECH_RATE = 0.50;
 // Dialogue MP3s are already generated 15% slower than normal by
 // generate_dialogue_audio.py. Playing them at 0.80x slowed them twice and
 // stretched the silence between turns, so files should play at normal speed.
